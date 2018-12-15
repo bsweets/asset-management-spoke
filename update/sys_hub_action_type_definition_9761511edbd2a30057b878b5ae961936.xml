@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Hardware Asset Management">8205e669db71a30057b878b5ae9619cf</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>remotely_wipe_drive</internal_name>
+        <label_cache>[{"name":"{{step[681ad453-bb74-4ebc-9966-0e38471f22d2].w}}","label":"step➛Script step➛w","type":"step","ref":""},{"name":"{{step[681ad453-bb74-4ebc-9966-0e38471f22d2].wi}}","label":"step➛Script step➛wi","type":"step","ref":""},{"name":"{{step[681ad453-bb74-4ebc-9966-0e38471f22d2].wip}}","label":"step➛Script step➛wip","type":"step","ref":""},{"name":"{{step[681ad453-bb74-4ebc-9966-0e38471f22d2].wipe}}","label":"step➛Script step➛wipe","type":"step","ref":""},{"name":"{{step[681ad453-bb74-4ebc-9966-0e38471f22d2].wiped}}","label":"step➛Script step➛wiped","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>80f19d1edbd2a30057b878b5ae9619d6</latest_snapshot>
+        <master_snapshot>48f19d1edbd2a30057b878b5ae9619ee</master_snapshot>
+        <name>Remotely Wipe Drive</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-12 20:39:31</sys_created_on>
+        <sys_id>9761511edbd2a30057b878b5ae961936</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Remotely Wipe Drive</sys_name>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_9761511edbd2a30057b878b5ae961936</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-12 20:41:46</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=9761511edbd2a30057b878b5ae961936"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9761511edbd2a30057b878b5ae961936"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>9761511edbd2a30057b878b5ae961936</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-12 20:41:43</sys_created_on>
+        <sys_id>6be19d1edbd2a30057b878b5ae9619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-12 20:41:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">27e19d1edbd2a30057b878b5ae9619b9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9761511edbd2a30057b878b5ae961936"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>drive_wiped_</field>
+        <id>9761511edbd2a30057b878b5ae961936</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-12 20:41:43</sys_created_on>
+        <sys_id>e7e19d1edbd2a30057b878b5ae9619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-12 20:41:43</sys_updated_on>
+        <table>var__m_sys_hub_action_output_9761511edbd2a30057b878b5ae961936</table>
+        <value>{{step[681ad453-bb74-4ebc-9966-0e38471f22d2].wiped}}</value>
+    </sys_element_mapping>
+</record_update>

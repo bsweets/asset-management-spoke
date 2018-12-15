@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type>
+        <action_type_parent/>
+        <comment>Get updated details for the task to remotely wipe the hard drive</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Stolen Hardware">e3757124db3da300a40afd131d9619ca</flow>
+        <order>3.4</order>
+        <parent_ui_id>7cf6dc43-7b88-4386-8250-aeb1f4a7271f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-12 20:48:20</sys_created_on>
+        <sys_id>9c731d5edbd2a30057b878b5ae961911</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_hub_action_instance_9c731d5edbd2a30057b878b5ae961911</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:40</sys_updated_on>
+        <ui_id>c224ba86-1b33-4eb5-b0e2-f43faa7c824d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9c731d5edbd2a30057b878b5ae961911"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9c731d5edbd2a30057b878b5ae961911</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-12 20:48:20</sys_created_on>
+        <sys_id>6c731d5edbd2a30057b878b5ae961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-12 20:48:20</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">79305e810b30030085c083eb37673a85</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9c731d5edbd2a30057b878b5ae961911"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>9c731d5edbd2a30057b878b5ae961911</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-12 20:48:20</sys_created_on>
+        <sys_id>28731d5edbd2a30057b878b5ae961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-12 20:48:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value>sys_id={{f9f6f223-8e31-44ac-beee-a46bab1274dd.Record.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>9c731d5edbd2a30057b878b5ae961911</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-12 20:48:20</sys_created_on>
+        <sys_id>e8731d5edbd2a30057b878b5ae961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-12 20:48:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

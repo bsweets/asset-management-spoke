@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>stolen_hardware</internal_name>
+        <label_cache>[{"name":"f9f6f223-8e31-44ac-beee-a46bab1274dd.Record.sys_id","label":"1➛Incident Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"incident","column_name":"sys_id"},{"name":"c224ba86-1b33-4eb5-b0e2-f43faa7c824d.Table","label":"2.4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"c224ba86-1b33-4eb5-b0e2-f43faa7c824d.Record","label":"2.4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"e6781fcb-7ddd-4de3-83ec-cc4fc9ce05f7.table_name","label":"2.3.1➛Incident Table","reference":"incident","reference_display":"Incident","type":"table_name","base_type":"table_name"},{"name":"e6781fcb-7ddd-4de3-83ec-cc4fc9ce05f7.record","label":"2.3.1➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"},{"name":"e70697c4-004f-42ac-9300-6d00cbf69436.drive_wiped_","label":"2.2➛drive_wiped_","reference_display":"drive_wiped_","type":"boolean","base_type":"boolean"},{"name":"6da3d5a3-636b-4974-bc20-343f573794aa.scheduled_end_date_time","label":"2.1➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"6da3d5a3-636b-4974-bc20-343f573794aa.total_duration","label":"2.1➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"Updated_1.current.assigned_to.name","label":"Trigger➛Hardware Record➛Assigned to➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Updated_1.current.assigned_to.department.name","label":"Trigger➛Hardware Record➛Assigned to➛Department➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmn_department","column_name":"name"},{"name":"Updated_1.current.order_date","label":"Trigger➛Hardware Record➛Ordered","reference":"","reference_display":"Ordered","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"alm_hardware","column_name":"order_date"},{"name":"3ad79099-8dba-43b0-bbde-ef0a9d38c472.approval_state","label":"4➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"Updated_1.current.assigned_to.manager","label":"Trigger➛Hardware Record➛Assigned to➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"a84fcf08-bc19-48f0-b47c-3a0e9d9d7455.table_name","label":"3➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name"},{"name":"a84fcf08-bc19-48f0-b47c-3a0e9d9d7455.record","label":"3➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Updated_1.current","label":"Trigger➛Hardware Record","reference":"alm_hardware","reference_display":"Hardware","type":"reference","base_type":"reference"},{"name":"dba53eea-a527-4961-b1bc-fe5f1b78f6e7.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"dba53eea-a527-4961-b1bc-fe5f1b78f6e7.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"d204d138-7a26-4d60-b617-96acffae7568.Request","label":"4➛Request","reference":"sc_request","reference_display":"Request","type":"document_id","base_type":"document_id"},{"name":"9b704084-f4be-4471-b8a6-3821326c49d7.Table","label":"3➛Incident Table","reference":"incident","reference_display":"Incident","type":"table_name","base_type":"table_name"},{"name":"9b704084-f4be-4471-b8a6-3821326c49d7.Record","label":"3➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"},{"name":"Updated_1.current.display_name","label":"Trigger➛Hardware Record➛Display name","reference":"","reference_display":"Display name","type":"string","base_type":"string","parent_table_name":"alm_hardware","column_name":"display_name"},{"name":"Updated_1.current.assigned_to","label":"Trigger➛Hardware Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"alm_hardware","column_name":"assigned_to"},{"name":"92d38a07-bfbb-45b5-9b43-2f6ebd061745.email","label":"3➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"ffeac060-07f2-4113-87d9-d6882d073fd2.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"ffeac060-07f2-4113-87d9-d6882d073fd2.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"f9f6f223-8e31-44ac-beee-a46bab1274dd.Record","label":"1➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"},{"name":"f9f6f223-8e31-44ac-beee-a46bab1274dd.Table","label":"1➛Incident Table","reference":"incident","reference_display":"Incident","type":"table_name","base_type":"table_name"},{"name":"f3442158-617d-4f9f-ac77-22d7b6d2f293.Request","label":"3➛Request","reference":"sc_request","reference_display":"Request","type":"document_id","base_type":"document_id"},{"name":"7c011d27-8328-4916-9ee5-637206de6ddb.Request","label":"3➛Request","reference":"sc_request","reference_display":"Request","type":"document_id","base_type":"document_id"},{"name":"f9f6f223-8e31-44ac-beee-a46bab1274dd.Record.state","label":"1➛Incident Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"incident","column_name":"state"},{"name":"c224ba86-1b33-4eb5-b0e2-f43faa7c824d.Record.state","label":"2.4➛Incident Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"incident","column_name":"state"}]</label_cache>
+        <latest_snapshot>1b695941dbfd230057b878b5ae96195f</latest_snapshot>
+        <master_snapshot>1b695941dbfd230057b878b5ae96195f</master_snapshot>
+        <name>Stolen Hardware</name>
+        <outputs/>
+        <remote_trigger_id>27695941dbfd230057b878b5ae9619b5</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-12 16:16:19</sys_created_on>
+        <sys_id>e3757124db3da300a40afd131d9619ca</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Stolen Hardware</sys_name>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_hub_flow_e3757124db3da300a40afd131d9619ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:38</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=e3757124db3da300a40afd131d9619ca"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e3757124db3da300a40afd131d9619ca"/>
+</record_update>

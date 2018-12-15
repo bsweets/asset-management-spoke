@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description>My first AngularJS application in ServiceNow</description>
+        <direct>false</direct>
+        <endpoint>x_126321_asset_mgt_angular_app.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"></link>
+	<script src="x_126321_asset_mgt.angular_app_client_lo.jsdbx"></script>
+
+	<div ng-app="angularapp" ng-controller="AngularAppCtrl as appctrl">
+		<input type="text" ng-model="myVar" placeholder="Enter some text here"></input>
+		<p></p>
+		<div class="jumbotron">
+			<h1 class="display-3">Hello world!</h1>
+			<hr class="m-y-2" />
+			<p>{{myVar}}</p>
+		</div>
+		<button ng-click="clearTxt()" type="btn btn-primary">Clear Text</button>
+	</div>
+
+</j:jelly>]]></html>
+        <name>angular_app</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-16 15:46:08</sys_created_on>
+        <sys_id>19041ab1db79a30057b878b5ae961962</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>angular_app</sys_name>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_ui_page_19041ab1db79a30057b878b5ae961962</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-21 15:01:43</sys_updated_on>
+    </sys_ui_page>
+</record_update>

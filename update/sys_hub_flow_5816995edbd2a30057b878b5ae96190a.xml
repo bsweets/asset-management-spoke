@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>sample_for_do_until</internal_name>
+        <label_cache>[{"name":"7729d82b-9703-4fe3-b34a-9622e783bade.Record","label":"1.1.2➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id"},{"name":"7729d82b-9703-4fe3-b34a-9622e783bade.Table","label":"1.1.2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"d1797395-35d7-49d3-9fee-b48c11aa3b83.Record","label":"1.2.2➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id"},{"name":"d1797395-35d7-49d3-9fee-b48c11aa3b83.Table","label":"1.2.2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"d290fc8b-13f3-4f42-b2df-3e55c2424925.Record","label":"1.3.2➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id"},{"name":"d290fc8b-13f3-4f42-b2df-3e55c2424925.Table","label":"1.3.2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"e2f2d8e6-c4c5-4034-8225-bc7878cae8c3.Record","label":"1.4.2➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id"},{"name":"e2f2d8e6-c4c5-4034-8225-bc7878cae8c3.Table","label":"1.4.2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"3f638827-4c1d-4e2c-84ef-8dc0deb91236.drive_wiped_","label":"1.3.2➛drive_wiped_","reference_display":"drive_wiped_","type":"boolean","base_type":"boolean"},{"name":"23e36992-35e4-48cd-bb3a-12bbe5f4b23d.total_duration","label":"1.1.1➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"23e36992-35e4-48cd-bb3a-12bbe5f4b23d.scheduled_end_date_time","label":"1.1.1➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"a34dd631-8697-4e0b-86ca-8e626fccdb18.total_duration","label":"1.2.1➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"a34dd631-8697-4e0b-86ca-8e626fccdb18.scheduled_end_date_time","label":"1.2.1➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"c693de26-25d7-462d-8334-e482b831fbcf.total_duration","label":"1.3.1➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"c693de26-25d7-462d-8334-e482b831fbcf.scheduled_end_date_time","label":"1.3.1➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"cb0c3a1f-0413-4c2e-ae1e-0113ec1615b4.total_duration","label":"1.4.1➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"cb0c3a1f-0413-4c2e-ae1e-0113ec1615b4.scheduled_end_date_time","label":"1.4.1➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Sample for Do Until</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-12 20:59:47</sys_created_on>
+        <sys_id>5816995edbd2a30057b878b5ae96190a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Sample for Do Until</sys_name>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_hub_flow_5816995edbd2a30057b878b5ae96190a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:31</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=5816995edbd2a30057b878b5ae96190a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5816995edbd2a30057b878b5ae96190a"/>
+</record_update>

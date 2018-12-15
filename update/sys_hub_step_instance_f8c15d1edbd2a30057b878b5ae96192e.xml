@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Remotely Wipe Drive">9761511edbd2a30057b878b5ae961936</action>
+        <cid>70831c0a-fae3-4548-82e6-2de4e4fb9f70</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Log step</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-12 20:40:59</sys_created_on>
+        <sys_id>f8c15d1edbd2a30057b878b5ae96192e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Log step</sys_name>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_hub_step_instance_f8c15d1edbd2a30057b878b5ae96192e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-12 20:41:00</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f8c15d1edbd2a30057b878b5ae96192e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f8c15d1edbd2a30057b878b5ae96192e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-12 20:41:00</sys_created_on>
+        <sys_id>49c15d1edbd2a30057b878b5ae961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-12 20:41:00</sys_updated_on>
+        <value>return success or failure on remote wipe</value>
+        <variable display_value="">4fc2fadbc712220061f553c6f0976388</variable>
+    </sys_variable_value>
+</record_update>

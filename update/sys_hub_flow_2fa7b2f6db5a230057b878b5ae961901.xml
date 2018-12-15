@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Hardware Asset Management">8205e669db71a30057b878b5ae9619cf</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>find_local_stock</internal_name>
+        <label_cache>[{"name":"7ad866db-6b2c-4f47-8416-2499153bb9d0.Records","label":"1➛Stockroom Records","reference":"alm_stockroom","reference_display":"Stockroom","type":"records","base_type":"records"},{"name":"7ad866db-6b2c-4f47-8416-2499153bb9d0.Table","label":"1➛Stockroom Table","reference":"alm_stockroom","reference_display":"Stockroom","type":"table_name","base_type":"table_name"},{"name":"7ad866db-6b2c-4f47-8416-2499153bb9d0.Count","label":"1➛Count","type":"integer","base_type":"integer"},{"name":"6d5fd802-7cc0-4a9c-85a4-493a1269afed.item","label":"2➛Stockroom Record","reference":"alm_stockroom","reference_display":"Stockroom","type":"reference","base_type":"reference"},{"name":"2612d708-1896-4d98-a122-2f58e44540fa.Records","label":"2.1➛Hardware Records","reference":"alm_hardware","reference_display":"Hardware","type":"records","base_type":"records"},{"name":"2612d708-1896-4d98-a122-2f58e44540fa.Table","label":"2.1➛Hardware Table","reference":"alm_hardware","reference_display":"Hardware","type":"table_name","base_type":"table_name"},{"name":"2612d708-1896-4d98-a122-2f58e44540fa.Count","label":"2.1➛Count","reference_display":"Count","type":"integer","base_type":"integer"}]</label_cache>
+        <latest_snapshot>70cd0fb2db9a230057b878b5ae961917</latest_snapshot>
+        <master_snapshot>70cd0fb2db9a230057b878b5ae961917</master_snapshot>
+        <name>Find Local Stock</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-14 17:23:13</sys_created_on>
+        <sys_id>2fa7b2f6db5a230057b878b5ae961901</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Find Local Stock</sys_name>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_hub_flow_2fa7b2f6db5a230057b878b5ae961901</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-14 22:02:34</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=2fa7b2f6db5a230057b878b5ae961901"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2fa7b2f6db5a230057b878b5ae961901"/>
+</record_update>

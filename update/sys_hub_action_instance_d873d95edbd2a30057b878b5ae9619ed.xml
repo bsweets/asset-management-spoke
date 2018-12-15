@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Remotely Wipe Drive">9761511edbd2a30057b878b5ae961936</action_type>
+        <action_type_parent/>
+        <comment>Integration to execute remote wipe of the hard drive</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Stolen Hardware">e3757124db3da300a40afd131d9619ca</flow>
+        <order>3.2</order>
+        <parent_ui_id>7cf6dc43-7b88-4386-8250-aeb1f4a7271f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-12 20:48:19</sys_created_on>
+        <sys_id>d873d95edbd2a30057b878b5ae9619ed</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_hub_action_instance_d873d95edbd2a30057b878b5ae9619ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:39</sys_updated_on>
+        <ui_id>e70697c4-004f-42ac-9300-6d00cbf69436</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d873d95edbd2a30057b878b5ae9619ed"/>
+</record_update>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>hardware_fulfillment</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.request_item.number","label":"Trigger➛Requested Item Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sc_req_item","column_name":"number"},{"name":"77a3dddd-a52f-4c42-80d4-95ad6aba1886.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"77a3dddd-a52f-4c42-80d4-95ad6aba1886.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference"},{"name":"9644ce89-e08b-48f8-abca-0b6377e7567b.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"c900ce0e-b52a-4845-9929-345dcd9b8666.Table","label":"2➛Hardware Model Table","reference":"cmdb_hardware_product_model","reference_display":"Hardware Model Table","type":"table_name","base_type":"table_name"},{"name":"c900ce0e-b52a-4845-9929-345dcd9b8666.Record","label":"2➛Hardware Model Record","reference":"cmdb_hardware_product_model","reference_display":"Hardware Model Record","type":"reference","base_type":"reference"},{"name":"{{static.8a5055c9c61122780043563ef53438e3}}","label":"Hardware","reference":"sys_user_group","type":"reference","base_type":"reference"},{"name":"Service Catalog_1.request_item.opened_at","label":"Trigger➛Requested Item Record➛Opened","reference":"","reference_display":"Opened","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"opened_at"},{"name":"df5b8d7a-224d-4401-9709-0bd6cce62d0e.Record","label":"3.1➛Record","reference":"task","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"df5b8d7a-224d-4401-9709-0bd6cce62d0e.Table","label":"3.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"16677315-cf64-497a-b688-cf0ec12f1548.email","label":"4.1➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference"},{"name":"bf5d7250-b974-4a5d-be81-4436284d2a40.record","label":"4.2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"bf5d7250-b974-4a5d-be81-4436284d2a40.table_name","label":"4.2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"}]</label_cache>
+        <latest_snapshot>bee78478db35230057b878b5ae9619c7</latest_snapshot>
+        <master_snapshot>bee78478db35230057b878b5ae9619c7</master_snapshot>
+        <name>Hardware Fulfillment</name>
+        <outputs/>
+        <remote_trigger_id>97e7c478db35230057b878b5ae96197d</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-12 16:15:42</sys_created_on>
+        <sys_id>a255f9e0db3da300a40afd131d9619e1</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Hardware Fulfillment</sys_name>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_hub_flow_a255f9e0db3da300a40afd131d9619e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-15 22:15:57</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=a255f9e0db3da300a40afd131d9619e1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a255f9e0db3da300a40afd131d9619e1"/>
+</record_update>

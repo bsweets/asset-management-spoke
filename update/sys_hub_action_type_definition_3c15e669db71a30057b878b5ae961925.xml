@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Hardware Asset Management">8205e669db71a30057b878b5ae9619cf</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>find_local_stockroom</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Find Local Stockroom</name>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-15 22:18:08</sys_created_on>
+        <sys_id>3c15e669db71a30057b878b5ae961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Find Local Stockroom</sys_name>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_3c15e669db71a30057b878b5ae961925</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-15 22:18:08</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=3c15e669db71a30057b878b5ae961925"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3c15e669db71a30057b878b5ae961925"/>
+</record_update>

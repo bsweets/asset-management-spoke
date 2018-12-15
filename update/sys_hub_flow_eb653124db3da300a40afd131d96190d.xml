@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>software_deployment</internal_name>
+        <label_cache>[{"name":"6e063e3b-08df-4204-8930-ae8effdab46c.number_of_rights","label":"3➛Number of rights","reference_display":"Number of rights","type":"integer","base_type":"integer"},{"name":"6e063e3b-08df-4204-8930-ae8effdab46c.rights_available_","label":"3➛Rights available?","reference_display":"Rights available?","type":"boolean","base_type":"boolean"},{"name":"Updated_1.current","label":"Trigger➛Hardware Record","reference":"alm_hardware","reference_display":"Hardware","type":"reference","base_type":"reference"},{"name":"79d79758-1d7b-49ed-b9c6-a34f898a961b.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"79d79758-1d7b-49ed-b9c6-a34f898a961b.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"f1ecc0b2-55c2-4d40-9755-74475464d579.Records","label":"1➛Computer Records","reference":"cmdb_ci_computer","reference_display":"Computer Records","type":"records","base_type":"records"},{"name":"f1ecc0b2-55c2-4d40-9755-74475464d579.Table","label":"1➛Computer Table","reference":"cmdb_ci_computer","reference_display":"Computer Table","type":"table_name","base_type":"table_name"},{"name":"f1ecc0b2-55c2-4d40-9755-74475464d579.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"5c097f96-d949-48f9-b921-22aa3b6e4988.item","label":"2➛Computer Record","reference":"cmdb_ci_computer","reference_display":"Computer Record","type":"reference","base_type":"reference"},{"name":"345a42d0-4cda-41bd-8583-e547a09e5958.record","label":"2.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"345a42d0-4cda-41bd-8583-e547a09e5958.table_name","label":"2.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"f4dd05d4-3e55-4405-99f8-94f9af67774c.rights_available_","label":"3➛Rights available?","reference_display":"Rights available?","type":"boolean","base_type":"boolean"},{"name":"f4dd05d4-3e55-4405-99f8-94f9af67774c.number_of_rights","label":"3➛Number of rights","reference_display":"Number of rights","type":"integer","base_type":"integer"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Software Deployment</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-12 16:16:03</sys_created_on>
+        <sys_id>eb653124db3da300a40afd131d96190d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Software Deployment</sys_name>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_hub_flow_eb653124db3da300a40afd131d96190d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-14 16:31:48</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=eb653124db3da300a40afd131d96190d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=eb653124db3da300a40afd131d96190d"/>
+</record_update>

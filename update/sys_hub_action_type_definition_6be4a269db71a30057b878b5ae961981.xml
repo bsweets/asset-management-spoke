@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Software Asset Management">a175e5a4db35a30020257de03c96193b</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Determines if software rights are available for the specified software title and returns true or false.</description>
+        <internal_name>check_for_available_rights</internal_name>
+        <label_cache>[{"name":"{{action.software}}","label":"action➛Software","type":"action","ref":"cmdb_software_product_model"},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].a}}","label":"step➛Determine Rights Availability➛a","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].av}}","label":"step➛Determine Rights Availability➛av","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].ava}}","label":"step➛Determine Rights Availability➛ava","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].avai}}","label":"step➛Determine Rights Availability➛avai","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].avail}}","label":"step➛Determine Rights Availability➛avail","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].availa}}","label":"step➛Determine Rights Availability➛availa","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].availab}}","label":"step➛Determine Rights Availability➛availab","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].availabl}}","label":"step➛Determine Rights Availability➛availabl","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].available}}","label":"step➛Determine Rights Availability➛available","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].n}}","label":"step➛Determine Rights Availability➛n","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].nu}}","label":"step➛Determine Rights Availability➛nu","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].num}}","label":"step➛Determine Rights Availability➛num","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].numb}}","label":"step➛Determine Rights Availability➛numb","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].numbe}}","label":"step➛Determine Rights Availability➛numbe","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number}}","label":"step➛Determine Rights Availability➛number","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_}}","label":"step➛Determine Rights Availability➛number_","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_a}}","label":"step➛Determine Rights Availability➛number_a","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_av}}","label":"step➛Determine Rights Availability➛number_av","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_ava}}","label":"step➛Determine Rights Availability➛number_ava","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_avai}}","label":"step➛Determine Rights Availability➛number_avai","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_avail}}","label":"step➛Determine Rights Availability➛number_avail","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_availa}}","label":"step➛Determine Rights Availability➛number_availa","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_availab}}","label":"step➛Determine Rights Availability➛number_availab","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_availabl}}","label":"step➛Determine Rights Availability➛number_availabl","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_available}}","label":"step➛Determine Rights Availability➛number_available","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Check for Available Rights</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-15 22:17:30</sys_created_on>
+        <sys_id>6be4a269db71a30057b878b5ae961981</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Check for Available Rights</sys_name>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_6be4a269db71a30057b878b5ae961981</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-30 15:51:36</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=6be4a269db71a30057b878b5ae961981"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6be4a269db71a30057b878b5ae961981"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>6be4a269db71a30057b878b5ae961981</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:19</sys_created_on>
+        <sys_id>697af201db826b0057b878b5ae961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 20:50:19</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">2d7af201db826b0057b878b5ae961924</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>6be4a269db71a30057b878b5ae961981</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:19</sys_created_on>
+        <sys_id>a57af201db826b0057b878b5ae961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 20:50:19</sys_updated_on>
+        <value/>
+        <variable display_value="">e97af201db826b0057b878b5ae961937</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6be4a269db71a30057b878b5ae961981"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number_of_rights</field>
+        <id>6be4a269db71a30057b878b5ae961981</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:19</sys_created_on>
+        <sys_id>617af201db826b0057b878b5ae961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 20:50:19</sys_updated_on>
+        <table>var__m_sys_hub_action_output_6be4a269db71a30057b878b5ae961981</table>
+        <value>{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_available}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rights_available_</field>
+        <id>6be4a269db71a30057b878b5ae961981</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:19</sys_created_on>
+        <sys_id>257af201db826b0057b878b5ae961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 20:50:19</sys_updated_on>
+        <table>var__m_sys_hub_action_output_6be4a269db71a30057b878b5ae961981</table>
+        <value>{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].available}}</value>
+    </sys_element_mapping>
+</record_update>
