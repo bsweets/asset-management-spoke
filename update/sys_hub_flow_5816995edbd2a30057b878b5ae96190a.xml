@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
@@ -6,6 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -14,9 +15,11 @@
         <latest_snapshot/>
         <master_snapshot/>
         <name>Sample for Do Until</name>
+        <natlang/>
         <outputs/>
         <remote_trigger_id/>
         <run_as>user</run_as>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
@@ -24,9 +27,12 @@
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-12 20:59:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>5816995edbd2a30057b878b5ae96190a</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>Sample for Do Until</sys_name>
+        <sys_overrides/>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
@@ -37,4 +43,1117 @@
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=5816995edbd2a30057b878b5ae96190a"/>
     <sys_variable_value action="delete_multiple" query="document_key=5816995edbd2a30057b878b5ae96190a"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=5816995edbd2a30057b878b5ae96190a^sys_idNOT IN11b8ddeedbdaa30057b878b5ae9619c4,19b8ddeedbdaa30057b878b5ae9619ec,25b8ddeedbdaa30057b878b5ae9619f2,51b8ddeedbdaa30057b878b5ae9619de,55b8ddeedbdaa30057b878b5ae9619d8,61b8ddeedbdaa30057b878b5ae9619f9,91b8ddeedbdaa30057b878b5ae961989,9db8ddeedbdaa30057b878b5ae9619c9,9db8ddeedbdaa30057b878b5ae9619e4,a66152aedb5ea30057b878b5ae9619a8,cdb8ddeedbdaa30057b878b5ae961973,d9b8ddeedbdaa30057b878b5ae9619d0,e5b81122db1ea30057b878b5ae961906,e9b81122db1ea30057b878b5ae961900"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d9b8ddeedbdaa30057b878b5ae9619c2</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>1.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>7959d341-8a72-403d-9f69-ba8c8ae4640f</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:48</sys_created_on>
+        <sys_id>11b8ddeedbdaa30057b878b5ae9619c4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:33</sys_updated_on>
+        <ui_id>8b92471f-f1cb-487b-b793-62769cf2a98d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=11b8ddeedbdaa30057b878b5ae9619c4"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d1b8ddeedbdaa30057b878b5ae9619eb</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>1.3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>7959d341-8a72-403d-9f69-ba8c8ae4640f</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>19b8ddeedbdaa30057b878b5ae9619ec</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:33</sys_updated_on>
+        <ui_id>8fb40bfa-3dca-49ff-a996-7202d67c4bc2</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=19b8ddeedbdaa30057b878b5ae9619ec"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">ddb8ddeedbdaa30057b878b5ae9619f0</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>1.4.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>aa4e0a0b-93ee-4772-ae1c-0bb3934e58f8</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>25b8ddeedbdaa30057b878b5ae9619f2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:34</sys_updated_on>
+        <ui_id>cb0c3a1f-0413-4c2e-ae1e-0113ec1615b4</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=25b8ddeedbdaa30057b878b5ae9619f2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>25b8ddeedbdaa30057b878b5ae9619f2</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>25b8ddeedbdaa30057b878b5ae9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
+        <value>1970-01-01 00:05:00</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>25b8ddeedbdaa30057b878b5ae9619f2</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>61b8ddeedbdaa30057b878b5ae9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">1db8ddeedbdaa30057b878b5ae9619dc</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>1.3.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>8fb40bfa-3dca-49ff-a996-7202d67c4bc2</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>51b8ddeedbdaa30057b878b5ae9619de</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:33</sys_updated_on>
+        <ui_id>c693de26-25d7-462d-8334-e482b831fbcf</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=51b8ddeedbdaa30057b878b5ae9619de"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>51b8ddeedbdaa30057b878b5ae9619de</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>51b8ddeedbdaa30057b878b5ae9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
+        <value>1970-01-01 00:02:00</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>51b8ddeedbdaa30057b878b5ae9619de</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>9db8ddeedbdaa30057b878b5ae9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">11b8ddeedbdaa30057b878b5ae9619d7</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>1.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>7959d341-8a72-403d-9f69-ba8c8ae4640f</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>55b8ddeedbdaa30057b878b5ae9619d8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:33</sys_updated_on>
+        <ui_id>e5ab764d-b7a1-4033-9ed8-9007ca0016f8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=55b8ddeedbdaa30057b878b5ae9619d8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <order>1.4.2</order>
+        <parent_ui_id>aa4e0a0b-93ee-4772-ae1c-0bb3934e58f8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>61b8ddeedbdaa30057b878b5ae9619f9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:34</sys_updated_on>
+        <ui_id>ace94372-d033-45b8-ae88-b2a9db00702f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=61b8ddeedbdaa30057b878b5ae9619f9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>61b8ddeedbdaa30057b878b5ae9619f9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>2db8ddeedbdaa30057b878b5ae9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
+        <value>Log for 1.4.2</value>
+        <variable display_value="">c34aa006531003003bf1d9109ec587c4</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <order>1.1.2</order>
+        <parent_ui_id>8b92471f-f1cb-487b-b793-62769cf2a98d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:48</sys_created_on>
+        <sys_id>91b8ddeedbdaa30057b878b5ae961989</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:32</sys_updated_on>
+        <ui_id>9f490b77-c34e-485b-bbcf-a02a528e7734</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=91b8ddeedbdaa30057b878b5ae961989"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>91b8ddeedbdaa30057b878b5ae961989</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:48</sys_created_on>
+        <sys_id>91b8ddeedbdaa30057b878b5ae96198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:48</sys_updated_on>
+        <value>Log for 1.1.2</value>
+        <variable display_value="">c34aa006531003003bf1d9109ec587c4</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">59b8ddeedbdaa30057b878b5ae9619c8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>1.2.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>e5ab764d-b7a1-4033-9ed8-9007ca0016f8</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:48</sys_created_on>
+        <sys_id>9db8ddeedbdaa30057b878b5ae9619c9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:33</sys_updated_on>
+        <ui_id>a34dd631-8697-4e0b-86ca-8e626fccdb18</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9db8ddeedbdaa30057b878b5ae9619c9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>9db8ddeedbdaa30057b878b5ae9619c9</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:48</sys_created_on>
+        <sys_id>9db8ddeedbdaa30057b878b5ae9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:48</sys_updated_on>
+        <value>1970-01-01 00:01:00</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>9db8ddeedbdaa30057b878b5ae9619c9</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:48</sys_created_on>
+        <sys_id>d9b8ddeedbdaa30057b878b5ae9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:48</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <order>1.3.2</order>
+        <parent_ui_id>8fb40bfa-3dca-49ff-a996-7202d67c4bc2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>9db8ddeedbdaa30057b878b5ae9619e4</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:33</sys_updated_on>
+        <ui_id>2b46e0e6-1bc2-4a80-8389-e037d66b148b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9db8ddeedbdaa30057b878b5ae9619e4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9db8ddeedbdaa30057b878b5ae9619e4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>59b8ddeedbdaa30057b878b5ae9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
+        <value>Log for 1.3.2</value>
+        <variable display_value="">c34aa006531003003bf1d9109ec587c4</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">6e6152aedb5ea30057b878b5ae9619a6</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <inputs/>
+        <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 19:57:34</sys_created_on>
+        <sys_id>a66152aedb5ea30057b878b5ae9619a8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:34</sys_updated_on>
+        <ui_id>dfbb1bfe-3272-4303-a2c9-7de26b87a017</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a66152aedb5ea30057b878b5ae9619a8"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">45b8ddeedbdaa30057b878b5ae961972</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>1.1.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>8b92471f-f1cb-487b-b793-62769cf2a98d</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:48</sys_created_on>
+        <sys_id>cdb8ddeedbdaa30057b878b5ae961973</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:32</sys_updated_on>
+        <ui_id>23e36992-35e4-48cd-bb3a-12bbe5f4b23d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=cdb8ddeedbdaa30057b878b5ae961973"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>cdb8ddeedbdaa30057b878b5ae961973</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:48</sys_created_on>
+        <sys_id>9db8ddeedbdaa30057b878b5ae961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:48</sys_updated_on>
+        <value>1970-01-01 00:00:15</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>cdb8ddeedbdaa30057b878b5ae961973</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:48</sys_created_on>
+        <sys_id>d5b8ddeedbdaa30057b878b5ae961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:48</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <order>1.2.2</order>
+        <parent_ui_id>e5ab764d-b7a1-4033-9ed8-9007ca0016f8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>d9b8ddeedbdaa30057b878b5ae9619d0</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:33</sys_updated_on>
+        <ui_id>7e2589f6-a9b2-4e24-94be-5b2b5cef5765</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d9b8ddeedbdaa30057b878b5ae9619d0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d9b8ddeedbdaa30057b878b5ae9619d0</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>95b8ddeedbdaa30057b878b5ae9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
+        <value>Log for 1.2.2</value>
+        <variable display_value="">c34aa006531003003bf1d9109ec587c4</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a1b81122db1ea30057b878b5ae961905</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following in Parallel">5d31e5dedfe50300b61ecae83df26326</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>e5b81122db1ea30057b878b5ae961906</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:34</sys_updated_on>
+        <ui_id>7959d341-8a72-403d-9f69-ba8c8ae4640f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e5b81122db1ea30057b878b5ae961906"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a5b8ddeedbdaa30057b878b5ae9619ff</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>1.4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>7959d341-8a72-403d-9f69-ba8c8ae4640f</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>e9b81122db1ea30057b878b5ae961900</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:34</sys_updated_on>
+        <ui_id>aa4e0a0b-93ee-4772-ae1c-0bb3934e58f8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e9b81122db1ea30057b878b5ae961900"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=5816995edbd2a30057b878b5ae96190a^sys_idNOT IN31c81122db1ea30057b878b5ae96199b"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:50:07</sys_created_on>
+        <sys_id>31c81122db1ea30057b878b5ae96199b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:32</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=31c81122db1ea30057b878b5ae96199b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>31c81122db1ea30057b878b5ae96199b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:50:07</sys_created_on>
+        <sys_id>f1c81122db1ea30057b878b5ae96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:50:07</sys_updated_on>
+        <value>2018-12-20 01:00:00</value>
+        <variable display_value="">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=5816995edbd2a30057b878b5ae96190a^sys_idNOT IN9016995edbd2a30057b878b5ae96190b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>5816995edbd2a30057b878b5ae96190a</id>
+        <name>Sample for Do Until</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-12 20:59:47</sys_created_on>
+        <sys_id>9016995edbd2a30057b878b5ae96190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-12 20:59:47</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=5816995edbd2a30057b878b5ae96190a^sys_idNOT IN61b8ddeedbdaa30057b878b5ae9619f9,91b8ddeedbdaa30057b878b5ae961989,9db8ddeedbdaa30057b878b5ae9619e4,d9b8ddeedbdaa30057b878b5ae9619d0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <order>1.4.2</order>
+        <parent_ui_id>aa4e0a0b-93ee-4772-ae1c-0bb3934e58f8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>61b8ddeedbdaa30057b878b5ae9619f9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:34</sys_updated_on>
+        <ui_id>ace94372-d033-45b8-ae88-b2a9db00702f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=61b8ddeedbdaa30057b878b5ae9619f9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>61b8ddeedbdaa30057b878b5ae9619f9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>2db8ddeedbdaa30057b878b5ae9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
+        <value>Log for 1.4.2</value>
+        <variable display_value="">c34aa006531003003bf1d9109ec587c4</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <order>1.1.2</order>
+        <parent_ui_id>8b92471f-f1cb-487b-b793-62769cf2a98d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:48</sys_created_on>
+        <sys_id>91b8ddeedbdaa30057b878b5ae961989</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:32</sys_updated_on>
+        <ui_id>9f490b77-c34e-485b-bbcf-a02a528e7734</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=91b8ddeedbdaa30057b878b5ae961989"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>91b8ddeedbdaa30057b878b5ae961989</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:48</sys_created_on>
+        <sys_id>91b8ddeedbdaa30057b878b5ae96198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:48</sys_updated_on>
+        <value>Log for 1.1.2</value>
+        <variable display_value="">c34aa006531003003bf1d9109ec587c4</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <order>1.3.2</order>
+        <parent_ui_id>8fb40bfa-3dca-49ff-a996-7202d67c4bc2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>9db8ddeedbdaa30057b878b5ae9619e4</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:33</sys_updated_on>
+        <ui_id>2b46e0e6-1bc2-4a80-8389-e037d66b148b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9db8ddeedbdaa30057b878b5ae9619e4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9db8ddeedbdaa30057b878b5ae9619e4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>59b8ddeedbdaa30057b878b5ae9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
+        <value>Log for 1.3.2</value>
+        <variable display_value="">c34aa006531003003bf1d9109ec587c4</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <order>1.2.2</order>
+        <parent_ui_id>e5ab764d-b7a1-4033-9ed8-9007ca0016f8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>d9b8ddeedbdaa30057b878b5ae9619d0</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:33</sys_updated_on>
+        <ui_id>7e2589f6-a9b2-4e24-94be-5b2b5cef5765</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d9b8ddeedbdaa30057b878b5ae9619d0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d9b8ddeedbdaa30057b878b5ae9619d0</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>95b8ddeedbdaa30057b878b5ae9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
+        <value>Log for 1.2.2</value>
+        <variable display_value="">c34aa006531003003bf1d9109ec587c4</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=5816995edbd2a30057b878b5ae96190a^sys_idNOT IN11b8ddeedbdaa30057b878b5ae9619c4,19b8ddeedbdaa30057b878b5ae9619ec,25b8ddeedbdaa30057b878b5ae9619f2,51b8ddeedbdaa30057b878b5ae9619de,55b8ddeedbdaa30057b878b5ae9619d8,9db8ddeedbdaa30057b878b5ae9619c9,a66152aedb5ea30057b878b5ae9619a8,cdb8ddeedbdaa30057b878b5ae961973,e5b81122db1ea30057b878b5ae961906,e9b81122db1ea30057b878b5ae961900"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d9b8ddeedbdaa30057b878b5ae9619c2</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>1.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>7959d341-8a72-403d-9f69-ba8c8ae4640f</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:48</sys_created_on>
+        <sys_id>11b8ddeedbdaa30057b878b5ae9619c4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:33</sys_updated_on>
+        <ui_id>8b92471f-f1cb-487b-b793-62769cf2a98d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=11b8ddeedbdaa30057b878b5ae9619c4"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d1b8ddeedbdaa30057b878b5ae9619eb</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>1.3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>7959d341-8a72-403d-9f69-ba8c8ae4640f</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>19b8ddeedbdaa30057b878b5ae9619ec</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:33</sys_updated_on>
+        <ui_id>8fb40bfa-3dca-49ff-a996-7202d67c4bc2</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=19b8ddeedbdaa30057b878b5ae9619ec"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">ddb8ddeedbdaa30057b878b5ae9619f0</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>1.4.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>aa4e0a0b-93ee-4772-ae1c-0bb3934e58f8</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>25b8ddeedbdaa30057b878b5ae9619f2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:34</sys_updated_on>
+        <ui_id>cb0c3a1f-0413-4c2e-ae1e-0113ec1615b4</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=25b8ddeedbdaa30057b878b5ae9619f2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>25b8ddeedbdaa30057b878b5ae9619f2</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>25b8ddeedbdaa30057b878b5ae9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
+        <value>1970-01-01 00:05:00</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>25b8ddeedbdaa30057b878b5ae9619f2</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>61b8ddeedbdaa30057b878b5ae9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">1db8ddeedbdaa30057b878b5ae9619dc</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>1.3.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>8fb40bfa-3dca-49ff-a996-7202d67c4bc2</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>51b8ddeedbdaa30057b878b5ae9619de</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:33</sys_updated_on>
+        <ui_id>c693de26-25d7-462d-8334-e482b831fbcf</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=51b8ddeedbdaa30057b878b5ae9619de"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>51b8ddeedbdaa30057b878b5ae9619de</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>51b8ddeedbdaa30057b878b5ae9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
+        <value>1970-01-01 00:02:00</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>51b8ddeedbdaa30057b878b5ae9619de</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>9db8ddeedbdaa30057b878b5ae9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">11b8ddeedbdaa30057b878b5ae9619d7</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>1.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>7959d341-8a72-403d-9f69-ba8c8ae4640f</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>55b8ddeedbdaa30057b878b5ae9619d8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:33</sys_updated_on>
+        <ui_id>e5ab764d-b7a1-4033-9ed8-9007ca0016f8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=55b8ddeedbdaa30057b878b5ae9619d8"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">59b8ddeedbdaa30057b878b5ae9619c8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>1.2.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>e5ab764d-b7a1-4033-9ed8-9007ca0016f8</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:48</sys_created_on>
+        <sys_id>9db8ddeedbdaa30057b878b5ae9619c9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:33</sys_updated_on>
+        <ui_id>a34dd631-8697-4e0b-86ca-8e626fccdb18</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9db8ddeedbdaa30057b878b5ae9619c9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>9db8ddeedbdaa30057b878b5ae9619c9</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:48</sys_created_on>
+        <sys_id>9db8ddeedbdaa30057b878b5ae9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:48</sys_updated_on>
+        <value>1970-01-01 00:01:00</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>9db8ddeedbdaa30057b878b5ae9619c9</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:48</sys_created_on>
+        <sys_id>d9b8ddeedbdaa30057b878b5ae9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:48</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">6e6152aedb5ea30057b878b5ae9619a6</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <inputs/>
+        <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 19:57:34</sys_created_on>
+        <sys_id>a66152aedb5ea30057b878b5ae9619a8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:34</sys_updated_on>
+        <ui_id>dfbb1bfe-3272-4303-a2c9-7de26b87a017</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a66152aedb5ea30057b878b5ae9619a8"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">45b8ddeedbdaa30057b878b5ae961972</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>1.1.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>8b92471f-f1cb-487b-b793-62769cf2a98d</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:48</sys_created_on>
+        <sys_id>cdb8ddeedbdaa30057b878b5ae961973</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:32</sys_updated_on>
+        <ui_id>23e36992-35e4-48cd-bb3a-12bbe5f4b23d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=cdb8ddeedbdaa30057b878b5ae961973"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>cdb8ddeedbdaa30057b878b5ae961973</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:48</sys_created_on>
+        <sys_id>9db8ddeedbdaa30057b878b5ae961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:48</sys_updated_on>
+        <value>1970-01-01 00:00:15</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>cdb8ddeedbdaa30057b878b5ae961973</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:48</sys_created_on>
+        <sys_id>d5b8ddeedbdaa30057b878b5ae961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 15:49:48</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a1b81122db1ea30057b878b5ae961905</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following in Parallel">5d31e5dedfe50300b61ecae83df26326</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>e5b81122db1ea30057b878b5ae961906</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:34</sys_updated_on>
+        <ui_id>7959d341-8a72-403d-9f69-ba8c8ae4640f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e5b81122db1ea30057b878b5ae961906"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a5b8ddeedbdaa30057b878b5ae9619ff</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>1.4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>7959d341-8a72-403d-9f69-ba8c8ae4640f</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-13 15:49:49</sys_created_on>
+        <sys_id>e9b81122db1ea30057b878b5ae961900</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 19:57:34</sys_updated_on>
+        <ui_id>aa4e0a0b-93ee-4772-ae1c-0bb3934e58f8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e9b81122db1ea30057b878b5ae961900"/>
 </record_update>

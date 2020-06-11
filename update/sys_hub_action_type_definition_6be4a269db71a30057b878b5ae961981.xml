@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
     <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
+        <action_template/>
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
@@ -9,20 +10,25 @@
         <copied_from/>
         <copied_from_name/>
         <description>Determines if software rights are available for the specified software title and returns true or false.</description>
+        <ih_action>false</ih_action>
         <internal_name>check_for_available_rights</internal_name>
         <label_cache>[{"name":"{{action.software}}","label":"action➛Software","type":"action","ref":"cmdb_software_product_model"},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].a}}","label":"step➛Determine Rights Availability➛a","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].av}}","label":"step➛Determine Rights Availability➛av","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].ava}}","label":"step➛Determine Rights Availability➛ava","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].avai}}","label":"step➛Determine Rights Availability➛avai","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].avail}}","label":"step➛Determine Rights Availability➛avail","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].availa}}","label":"step➛Determine Rights Availability➛availa","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].availab}}","label":"step➛Determine Rights Availability➛availab","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].availabl}}","label":"step➛Determine Rights Availability➛availabl","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].available}}","label":"step➛Determine Rights Availability➛available","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].n}}","label":"step➛Determine Rights Availability➛n","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].nu}}","label":"step➛Determine Rights Availability➛nu","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].num}}","label":"step➛Determine Rights Availability➛num","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].numb}}","label":"step➛Determine Rights Availability➛numb","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].numbe}}","label":"step➛Determine Rights Availability➛numbe","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number}}","label":"step➛Determine Rights Availability➛number","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_}}","label":"step➛Determine Rights Availability➛number_","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_a}}","label":"step➛Determine Rights Availability➛number_a","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_av}}","label":"step➛Determine Rights Availability➛number_av","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_ava}}","label":"step➛Determine Rights Availability➛number_ava","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_avai}}","label":"step➛Determine Rights Availability➛number_avai","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_avail}}","label":"step➛Determine Rights Availability➛number_avail","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_availa}}","label":"step➛Determine Rights Availability➛number_availa","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_availab}}","label":"step➛Determine Rights Availability➛number_availab","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_availabl}}","label":"step➛Determine Rights Availability➛number_availabl","type":"step","ref":""},{"name":"{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].number_available}}","label":"step➛Determine Rights Availability➛number_available","type":"step","ref":""}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Check for Available Rights</name>
+        <natlang/>
         <outputs/>
         <outputs/>
         <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-15 22:17:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>6be4a269db71a30057b878b5ae961981</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>Check for Available Rights</sys_name>
+        <sys_overrides/>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
@@ -87,4 +93,1140 @@
         <table>var__m_sys_hub_action_output_6be4a269db71a30057b878b5ae961981</table>
         <value>{{step[fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859].available}}</value>
     </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=6be4a269db71a30057b878b5ae961981^sys_idNOT IN557ab201db826b0057b878b5ae9619f1,a17c565adbcaeb00a40afd131d9619ac"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Check for Available Rights">6be4a269db71a30057b878b5ae961981</action>
+        <cid>fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Determine Rights Availability</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="c47fd41bb72200101099e781de11a9a4.iix">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:18</sys_created_on>
+        <sys_id>557ab201db826b0057b878b5ae9619f1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-30 16:05:17</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=557ab201db826b0057b878b5ae9619f1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>557ab201db826b0057b878b5ae9619f1</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:18</sys_created_on>
+        <sys_id>a57af201db826b0057b878b5ae961921</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-30 16:05:17</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+//var lmResults = new GlideRecord('samp_license_metric_result');
+  //lmResults.addQuery('software_model','=',inputs.swModel);
+  //lmResults.addQuery('unused_rights','&gt;',0);
+  //lmResults.query();
+  var numAvailable = '';
+  // ... code to check for rights...
+  
+  outputs.available = true;
+  outputs.number_available = numAvailable;
+  
+})(inputs, outputs);
+
+
+
+
+
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>557ab201db826b0057b878b5ae9619f1</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:18</sys_created_on>
+        <sys_id>ed7af201db826b0057b878b5ae961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 20:50:18</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=557ab201db826b0057b878b5ae9619f1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>557ab201db826b0057b878b5ae9619f1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:18</sys_created_on>
+        <sys_id>a57af201db826b0057b878b5ae961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 20:50:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>557ab201db826b0057b878b5ae9619f1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:18</sys_created_on>
+        <sys_id>6d7af201db826b0057b878b5ae961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 20:50:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>swModel</field>
+        <id>557ab201db826b0057b878b5ae9619f1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-30 15:51:41</sys_created_on>
+        <sys_id>527c565adbcaeb00a40afd131d9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-30 15:51:41</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_557ab201db826b0057b878b5ae9619f1</table>
+        <value>{{action.software}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=557ab201db826b0057b878b5ae9619f1^sys_idNOT IN4a7c565adbcaeb00a40afd131d9619be"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>swModel</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>swModel</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Determine Rights Availability">557ab201db826b0057b878b5ae9619f1</model>
+        <model_id>557ab201db826b0057b878b5ae9619f1</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_557ab201db826b0057b878b5ae9619f1</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-30 15:51:41</sys_created_on>
+        <sys_id>4a7c565adbcaeb00a40afd131d9619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-30 15:51:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=557ab201db826b0057b878b5ae9619f1^sys_idNOT INa17ab201db826b0057b878b5ae9619fa,ed7ab201db826b0057b878b5ae9619fe"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>available</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>available</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Determine Rights Availability">557ab201db826b0057b878b5ae9619f1</model>
+        <model_id>557ab201db826b0057b878b5ae9619f1</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_557ab201db826b0057b878b5ae9619f1</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:18</sys_created_on>
+        <sys_id>a17ab201db826b0057b878b5ae9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 20:50:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>number_available</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>number_available</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Determine Rights Availability">557ab201db826b0057b878b5ae9619f1</model>
+        <model_id>557ab201db826b0057b878b5ae9619f1</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_557ab201db826b0057b878b5ae9619f1</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:18</sys_created_on>
+        <sys_id>ed7ab201db826b0057b878b5ae9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 20:50:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Check for Available Rights">6be4a269db71a30057b878b5ae961981</action>
+        <cid>4b68e8fe-44fe-4e36-a4c2-85a643b58f25</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Find Reconciliation Details</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="fce29057b72200101099e781de11a9d4.iix">48526b2dc32a32002841b63b12d3ae72</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-30 15:51:39</sys_created_on>
+        <sys_id>a17c565adbcaeb00a40afd131d9619ac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-30 15:51:40</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a17c565adbcaeb00a40afd131d9619ac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a17c565adbcaeb00a40afd131d9619ac</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-30 15:51:40</sys_created_on>
+        <sys_id>8e7c565adbcaeb00a40afd131d9619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-30 15:51:40</sys_updated_on>
+        <value>cmdb_ci_spkg</value>
+        <variable display_value="">4d19bb21c36a32002841b63b12d3aeef</variable>
+    </sys_variable_value>
+    <sys_hub_action_input action="delete_multiple" query="model=6be4a269db71a30057b878b5ae961981^sys_idNOT IN269cea72db5a230057b878b5ae961934"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>my_third_input</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>My third input</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Check for Available Rights">6be4a269db71a30057b878b5ae961981</model>
+        <model_id>6be4a269db71a30057b878b5ae961981</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_6be4a269db71a30057b878b5ae961981</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-14 16:34:50</sys_created_on>
+        <sys_id>269cea72db5a230057b878b5ae961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-14 16:34:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=6be4a269db71a30057b878b5ae961981^sys_idNOT IN2d7af201db826b0057b878b5ae961924,e97af201db826b0057b878b5ae961937"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>rights_available_</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Rights available?</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Check for Available Rights">6be4a269db71a30057b878b5ae961981</model>
+        <model_id>6be4a269db71a30057b878b5ae961981</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_6be4a269db71a30057b878b5ae961981</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:18</sys_created_on>
+        <sys_id>2d7af201db826b0057b878b5ae961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 20:50:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>number_of_rights</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Number of rights</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Check for Available Rights">6be4a269db71a30057b878b5ae961981</model>
+        <model_id>6be4a269db71a30057b878b5ae961981</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_6be4a269db71a30057b878b5ae961981</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:19</sys_created_on>
+        <sys_id>e97af201db826b0057b878b5ae961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 20:50:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=6be4a269db71a30057b878b5ae961981^sys_idNOT IN557ab201db826b0057b878b5ae9619f1,a17c565adbcaeb00a40afd131d9619ac"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Check for Available Rights">6be4a269db71a30057b878b5ae961981</action>
+        <cid>fbb9a5ba-083c-47d3-bf1e-aa7ab3fd3859</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Determine Rights Availability</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="c47fd41bb72200101099e781de11a9a4.iix">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:18</sys_created_on>
+        <sys_id>557ab201db826b0057b878b5ae9619f1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-30 16:05:17</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=557ab201db826b0057b878b5ae9619f1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>557ab201db826b0057b878b5ae9619f1</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:18</sys_created_on>
+        <sys_id>a57af201db826b0057b878b5ae961921</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-30 16:05:17</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+//var lmResults = new GlideRecord('samp_license_metric_result');
+  //lmResults.addQuery('software_model','=',inputs.swModel);
+  //lmResults.addQuery('unused_rights','&gt;',0);
+  //lmResults.query();
+  var numAvailable = '';
+  // ... code to check for rights...
+  
+  outputs.available = true;
+  outputs.number_available = numAvailable;
+  
+})(inputs, outputs);
+
+
+
+
+
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>557ab201db826b0057b878b5ae9619f1</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:18</sys_created_on>
+        <sys_id>ed7af201db826b0057b878b5ae961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 20:50:18</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=557ab201db826b0057b878b5ae9619f1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>557ab201db826b0057b878b5ae9619f1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:18</sys_created_on>
+        <sys_id>a57af201db826b0057b878b5ae961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 20:50:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>557ab201db826b0057b878b5ae9619f1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:18</sys_created_on>
+        <sys_id>6d7af201db826b0057b878b5ae961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 20:50:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>swModel</field>
+        <id>557ab201db826b0057b878b5ae9619f1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-30 15:51:41</sys_created_on>
+        <sys_id>527c565adbcaeb00a40afd131d9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-30 15:51:41</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_557ab201db826b0057b878b5ae9619f1</table>
+        <value>{{action.software}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=557ab201db826b0057b878b5ae9619f1^sys_idNOT IN4a7c565adbcaeb00a40afd131d9619be"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>swModel</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>swModel</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Determine Rights Availability">557ab201db826b0057b878b5ae9619f1</model>
+        <model_id>557ab201db826b0057b878b5ae9619f1</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_557ab201db826b0057b878b5ae9619f1</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-30 15:51:41</sys_created_on>
+        <sys_id>4a7c565adbcaeb00a40afd131d9619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-30 15:51:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=557ab201db826b0057b878b5ae9619f1^sys_idNOT INa17ab201db826b0057b878b5ae9619fa,ed7ab201db826b0057b878b5ae9619fe"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>available</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>available</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Determine Rights Availability">557ab201db826b0057b878b5ae9619f1</model>
+        <model_id>557ab201db826b0057b878b5ae9619f1</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_557ab201db826b0057b878b5ae9619f1</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:18</sys_created_on>
+        <sys_id>a17ab201db826b0057b878b5ae9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 20:50:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>number_available</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>number_available</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Determine Rights Availability">557ab201db826b0057b878b5ae9619f1</model>
+        <model_id>557ab201db826b0057b878b5ae9619f1</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_557ab201db826b0057b878b5ae9619f1</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:18</sys_created_on>
+        <sys_id>ed7ab201db826b0057b878b5ae9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 20:50:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Check for Available Rights">6be4a269db71a30057b878b5ae961981</action>
+        <cid>4b68e8fe-44fe-4e36-a4c2-85a643b58f25</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Find Reconciliation Details</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="fce29057b72200101099e781de11a9d4.iix">48526b2dc32a32002841b63b12d3ae72</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-30 15:51:39</sys_created_on>
+        <sys_id>a17c565adbcaeb00a40afd131d9619ac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-30 15:51:40</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a17c565adbcaeb00a40afd131d9619ac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a17c565adbcaeb00a40afd131d9619ac</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-30 15:51:40</sys_created_on>
+        <sys_id>8e7c565adbcaeb00a40afd131d9619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-30 15:51:40</sys_updated_on>
+        <value>cmdb_ci_spkg</value>
+        <variable display_value="">4d19bb21c36a32002841b63b12d3aeef</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_6be4a269db71a30057b878b5ae961981^sys_idNOT INc57ab201db826b0057b878b5ae9619cb,ea9cea72db5a230057b878b5ae961932,ea9cea72db5a230057b878b5ae961938"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>software</element>
+        <help/>
+        <hint>Select the Software Model to check for rights</hint>
+        <label>Software</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_6be4a269db71a30057b878b5ae961981</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:17</sys_created_on>
+        <sys_id>c57ab201db826b0057b878b5ae9619cb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Software</sys_name>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6be4a269db71a30057b878b5ae961981_software_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-14 16:31:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>my_second_input</element>
+        <help/>
+        <hint/>
+        <label>My second input</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_6be4a269db71a30057b878b5ae961981</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-14 16:34:50</sys_created_on>
+        <sys_id>ea9cea72db5a230057b878b5ae961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My second input</sys_name>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6be4a269db71a30057b878b5ae961981_my_second_input_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-14 16:34:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>my_third_input</element>
+        <help/>
+        <hint/>
+        <label>My third input</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_6be4a269db71a30057b878b5ae961981</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-14 16:34:50</sys_created_on>
+        <sys_id>ea9cea72db5a230057b878b5ae961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My third input</sys_name>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6be4a269db71a30057b878b5ae961981_my_third_input_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-14 16:34:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_6be4a269db71a30057b878b5ae961981^sys_idNOT IN257af201db826b0057b878b5ae961936,617af201db826b0057b878b5ae96193c"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>rights_available_</element>
+        <help/>
+        <hint/>
+        <label>Rights available?</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_6be4a269db71a30057b878b5ae961981</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:19</sys_created_on>
+        <sys_id>257af201db826b0057b878b5ae961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rights available?</sys_name>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6be4a269db71a30057b878b5ae961981_rights_available__en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 20:50:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>number_of_rights</element>
+        <help/>
+        <hint/>
+        <label>Number of rights</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_6be4a269db71a30057b878b5ae961981</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 20:50:19</sys_created_on>
+        <sys_id>617af201db826b0057b878b5ae96193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Number of rights</sys_name>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6be4a269db71a30057b878b5ae961981_number_of_rights_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 20:50:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
 </record_update>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
@@ -6,6 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -14,9 +15,11 @@
         <latest_snapshot/>
         <master_snapshot/>
         <name>Software Deployment</name>
+        <natlang/>
         <outputs/>
         <remote_trigger_id/>
         <run_as>user</run_as>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>true</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
@@ -24,9 +27,12 @@
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-12 16:16:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>eb653124db3da300a40afd131d96190d</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>Software Deployment</sys_name>
+        <sys_overrides/>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
@@ -37,4 +43,501 @@
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=eb653124db3da300a40afd131d96190d"/>
     <sys_variable_value action="delete_multiple" query="document_key=eb653124db3da300a40afd131d96190d"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=eb653124db3da300a40afd131d96190d^sys_idNOT IN62eb6672db5a230057b878b5ae961980,68a4e269db71a30057b878b5ae96194f,eca4e269db71a30057b878b5ae961964"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Check for Available Rights">6be4a269db71a30057b878b5ae961981</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Software Deployment">eb653124db3da300a40afd131d96190d</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-14 16:31:49</sys_created_on>
+        <sys_id>62eb6672db5a230057b878b5ae961980</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-14 16:31:49</sys_updated_on>
+        <ui_id>f4dd05d4-3e55-4405-99f8-94f9af67774c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=62eb6672db5a230057b878b5ae961980"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type>
+        <action_type_parent/>
+        <comment>Computer records last updated over a year ago</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Software Deployment">eb653124db3da300a40afd131d96190d</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-15 22:16:12</sys_created_on>
+        <sys_id>68a4e269db71a30057b878b5ae96194f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-14 16:31:49</sys_updated_on>
+        <ui_id>f1ecc0b2-55c2-4d40-9755-74475464d579</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=68a4e269db71a30057b878b5ae96194f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>68a4e269db71a30057b878b5ae96194f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-15 22:16:12</sys_created_on>
+        <sys_id>60a4e269db71a30057b878b5ae961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-15 22:16:12</sys_updated_on>
+        <value>sys_updated_on&lt;javascript:gs.beginningOfOneYearAgo()</value>
+        <variable display_value="">0507ee090b30030085c083eb37673a2e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>68a4e269db71a30057b878b5ae96194f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-15 22:16:12</sys_created_on>
+        <sys_id>e8a4e269db71a30057b878b5ae961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-15 22:16:12</sys_updated_on>
+        <value>cmdb_ci_computer</value>
+        <variable display_value="">3807ee090b30030085c083eb37673a08</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a8a4e269db71a30057b878b5ae961963</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Software Deployment">eb653124db3da300a40afd131d96190d</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-15 22:16:12</sys_created_on>
+        <sys_id>eca4e269db71a30057b878b5ae961964</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-14 16:31:49</sys_updated_on>
+        <ui_id>5c097f96-d949-48f9-b921-22aa3b6e4988</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=eca4e269db71a30057b878b5ae961964"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>eca4e269db71a30057b878b5ae961964</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-15 22:16:12</sys_created_on>
+        <sys_id>6ca4e269db71a30057b878b5ae961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-15 22:16:12</sys_updated_on>
+        <value>{{f1ecc0b2-55c2-4d40-9755-74475464d579.Records}}</value>
+        <variable display_value="">19df9109c32632002841b63b12d3aed6</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=eb653124db3da300a40afd131d96190d^sys_idNOT IN3bf00485db3d230057b878b5ae9619e3"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Software Deployment">eb653124db3da300a40afd131d96190d</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-13 21:04:18</sys_created_on>
+        <sys_id>3bf00485db3d230057b878b5ae9619e3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-14 16:31:49</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3bf00485db3d230057b878b5ae9619e3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3bf00485db3d230057b878b5ae9619e3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-13 21:04:18</sys_created_on>
+        <sys_id>77f00485db3d230057b878b5ae9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-13 21:04:18</sys_updated_on>
+        <value>alm_hardware</value>
+        <variable display_value="">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3bf00485db3d230057b878b5ae9619e3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-13 21:04:18</sys_created_on>
+        <sys_id>b3f00485db3d230057b878b5ae9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-13 21:04:18</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=eb653124db3da300a40afd131d96190d^sys_idNOT IN63653124db3da300a40afd131d96190e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>eb653124db3da300a40afd131d96190d</id>
+        <name>Software Deployment</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-12 16:16:03</sys_created_on>
+        <sys_id>63653124db3da300a40afd131d96190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-12 16:16:03</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=eb653124db3da300a40afd131d96190d^sys_idNOT INb3f00485db3d230057b878b5ae9619d6,fbf00485db3d230057b878b5ae9619dc"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Software Deployment">eb653124db3da300a40afd131d96190d</model>
+        <model_id>eb653124db3da300a40afd131d96190d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_eb653124db3da300a40afd131d96190d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-13 21:04:18</sys_created_on>
+        <sys_id>b3f00485db3d230057b878b5ae9619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-13 21:04:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Software Deployment">eb653124db3da300a40afd131d96190d</model>
+        <model_id>eb653124db3da300a40afd131d96190d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_eb653124db3da300a40afd131d96190d</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-13 21:04:18</sys_created_on>
+        <sys_id>fbf00485db3d230057b878b5ae9619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-13 21:04:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=eb653124db3da300a40afd131d96190d^sys_idNOT IN62eb6672db5a230057b878b5ae961980,68a4e269db71a30057b878b5ae96194f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Check for Available Rights">6be4a269db71a30057b878b5ae961981</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Software Deployment">eb653124db3da300a40afd131d96190d</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-14 16:31:49</sys_created_on>
+        <sys_id>62eb6672db5a230057b878b5ae961980</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-14 16:31:49</sys_updated_on>
+        <ui_id>f4dd05d4-3e55-4405-99f8-94f9af67774c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=62eb6672db5a230057b878b5ae961980"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type>
+        <action_type_parent/>
+        <comment>Computer records last updated over a year ago</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Software Deployment">eb653124db3da300a40afd131d96190d</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-15 22:16:12</sys_created_on>
+        <sys_id>68a4e269db71a30057b878b5ae96194f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-14 16:31:49</sys_updated_on>
+        <ui_id>f1ecc0b2-55c2-4d40-9755-74475464d579</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=68a4e269db71a30057b878b5ae96194f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>68a4e269db71a30057b878b5ae96194f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-15 22:16:12</sys_created_on>
+        <sys_id>60a4e269db71a30057b878b5ae961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-15 22:16:12</sys_updated_on>
+        <value>sys_updated_on&lt;javascript:gs.beginningOfOneYearAgo()</value>
+        <variable display_value="">0507ee090b30030085c083eb37673a2e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>68a4e269db71a30057b878b5ae96194f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-15 22:16:12</sys_created_on>
+        <sys_id>e8a4e269db71a30057b878b5ae961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-15 22:16:12</sys_updated_on>
+        <value>cmdb_ci_computer</value>
+        <variable display_value="">3807ee090b30030085c083eb37673a08</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=eb653124db3da300a40afd131d96190d^sys_idNOT INeca4e269db71a30057b878b5ae961964"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a8a4e269db71a30057b878b5ae961963</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Software Deployment">eb653124db3da300a40afd131d96190d</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-15 22:16:12</sys_created_on>
+        <sys_id>eca4e269db71a30057b878b5ae961964</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-14 16:31:49</sys_updated_on>
+        <ui_id>5c097f96-d949-48f9-b921-22aa3b6e4988</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=eca4e269db71a30057b878b5ae961964"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>eca4e269db71a30057b878b5ae961964</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-15 22:16:12</sys_created_on>
+        <sys_id>6ca4e269db71a30057b878b5ae961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-15 22:16:12</sys_updated_on>
+        <value>{{f1ecc0b2-55c2-4d40-9755-74475464d579.Records}}</value>
+        <variable display_value="">19df9109c32632002841b63b12d3aed6</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_eb653124db3da300a40afd131d96190d^sys_idNOT IN33f00485db3d230057b878b5ae9619e1,37f00485db3d230057b878b5ae9619db"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_eb653124db3da300a40afd131d96190d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-13 21:04:18</sys_created_on>
+        <sys_id>33f00485db3d230057b878b5ae9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_eb653124db3da300a40afd131d96190d_table_name_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-13 21:04:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_eb653124db3da300a40afd131d96190d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-13 21:04:18</sys_created_on>
+        <sys_id>37f00485db3d230057b878b5ae9619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_eb653124db3da300a40afd131d96190d_current_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-13 21:04:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
 </record_update>

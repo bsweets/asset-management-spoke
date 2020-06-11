@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>do_the_following_in_parallel</internal_name>
+        <label_cache>[{"name":"bb0eb9aa-ba64-4921-b39c-e8c6345e1348.Table","label":"9➛10➛10➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bb0eb9aa-ba64-4921-b39c-e8c6345e1348.Record","label":"9➛10➛10➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f7d80dff-4005-49d3-9f03-d6071c4e0261.Table","label":"6➛7➛7➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f7d80dff-4005-49d3-9f03-d6071c4e0261.Record","label":"6➛7➛7➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"70143416-628f-48f1-bf8d-621c928f3d47.Table","label":"4➛5➛5➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"70143416-628f-48f1-bf8d-621c928f3d47.Record","label":"4➛5➛5➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"462f1fc1-96bb-468e-af78-bc61e971528e.Table","label":"2➛3➛3➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"462f1fc1-96bb-468e-af78-bc61e971528e.Record","label":"2➛3➛3➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Do the following in Parallel</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:10:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>81784616db9510106405fae4e29619b8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Do the following in Parallel</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_hub_flow_81784616db9510106405fae4e29619b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=81784616db9510106405fae4e29619b8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=81784616db9510106405fae4e29619b8"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=81784616db9510106405fae4e29619b8^sys_idNOT IN1cba8a56db9510106405fae4e2961925,50ba8a56db9510106405fae4e296192c,58ba4a56db9510106405fae4e29619e2,5cba4a56db9510106405fae4e29619ea,94ba4a56db9510106405fae4e29619e5,94ba4a56db9510106405fae4e29619f3,98ba8a56db9510106405fae4e2961926,d0ba4a56db9510106405fae4e29619f5,dcba4a56db9510106405fae4e29619ed,dcba8a56db9510106405fae4e296191f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Remotely Wipe Drive">9761511edbd2a30057b878b5ae961936</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <order>8</order>
+        <parent_ui_id>a2960381-de74-4850-a957-f376773a7ea2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>1cba8a56db9510106405fae4e2961925</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <ui_id>75ffd132-8026-49df-88ec-3e5174656691</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1cba8a56db9510106405fae4e2961925"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Create task for Legal team</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <order>9➛10</order>
+        <parent_ui_id>e20007af-109b-4c2a-8d7f-cab10a25942d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>50ba8a56db9510106405fae4e296192c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <ui_id>bb0eb9aa-ba64-4921-b39c-e8c6345e1348</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=50ba8a56db9510106405fae4e296192c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>50ba8a56db9510106405fae4e296192c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>14ba8a56db9510106405fae4e296192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:20:23</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">dcba4a56db9510106405fae4e29619e1</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following in Parallel">5d31e5dedfe50300b61ecae83df26326</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:22</sys_created_on>
+        <sys_id>58ba4a56db9510106405fae4e29619e2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <ui_id>8191617e-c193-464c-92ff-099c6a2326f0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=58ba4a56db9510106405fae4e29619e2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Create task for Security team</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <order>2➛3</order>
+        <parent_ui_id>45f89f49-b753-4870-9429-6672ce7856a7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>5cba4a56db9510106405fae4e29619ea</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <ui_id>462f1fc1-96bb-468e-af78-bc61e971528e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5cba4a56db9510106405fae4e29619ea"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5cba4a56db9510106405fae4e29619ea</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>d0ba4a56db9510106405fae4e29619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:20:23</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">10ba4a56db9510106405fae4e29619e5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>8191617e-c193-464c-92ff-099c6a2326f0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:22</sys_created_on>
+        <sys_id>94ba4a56db9510106405fae4e29619e5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <ui_id>45f89f49-b753-4870-9429-6672ce7856a7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=94ba4a56db9510106405fae4e29619e5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Create task for Hardware team</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <order>4➛5</order>
+        <parent_ui_id>198fb722-3e28-41e3-8d96-76de6bf49edf</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>94ba4a56db9510106405fae4e29619f3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <ui_id>70143416-628f-48f1-bf8d-621c928f3d47</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=94ba4a56db9510106405fae4e29619f3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>94ba4a56db9510106405fae4e29619f3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>58ba4a56db9510106405fae4e29619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:20:23</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">14ba8a56db9510106405fae4e2961926</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>8191617e-c193-464c-92ff-099c6a2326f0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>98ba8a56db9510106405fae4e2961926</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <ui_id>e20007af-109b-4c2a-8d7f-cab10a25942d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=98ba8a56db9510106405fae4e2961926"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">5cba4a56db9510106405fae4e29619f4</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>8191617e-c193-464c-92ff-099c6a2326f0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>d0ba4a56db9510106405fae4e29619f5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <ui_id>a2960381-de74-4850-a957-f376773a7ea2</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d0ba4a56db9510106405fae4e29619f5"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">58ba4a56db9510106405fae4e29619ed</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>8191617e-c193-464c-92ff-099c6a2326f0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>dcba4a56db9510106405fae4e29619ed</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <ui_id>198fb722-3e28-41e3-8d96-76de6bf49edf</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=dcba4a56db9510106405fae4e29619ed"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Create task for Software team</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <order>6➛7</order>
+        <parent_ui_id>a2960381-de74-4850-a957-f376773a7ea2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>dcba8a56db9510106405fae4e296191f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <ui_id>f7d80dff-4005-49d3-9f03-d6071c4e0261</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dcba8a56db9510106405fae4e296191f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dcba8a56db9510106405fae4e296191f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>90ba8a56db9510106405fae4e2961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:20:23</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=81784616db9510106405fae4e29619b8^sys_idNOT IN50ba4a56db9510106405fae4e29619e0"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:22</sys_created_on>
+        <sys_id>50ba4a56db9510106405fae4e29619e0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:41</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=50ba4a56db9510106405fae4e29619e0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>50ba4a56db9510106405fae4e29619e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:22</sys_created_on>
+        <sys_id>10ba4a56db9510106405fae4e29619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:20:22</sys_updated_on>
+        <value>2020-06-03 02:10:00</value>
+        <variable display_value="">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=81784616db9510106405fae4e29619b8^sys_idNOT IN4d784616db9510106405fae4e29619b8"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>81784616db9510106405fae4e29619b8</id>
+        <name>Do the following in Parallel</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:10:36</sys_created_on>
+        <sys_id>4d784616db9510106405fae4e29619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:10:36</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=81784616db9510106405fae4e29619b8^sys_idNOT IN1cba8a56db9510106405fae4e2961925,50ba8a56db9510106405fae4e296192c,5cba4a56db9510106405fae4e29619ea,94ba4a56db9510106405fae4e29619f3,dcba8a56db9510106405fae4e296191f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Remotely Wipe Drive">9761511edbd2a30057b878b5ae961936</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <order>8</order>
+        <parent_ui_id>a2960381-de74-4850-a957-f376773a7ea2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>1cba8a56db9510106405fae4e2961925</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <ui_id>75ffd132-8026-49df-88ec-3e5174656691</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1cba8a56db9510106405fae4e2961925"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Create task for Legal team</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <order>9➛10</order>
+        <parent_ui_id>e20007af-109b-4c2a-8d7f-cab10a25942d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>50ba8a56db9510106405fae4e296192c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <ui_id>bb0eb9aa-ba64-4921-b39c-e8c6345e1348</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=50ba8a56db9510106405fae4e296192c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>50ba8a56db9510106405fae4e296192c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>14ba8a56db9510106405fae4e296192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:20:23</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Create task for Security team</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <order>2➛3</order>
+        <parent_ui_id>45f89f49-b753-4870-9429-6672ce7856a7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>5cba4a56db9510106405fae4e29619ea</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <ui_id>462f1fc1-96bb-468e-af78-bc61e971528e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5cba4a56db9510106405fae4e29619ea"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5cba4a56db9510106405fae4e29619ea</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>d0ba4a56db9510106405fae4e29619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:20:23</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Create task for Hardware team</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <order>4➛5</order>
+        <parent_ui_id>198fb722-3e28-41e3-8d96-76de6bf49edf</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>94ba4a56db9510106405fae4e29619f3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <ui_id>70143416-628f-48f1-bf8d-621c928f3d47</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=94ba4a56db9510106405fae4e29619f3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>94ba4a56db9510106405fae4e29619f3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>58ba4a56db9510106405fae4e29619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:20:23</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Create task for Software team</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <order>6➛7</order>
+        <parent_ui_id>a2960381-de74-4850-a957-f376773a7ea2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>dcba8a56db9510106405fae4e296191f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <ui_id>f7d80dff-4005-49d3-9f03-d6071c4e0261</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dcba8a56db9510106405fae4e296191f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dcba8a56db9510106405fae4e296191f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>90ba8a56db9510106405fae4e2961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:20:23</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=81784616db9510106405fae4e29619b8^sys_idNOT IN58ba4a56db9510106405fae4e29619e2,94ba4a56db9510106405fae4e29619e5,98ba8a56db9510106405fae4e2961926,d0ba4a56db9510106405fae4e29619f5,dcba4a56db9510106405fae4e29619ed"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">dcba4a56db9510106405fae4e29619e1</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following in Parallel">5d31e5dedfe50300b61ecae83df26326</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:22</sys_created_on>
+        <sys_id>58ba4a56db9510106405fae4e29619e2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <ui_id>8191617e-c193-464c-92ff-099c6a2326f0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=58ba4a56db9510106405fae4e29619e2"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">10ba4a56db9510106405fae4e29619e5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>8191617e-c193-464c-92ff-099c6a2326f0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:22</sys_created_on>
+        <sys_id>94ba4a56db9510106405fae4e29619e5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <ui_id>45f89f49-b753-4870-9429-6672ce7856a7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=94ba4a56db9510106405fae4e29619e5"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">14ba8a56db9510106405fae4e2961926</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>8191617e-c193-464c-92ff-099c6a2326f0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>98ba8a56db9510106405fae4e2961926</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <ui_id>e20007af-109b-4c2a-8d7f-cab10a25942d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=98ba8a56db9510106405fae4e2961926"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">5cba4a56db9510106405fae4e29619f4</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>8191617e-c193-464c-92ff-099c6a2326f0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>d0ba4a56db9510106405fae4e29619f5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <ui_id>a2960381-de74-4850-a957-f376773a7ea2</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d0ba4a56db9510106405fae4e29619f5"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">58ba4a56db9510106405fae4e29619ed</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>8191617e-c193-464c-92ff-099c6a2326f0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-11 20:20:23</sys_created_on>
+        <sys_id>dcba4a56db9510106405fae4e29619ed</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <ui_id>198fb722-3e28-41e3-8d96-76de6bf49edf</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=dcba4a56db9510106405fae4e29619ed"/>
+</record_update>
