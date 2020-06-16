@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>c4cfe9e3db5510106405fae4e29619e9</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_126321_asset_mgt_approval_level">
+    <x_126321_asset_mgt_approval_level action="INSERT_OR_UPDATE">
+        <name>VP</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-15 15:35:08</sys_created_on>
+        <sys_id>c4cfe9e3db5510106405fae4e29619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-15 15:35:08</sys_updated_on>
+    </x_126321_asset_mgt_approval_level>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-15 15:35:16</sys_created_on>
+        <sys_id>c3cf2de3db5510106405fae4e29619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VP</sys_name>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_metadata_link_c3cf2de3db5510106405fae4e29619bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-15 15:35:16</sys_updated_on>
+        <tablename>x_126321_asset_mgt_approval_level</tablename>
+    </sys_metadata_link>
+</record_update>

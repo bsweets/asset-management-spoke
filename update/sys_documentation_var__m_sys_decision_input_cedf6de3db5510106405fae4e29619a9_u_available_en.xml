@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_available" label="Available" language="en" table="var__m_sys_decision_input_cedf6de3db5510106405fae4e29619a9">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_available</element>
+            <help/>
+            <hint/>
+            <label>Available</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_cedf6de3db5510106405fae4e29619a9</name>
+            <plural>Available</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-15 15:39:38</sys_created_on>
+            <sys_id>43c0f527db5510106405fae4e296195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Available</sys_name>
+            <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_decision_input_cedf6de3db5510106405fae4e29619a9_u_available_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-15 15:39:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-15 15:33:50</sys_created_on>
+        <sys_id>8e7fe5e3db5510106405fae4e29619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_126321_asset_mgt_approval_level.asset</sys_name>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_security_acl display_value="x_126321_asset_mgt_approval_level">4e7fe5e3db5510106405fae4e29619ce</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8e7fe5e3db5510106405fae4e29619d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-15 15:33:50</sys_updated_on>
+        <sys_user_role display_value="asset" name="asset">bf7dfe64c0a80169002ee4e83aa20d57</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
