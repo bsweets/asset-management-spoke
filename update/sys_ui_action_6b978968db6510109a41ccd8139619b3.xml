@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Check for Available Rights</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[(function() {
+
+    try {
+        var inputs = {};
+        inputs['software'] = current; // GlideRecord of table: cmdb_software_product_model 
+
+        // Start Asynchronously: Uncomment to run in background. Code snippet will not have access to outputs.
+        // sn_fd.FlowAPI.getRunner().action('x_126321_asset_mgt.check_for_available_rights').inBackground().withInputs(inputs).run();
+
+        // Execute Synchronously: Run in foreground. Code snippet has access to outputs.
+        var result = sn_fd.FlowAPI.getRunner().action('x_126321_asset_mgt.check_for_available_rights').inForeground().withInputs(inputs).run();
+        var outputs = result.getOutputs();
+
+        // Get Outputs:
+        // Note: outputs can only be retrieved when executing synchronously.
+        var rights_available_ = outputs['rights_available_']; // True/False
+        var number_of_rights = outputs['number_of_rights']; // Integer
+		
+		gs.addInfoMessage("Available rights: " + number_of_rights);
+
+    } catch (ex) {
+        var message = ex.getMessage();
+        gs.error(message);
+    }
+
+})();
+
+
+]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 16:31:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6b978968db6510109a41ccd8139619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check for Available Rights</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_ui_action_6b978968db6510109a41ccd8139619b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 16:31:05</sys_updated_on>
+        <table>cmdb_software_product_model</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

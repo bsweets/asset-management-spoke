@@ -6,14 +6,14 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Hardware Asset Management">8205e669db71a30057b878b5ae9619cf</category>
-        <compiler_build/>
+        <compiler_build>latest</compiler_build>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>Check stockrooms local to the Requested for to see if the requested item is in stock. If it is not available, check for substitutes.</description>
         <internal_name>find_local_stock</internal_name>
-        <label_cache>[{"name":"7ad866db-6b2c-4f47-8416-2499153bb9d0.Records","label":"1➛Stockroom Records","reference":"alm_stockroom","reference_display":"Stockroom","type":"records","base_type":"records"},{"name":"7ad866db-6b2c-4f47-8416-2499153bb9d0.Table","label":"1➛Stockroom Table","reference":"alm_stockroom","reference_display":"Stockroom","type":"table_name","base_type":"table_name"},{"name":"7ad866db-6b2c-4f47-8416-2499153bb9d0.Count","label":"1➛Count","type":"integer","base_type":"integer"},{"name":"6d5fd802-7cc0-4a9c-85a4-493a1269afed.item","label":"2➛Stockroom Record","reference":"alm_stockroom","reference_display":"Stockroom","type":"reference","base_type":"reference"},{"name":"2612d708-1896-4d98-a122-2f58e44540fa.Records","label":"2.1➛Hardware Records","reference":"alm_hardware","reference_display":"Hardware","type":"records","base_type":"records"},{"name":"2612d708-1896-4d98-a122-2f58e44540fa.Table","label":"2.1➛Hardware Table","reference":"alm_hardware","reference_display":"Hardware","type":"table_name","base_type":"table_name"},{"name":"2612d708-1896-4d98-a122-2f58e44540fa.Count","label":"2.1➛Count","reference_display":"Count","type":"integer","base_type":"integer"}]</label_cache>
-        <latest_snapshot>70cd0fb2db9a230057b878b5ae961917</latest_snapshot>
-        <master_snapshot>70cd0fb2db9a230057b878b5ae961917</master_snapshot>
+        <label_cache>[{"name":"2612d708-1896-4d98-a122-2f58e44540fa.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2612d708-1896-4d98-a122-2f58e44540fa.Table","label":"3➛Hardware Table","reference":"alm_hardware","reference_display":"Hardware","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2612d708-1896-4d98-a122-2f58e44540fa.Records","label":"3➛Hardware Records","reference":"alm_hardware","reference_display":"Hardware","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6d5fd802-7cc0-4a9c-85a4-493a1269afed.item","label":"2➛Stockroom Record","reference":"alm_stockroom","reference_display":"Stockroom","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"7ad866db-6b2c-4f47-8416-2499153bb9d0.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7ad866db-6b2c-4f47-8416-2499153bb9d0.Table","label":"1➛Stockroom Table","reference":"alm_stockroom","reference_display":"Stockroom","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7ad866db-6b2c-4f47-8416-2499153bb9d0.Records","label":"1➛Stockroom Records","reference":"alm_stockroom","reference_display":"Stockroom","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot>d40d30a0db6510109a41ccd81396197d</latest_snapshot>
+        <master_snapshot>d40d30a0db6510109a41ccd81396197d</master_snapshot>
         <name>Find Local Stock</name>
         <natlang/>
         <outputs/>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2fa7b2f6db5a230057b878b5ae961901</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Find Local Stock</sys_name>
         <sys_overrides/>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
@@ -38,12 +38,12 @@
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_update_name>sys_hub_flow_2fa7b2f6db5a230057b878b5ae961901</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:02:34</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:58:56</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=2fa7b2f6db5a230057b878b5ae961901"/>
     <sys_variable_value action="delete_multiple" query="document_key=2fa7b2f6db5a230057b878b5ae961901"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=2fa7b2f6db5a230057b878b5ae961901^sys_idNOT IN1fc787fedb5a230057b878b5ae9619ac,5bc787fedb5a230057b878b5ae96198e,5fc787fedb5a230057b878b5ae9619b3,d3c787fedb5a230057b878b5ae9619a4"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=2fa7b2f6db5a230057b878b5ae961901^sys_idNOT IN1fc787fedb5a230057b878b5ae9619ac,43aeb0e0db6510109a41ccd813961908,5bc787fedb5a230057b878b5ae96198e,5fc787fedb5a230057b878b5ae9619b3,d3c787fedb5a230057b878b5ae9619a4"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">93c787fedb5a230057b878b5ae9619ab</block>
         <comment/>
@@ -55,7 +55,7 @@
         <flow display_value="Find Local Stock">2fa7b2f6db5a230057b878b5ae961901</flow>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>2.2</order>
+        <order>4</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>6d5fd802-7cc0-4a9c-85a4-493a1269afed</parent_ui_id>
@@ -63,10 +63,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-14 18:33:40</sys_created_on>
         <sys_id>1fc787fedb5a230057b878b5ae9619ac</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:02:34</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:58:56</sys_updated_on>
         <ui_id>e263b5bf-d539-4aaa-9c76-785175df771d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -100,12 +100,68 @@
         <value>Stock exists</value>
         <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">baaeb0e0db6510109a41ccd813961907</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Find Local Stock">2fa7b2f6db5a230057b878b5ae961901</flow>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned>stockroom,quantity_in_stock,substitute</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:34:34</sys_created_on>
+        <sys_id>43aeb0e0db6510109a41ccd813961908</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:58:56</sys_updated_on>
+        <ui_id>9d18ea3d-22d4-458b-9a9f-ef3c3098f97b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=43aeb0e0db6510109a41ccd813961908"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>43aeb0e0db6510109a41ccd813961908</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:58:49</sys_created_on>
+        <sys_id>123449e4db6510109a41ccd813961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:58:49</sys_updated_on>
+        <value/>
+        <variable display_value="">b2ae70e0db6510109a41ccd8139619d5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>43aeb0e0db6510109a41ccd813961908</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:44:22</sys_created_on>
+        <sys_id>1ae00d24db6510109a41ccd8139619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:44:22</sys_updated_on>
+        <value>eaaa2b3f3763100044e0bfc8bcbe5de3</value>
+        <variable display_value="">3aae70e0db6510109a41ccd8139619cc</variable>
+    </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="Look Up Records">ca07ee090b30030085c083eb37673afc</action_type>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment>Look up Stockrooms that support the Requested for Location</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="Find Local Stock">2fa7b2f6db5a230057b878b5ae961901</flow>
         <order>1</order>
@@ -114,10 +170,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-14 18:33:39</sys_created_on>
         <sys_id>5bc787fedb5a230057b878b5ae96198e</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:02:34</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:58:56</sys_updated_on>
         <ui_id>7ad866db-6b2c-4f47-8416-2499153bb9d0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5bc787fedb5a230057b878b5ae96198e"/>
@@ -134,6 +190,20 @@
         <sys_updated_on>2018-12-14 18:57:57</sys_updated_on>
         <value>alm_stockroom</value>
         <variable display_value="">8a07ee090b30030085c083eb37673aff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bc787fedb5a230057b878b5ae96198e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:27:16</sys_created_on>
+        <sys_id>c80dfc60db6510109a41ccd8139619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:27:16</sys_updated_on>
+        <value>alm_stockroom</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -168,10 +238,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-14 18:33:40</sys_created_on>
         <sys_id>5fc787fedb5a230057b878b5ae9619b3</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:02:34</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:58:56</sys_updated_on>
         <ui_id>6d5fd802-7cc0-4a9c-85a4-493a1269afed</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -194,22 +264,22 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Look Up Records">ca07ee090b30030085c083eb37673afc</action_type>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="Find Local Stock">2fa7b2f6db5a230057b878b5ae961901</flow>
-        <order>2.1</order>
+        <order>3</order>
         <parent_ui_id>6d5fd802-7cc0-4a9c-85a4-493a1269afed</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-14 18:33:39</sys_created_on>
         <sys_id>d3c787fedb5a230057b878b5ae9619a4</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:02:34</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:58:56</sys_updated_on>
         <ui_id>2612d708-1896-4d98-a122-2f58e44540fa</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d3c787fedb5a230057b878b5ae9619a4"/>
@@ -226,6 +296,20 @@
         <sys_updated_on>2018-12-14 18:57:57</sys_updated_on>
         <value>alm_hardware</value>
         <variable display_value="">8a07ee090b30030085c083eb37673aff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d3c787fedb5a230057b878b5ae9619a4</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:27:16</sys_created_on>
+        <sys_id>800dfc60db6510109a41ccd8139619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:27:16</sys_updated_on>
+        <value>alm_hardware</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -258,6 +342,18 @@
         <field>conditions</field>
         <id>d3c787fedb5a230057b878b5ae9619a4</id>
         <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:27:16</sys_created_on>
+        <sys_id>4c0dfc60db6510109a41ccd8139619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:27:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>stockroom={{6d5fd802-7cc0-4a9c-85a4-493a1269afed.item}}^install_status=6^substatus=available</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>d3c787fedb5a230057b878b5ae9619a4</id>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-14 18:33:39</sys_created_on>
         <sys_id>9fc787fedb5a230057b878b5ae9619a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -265,6 +361,18 @@
         <sys_updated_on>2018-12-14 18:33:39</sys_updated_on>
         <table>var__m_sys_hub_action_input_d1c56ec50b30030085c083eb37673a50</table>
         <value>stockroom={{6d5fd802-7cc0-4a9c-85a4-493a1269afed.item}}^install_status=6^substatus=available</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>d3c787fedb5a230057b878b5ae9619a4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:27:16</sys_created_on>
+        <sys_id>000dfc60db6510109a41ccd8139619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:27:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table</field>
@@ -302,13 +410,501 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-14 17:23:13</sys_updated_on>
     </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=2fa7b2f6db5a230057b878b5ae961901^sys_idNOT IN0c6bbc20db6510109a41ccd81396196e,ccdc3c60db6510109a41ccd813961959"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=a6a61b87-7179-424a-a316-13217940952a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>cmdb_hardware_product_model</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>requested_item_model</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Requested item model</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Find Local Stock">2fa7b2f6db5a230057b878b5ae961901</model>
+        <model_id>2fa7b2f6db5a230057b878b5ae961901</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_2fa7b2f6db5a230057b878b5ae961901</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="cmdb_hardware_product_model">cmdb_hardware_product_model</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:20:10</sys_created_on>
+        <sys_id>0c6bbc20db6510109a41ccd81396196e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:20:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=4ba9e221-549d-46a6-9080-2791c8e9ec17</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>cmn_location</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>requested_for_location</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Requested for location</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Find Local Stock">2fa7b2f6db5a230057b878b5ae961901</model>
+        <model_id>2fa7b2f6db5a230057b878b5ae961901</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_2fa7b2f6db5a230057b878b5ae961901</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="cmn_location">cmn_location</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:26:28</sys_created_on>
+        <sys_id>ccdc3c60db6510109a41ccd813961959</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:26:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=2fa7b2f6db5a230057b878b5ae961901^sys_idNOT IN32ae70e0db6510109a41ccd8139619e4,3aae70e0db6510109a41ccd8139619cc,7aae70e0db6510109a41ccd8139619dc,b2ae70e0db6510109a41ccd8139619d5"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=fd73dfa1-9fc0-406f-ac84-9bfe4edc2435</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table>cmdb_hardware_product_model</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>substituted_model</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Substituted model</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Find Local Stock">2fa7b2f6db5a230057b878b5ae961901</model>
+        <model_id>2fa7b2f6db5a230057b878b5ae961901</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_2fa7b2f6db5a230057b878b5ae961901</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="cmdb_hardware_product_model">cmdb_hardware_product_model</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:34:34</sys_created_on>
+        <sys_id>32ae70e0db6510109a41ccd8139619e4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:34:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=9f431d7f-f4cf-4805-9c6b-529b228f3758</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table>alm_stockroom</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>stockroom</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Stockroom</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Find Local Stock">2fa7b2f6db5a230057b878b5ae961901</model>
+        <model_id>2fa7b2f6db5a230057b878b5ae961901</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_2fa7b2f6db5a230057b878b5ae961901</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="alm_stockroom">alm_stockroom</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:34:33</sys_created_on>
+        <sys_id>3aae70e0db6510109a41ccd8139619cc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:34:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=04962af8-ae68-4603-a3a7-e35d2526d0bd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>substitute</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Substitute</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Find Local Stock">2fa7b2f6db5a230057b878b5ae961901</model>
+        <model_id>2fa7b2f6db5a230057b878b5ae961901</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_2fa7b2f6db5a230057b878b5ae961901</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:34:34</sys_created_on>
+        <sys_id>7aae70e0db6510109a41ccd8139619dc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:34:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=739bead1-de03-46db-be7a-2b94e0797fcd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>quantity_in_stock</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Quantity in stock</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Find Local Stock">2fa7b2f6db5a230057b878b5ae961901</model>
+        <model_id>2fa7b2f6db5a230057b878b5ae961901</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_2fa7b2f6db5a230057b878b5ae961901</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:34:33</sys_created_on>
+        <sys_id>b2ae70e0db6510109a41ccd8139619d5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:34:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
     <sys_hub_action_instance action="delete_multiple" query="flow=2fa7b2f6db5a230057b878b5ae961901^sys_idNOT IN5bc787fedb5a230057b878b5ae96198e,d3c787fedb5a230057b878b5ae9619a4"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="Look Up Records">ca07ee090b30030085c083eb37673afc</action_type>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment>Look up Stockrooms that support the Requested for Location</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="Find Local Stock">2fa7b2f6db5a230057b878b5ae961901</flow>
         <order>1</order>
@@ -317,10 +913,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-14 18:33:39</sys_created_on>
         <sys_id>5bc787fedb5a230057b878b5ae96198e</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:02:34</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:58:56</sys_updated_on>
         <ui_id>7ad866db-6b2c-4f47-8416-2499153bb9d0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5bc787fedb5a230057b878b5ae96198e"/>
@@ -344,6 +940,20 @@
         <order>0</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:27:16</sys_created_on>
+        <sys_id>c80dfc60db6510109a41ccd8139619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:27:16</sys_updated_on>
+        <value>alm_stockroom</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bc787fedb5a230057b878b5ae96198e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-14 18:33:39</sys_created_on>
         <sys_id>dbc787fedb5a230057b878b5ae9619a0</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -355,22 +965,22 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Look Up Records">ca07ee090b30030085c083eb37673afc</action_type>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="Find Local Stock">2fa7b2f6db5a230057b878b5ae961901</flow>
-        <order>2.1</order>
+        <order>3</order>
         <parent_ui_id>6d5fd802-7cc0-4a9c-85a4-493a1269afed</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-14 18:33:39</sys_created_on>
         <sys_id>d3c787fedb5a230057b878b5ae9619a4</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:02:34</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:58:56</sys_updated_on>
         <ui_id>2612d708-1896-4d98-a122-2f58e44540fa</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d3c787fedb5a230057b878b5ae9619a4"/>
@@ -387,6 +997,20 @@
         <sys_updated_on>2018-12-14 18:57:57</sys_updated_on>
         <value>alm_hardware</value>
         <variable display_value="">8a07ee090b30030085c083eb37673aff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d3c787fedb5a230057b878b5ae9619a4</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:27:16</sys_created_on>
+        <sys_id>800dfc60db6510109a41ccd8139619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:27:16</sys_updated_on>
+        <value>alm_hardware</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -419,6 +1043,18 @@
         <field>conditions</field>
         <id>d3c787fedb5a230057b878b5ae9619a4</id>
         <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:27:16</sys_created_on>
+        <sys_id>4c0dfc60db6510109a41ccd8139619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:27:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>stockroom={{6d5fd802-7cc0-4a9c-85a4-493a1269afed.item}}^install_status=6^substatus=available</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>d3c787fedb5a230057b878b5ae9619a4</id>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-14 18:33:39</sys_created_on>
         <sys_id>9fc787fedb5a230057b878b5ae9619a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -426,6 +1062,18 @@
         <sys_updated_on>2018-12-14 18:33:39</sys_updated_on>
         <table>var__m_sys_hub_action_input_d1c56ec50b30030085c083eb37673a50</table>
         <value>stockroom={{6d5fd802-7cc0-4a9c-85a4-493a1269afed.item}}^install_status=6^substatus=available</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>d3c787fedb5a230057b878b5ae9619a4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:27:16</sys_created_on>
+        <sys_id>000dfc60db6510109a41ccd8139619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:27:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table</field>
@@ -451,7 +1099,7 @@
         <table>var__m_sys_hub_action_input_ca07ee090b30030085c083eb37673afc</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=2fa7b2f6db5a230057b878b5ae961901^sys_idNOT IN1fc787fedb5a230057b878b5ae9619ac,5fc787fedb5a230057b878b5ae9619b3"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=2fa7b2f6db5a230057b878b5ae961901^sys_idNOT IN1fc787fedb5a230057b878b5ae9619ac,43aeb0e0db6510109a41ccd813961908,5fc787fedb5a230057b878b5ae9619b3"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">93c787fedb5a230057b878b5ae9619ab</block>
         <comment/>
@@ -463,7 +1111,7 @@
         <flow display_value="Find Local Stock">2fa7b2f6db5a230057b878b5ae961901</flow>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>2.2</order>
+        <order>4</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>6d5fd802-7cc0-4a9c-85a4-493a1269afed</parent_ui_id>
@@ -471,10 +1119,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-14 18:33:40</sys_created_on>
         <sys_id>1fc787fedb5a230057b878b5ae9619ac</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:02:34</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:58:56</sys_updated_on>
         <ui_id>e263b5bf-d539-4aaa-9c76-785175df771d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -509,6 +1157,62 @@
         <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">baaeb0e0db6510109a41ccd813961907</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Find Local Stock">2fa7b2f6db5a230057b878b5ae961901</flow>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned>stockroom,quantity_in_stock,substitute</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:34:34</sys_created_on>
+        <sys_id>43aeb0e0db6510109a41ccd813961908</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:58:56</sys_updated_on>
+        <ui_id>9d18ea3d-22d4-458b-9a9f-ef3c3098f97b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=43aeb0e0db6510109a41ccd813961908"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>43aeb0e0db6510109a41ccd813961908</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:58:49</sys_created_on>
+        <sys_id>123449e4db6510109a41ccd813961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:58:49</sys_updated_on>
+        <value/>
+        <variable display_value="">b2ae70e0db6510109a41ccd8139619d5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>43aeb0e0db6510109a41ccd813961908</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:44:22</sys_created_on>
+        <sys_id>1ae00d24db6510109a41ccd8139619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:44:22</sys_updated_on>
+        <value>eaaa2b3f3763100044e0bfc8bcbe5de3</value>
+        <variable display_value="">3aae70e0db6510109a41ccd8139619cc</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">1bc787fedb5a230057b878b5ae9619b2</block>
         <comment/>
         <connected_to/>
@@ -527,10 +1231,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-14 18:33:40</sys_created_on>
         <sys_id>5fc787fedb5a230057b878b5ae9619b3</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:02:34</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:58:56</sys_updated_on>
         <ui_id>6d5fd802-7cc0-4a9c-85a4-493a1269afed</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -550,7 +1254,30 @@
         <value>{{7ad866db-6b2c-4f47-8416-2499153bb9d0.Records}}</value>
         <variable display_value="">19df9109c32632002841b63b12d3aed6</variable>
     </sys_variable_value>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2fa7b2f6db5a230057b878b5ae961901^sys_idNOT IN4becc3b2db9a230057b878b5ae96191c,5bc787fedb5a230057b878b5ae961989,b4a6f3f6dbda230057b878b5ae96193f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2fa7b2f6db5a230057b878b5ae961901^sys_idNOT IN486bbc20db6510109a41ccd813961978,4becc3b2db9a230057b878b5ae96191c,5bc787fedb5a230057b878b5ae961989,b4a6f3f6dbda230057b878b5ae96193f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>requested_item_model</element>
+        <help/>
+        <hint/>
+        <label>Requested item model</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2fa7b2f6db5a230057b878b5ae961901</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:20:10</sys_created_on>
+        <sys_id>486bbc20db6510109a41ccd813961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:20:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>requested_for_location</element>
         <help/>
@@ -564,11 +1291,11 @@
         <sys_created_on>2018-12-14 18:56:02</sys_created_on>
         <sys_id>4becc3b2db9a230057b878b5ae96191c</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Requested for location</sys_name>
+        <sys_name/>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2fa7b2f6db5a230057b878b5ae961901_requested_for_location_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-14 21:58:17</sys_updated_on>
         <url/>
@@ -620,23 +1347,157 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_2fa7b2f6db5a230057b878b5ae961901^sys_idNOT IN36ae70e0db6510109a41ccd8139619ea,7eae70e0db6510109a41ccd8139619e2,b6ae70e0db6510109a41ccd8139619db,feae70e0db6510109a41ccd8139619d3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>substituted_model</element>
+        <help/>
+        <hint/>
+        <label>Substituted model</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_2fa7b2f6db5a230057b878b5ae961901</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:34:34</sys_created_on>
+        <sys_id>36ae70e0db6510109a41ccd8139619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:34:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>substitute</element>
+        <help/>
+        <hint/>
+        <label>Substitute</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_2fa7b2f6db5a230057b878b5ae961901</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:34:34</sys_created_on>
+        <sys_id>7eae70e0db6510109a41ccd8139619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:34:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>quantity_in_stock</element>
+        <help/>
+        <hint/>
+        <label>Quantity in stock</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_2fa7b2f6db5a230057b878b5ae961901</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:34:34</sys_created_on>
+        <sys_id>b6ae70e0db6510109a41ccd8139619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:34:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>stockroom</element>
+        <help/>
+        <hint/>
+        <label>Stockroom</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_2fa7b2f6db5a230057b878b5ae961901</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:34:33</sys_created_on>
+        <sys_id>feae70e0db6510109a41ccd8139619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:34:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=2fa7b2f6db5a230057b878b5ae961901^sys_idNOT IN1dcd0fb2db9a230057b878b5ae9619fa"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>com.snc.process_flow.engine.ProcessPlan@cbcae9</plan>
+        <plan>com.snc.process_flow.engine.ProcessPlan@746c9b</plan>
         <plan_id display_value="Find Local Stock">2fa7b2f6db5a230057b878b5ae961901</plan_id>
-        <snapshot>70cd0fb2db9a230057b878b5ae961917</snapshot>
+        <snapshot>d40d30a0db6510109a41ccd81396197d</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-14 18:59:44</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1dcd0fb2db9a230057b878b5ae9619fa</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:02:33</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:58:55</sys_updated_on>
     </sys_flow_subflow_plan>
-    <sys_hub_flow_component action="delete_multiple" query="flow=70cd0fb2db9a230057b878b5ae961917^sys_idNOT IN09cd0fb2db9a230057b878b5ae9619d1,41cd0fb2db9a230057b878b5ae9619e8,4dcd0fb2db9a230057b878b5ae9619d8,81cd0fb2db9a230057b878b5ae9619e0"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Hardware Asset Management">8205e669db71a30057b878b5ae9619cf</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Check stockrooms local to the Requested for to see if the requested item is in stock. If it is not available, check for substitutes.</description>
+        <internal_name>find_local_stock</internal_name>
+        <label_cache>[{"name":"2612d708-1896-4d98-a122-2f58e44540fa.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2612d708-1896-4d98-a122-2f58e44540fa.Table","label":"3➛Hardware Table","reference":"alm_hardware","reference_display":"Hardware","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2612d708-1896-4d98-a122-2f58e44540fa.Records","label":"3➛Hardware Records","reference":"alm_hardware","reference_display":"Hardware","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6d5fd802-7cc0-4a9c-85a4-493a1269afed.item","label":"2➛Stockroom Record","reference":"alm_stockroom","reference_display":"Stockroom","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"7ad866db-6b2c-4f47-8416-2499153bb9d0.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7ad866db-6b2c-4f47-8416-2499153bb9d0.Table","label":"1➛Stockroom Table","reference":"alm_stockroom","reference_display":"Stockroom","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7ad866db-6b2c-4f47-8416-2499153bb9d0.Records","label":"1➛Stockroom Records","reference":"alm_stockroom","reference_display":"Stockroom","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Find Local Stock</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Find Local Stock">2fa7b2f6db5a230057b878b5ae961901</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:27:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d40d30a0db6510109a41ccd81396197d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:58:54</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=d40d30a0db6510109a41ccd81396197d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d40d30a0db6510109a41ccd81396197d"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=d40d30a0db6510109a41ccd81396197d^sys_idNOT IN340d70a0db6510109a41ccd813961963,48df7024db6510109a41ccd813961906,f00d70a0db6510109a41ccd81396196d,f80d70a0db6510109a41ccd81396195f,fc0d70a0db6510109a41ccd813961973"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">93c787fedb5a230057b878b5ae9619ab</block>
         <comment/>
@@ -645,115 +1506,157 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="">70cd0fb2db9a230057b878b5ae961917</flow>
+        <flow display_value="Find Local Stock">d40d30a0db6510109a41ccd81396197d</flow>
+        <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>2.2</order>
+        <order>4</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>6d5fd802-7cc0-4a9c-85a4-493a1269afed</parent_ui_id>
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:43</sys_created_on>
-        <sys_id>09cd0fb2db9a230057b878b5ae9619d1</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_created_on>2020-06-18 14:27:19</sys_created_on>
+        <sys_id>340d70a0db6510109a41ccd813961963</sys_id>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:02:33</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:58:54</sys_updated_on>
         <ui_id>e263b5bf-d539-4aaa-9c76-785175df771d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=09cd0fb2db9a230057b878b5ae9619d1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=340d70a0db6510109a41ccd813961963"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
-        <document_key>09cd0fb2db9a230057b878b5ae9619d1</document_key>
+        <document_key>340d70a0db6510109a41ccd813961963</document_key>
         <order>10</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:43</sys_created_on>
-        <sys_id>89cd0fb2db9a230057b878b5ae9619d5</sys_id>
+        <sys_created_on>2020-06-18 14:27:19</sys_created_on>
+        <sys_id>f00d70a0db6510109a41ccd813961966</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 18:59:43</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:27:19</sys_updated_on>
         <value>Stock exists</value>
         <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>09cd0fb2db9a230057b878b5ae9619d1</document_key>
-        <order>20</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
+    <sys_element_mapping action="delete_multiple" query="id=340d70a0db6510109a41ccd813961963"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>340d70a0db6510109a41ccd813961963</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:43</sys_created_on>
-        <sys_id>c5cd0fb2db9a230057b878b5ae9619d5</sys_id>
+        <sys_created_on>2020-06-18 14:27:19</sys_created_on>
+        <sys_id>700d70a0db6510109a41ccd813961966</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 18:59:43</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:27:19</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value>{{7ad866db-6b2c-4f47-8416-2499153bb9d0.Count}}&gt;=1</value>
-        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>340d70a0db6510109a41ccd813961963</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:27:19</sys_created_on>
+        <sys_id>bc0d70a0db6510109a41ccd813961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:27:19</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">baaeb0e0db6510109a41ccd813961907</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Find Local Stock">d40d30a0db6510109a41ccd81396197d</flow>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned>stockroom,quantity_in_stock,substitute</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:39:34</sys_created_on>
+        <sys_id>48df7024db6510109a41ccd813961906</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:58:54</sys_updated_on>
+        <ui_id>9d18ea3d-22d4-458b-9a9f-ef3c3098f97b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=48df7024db6510109a41ccd813961906"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>48df7024db6510109a41ccd813961906</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:58:53</sys_created_on>
+        <sys_id>1b3489e4db6510109a41ccd813961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:58:53</sys_updated_on>
+        <value/>
+        <variable display_value="">7fcf3024db6510109a41ccd8139619be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>48df7024db6510109a41ccd813961906</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:58:53</sys_created_on>
+        <sys_id>573489e4db6510109a41ccd813961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:58:53</sys_updated_on>
+        <value>eaaa2b3f3763100044e0bfc8bcbe5de3</value>
+        <variable display_value="">3fcf3024db6510109a41ccd8139619b0</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Look Up Records">ca07ee090b30030085c083eb37673afc</action_type>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
-        <comment/>
-        <compiled_snapshot>ca07ee090b30030085c083eb37673afc</compiled_snapshot>
+        <comment>Look up Stockrooms that support the Requested for Location</comment>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
-        <flow display_value="">70cd0fb2db9a230057b878b5ae961917</flow>
-        <order>2.1</order>
-        <parent_ui_id>6d5fd802-7cc0-4a9c-85a4-493a1269afed</parent_ui_id>
+        <flow display_value="Find Local Stock">d40d30a0db6510109a41ccd81396197d</flow>
+        <order>1</order>
+        <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:44</sys_created_on>
-        <sys_id>41cd0fb2db9a230057b878b5ae9619e8</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_created_on>2020-06-18 14:27:20</sys_created_on>
+        <sys_id>f00d70a0db6510109a41ccd81396196d</sys_id>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:02:33</sys_updated_on>
-        <ui_id>2612d708-1896-4d98-a122-2f58e44540fa</ui_id>
+        <sys_updated_on>2020-06-18 14:58:54</sys_updated_on>
+        <ui_id>7ad866db-6b2c-4f47-8416-2499153bb9d0</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=41cd0fb2db9a230057b878b5ae9619e8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f00d70a0db6510109a41ccd81396196d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>41cd0fb2db9a230057b878b5ae9619e8</document_key>
+        <document_key>f00d70a0db6510109a41ccd81396196d</document_key>
         <order>0</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:44</sys_created_on>
-        <sys_id>51cd0fb2db9a230057b878b5ae9619ed</sys_id>
+        <sys_created_on>2020-06-18 14:27:20</sys_created_on>
+        <sys_id>bc0d70a0db6510109a41ccd81396196e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 18:59:44</sys_updated_on>
-        <value>alm_hardware</value>
-        <variable display_value="">8a07ee090b30030085c083eb37673aff</variable>
+        <sys_updated_on>2020-06-18 14:27:20</sys_updated_on>
+        <value>alm_stockroom</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=41cd0fb2db9a230057b878b5ae9619e8"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conditions</field>
-        <id>41cd0fb2db9a230057b878b5ae9619e8</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:44</sys_created_on>
-        <sys_id>1dcd0fb2db9a230057b878b5ae9619ec</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 18:59:44</sys_updated_on>
-        <table>var__m_sys_hub_action_input_ca07ee090b30030085c083eb37673afc</table>
-        <value>stockroom={{6d5fd802-7cc0-4a9c-85a4-493a1269afed.item}}^install_status=6^substatus=available</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table</field>
-        <id>41cd0fb2db9a230057b878b5ae9619e8</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:44</sys_created_on>
-        <sys_id>ddcd0fb2db9a230057b878b5ae9619ec</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 18:59:44</sys_updated_on>
-        <table>var__m_sys_hub_action_input_ca07ee090b30030085c083eb37673afc</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">1bc787fedb5a230057b878b5ae9619b2</block>
         <comment/>
@@ -762,7 +1665,8 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="">70cd0fb2db9a230057b878b5ae961917</flow>
+        <flow display_value="Find Local Stock">d40d30a0db6510109a41ccd81396197d</flow>
+        <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
         <order>2</order>
@@ -771,176 +1675,689 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:43</sys_created_on>
-        <sys_id>4dcd0fb2db9a230057b878b5ae9619d8</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_created_on>2020-06-18 14:27:19</sys_created_on>
+        <sys_id>f80d70a0db6510109a41ccd81396195f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:02:33</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:58:54</sys_updated_on>
         <ui_id>6d5fd802-7cc0-4a9c-85a4-493a1269afed</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=4dcd0fb2db9a230057b878b5ae9619d8"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>4dcd0fb2db9a230057b878b5ae9619d8</document_key>
-        <order>20</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
+    <sys_variable_value action="delete_multiple" query="document_key=f80d70a0db6510109a41ccd81396195f"/>
+    <sys_element_mapping action="delete_multiple" query="id=f80d70a0db6510109a41ccd81396195f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>f80d70a0db6510109a41ccd81396195f</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:43</sys_created_on>
-        <sys_id>c5cd0fb2db9a230057b878b5ae9619dc</sys_id>
+        <sys_created_on>2020-06-18 14:27:19</sys_created_on>
+        <sys_id>f80d70a0db6510109a41ccd813961962</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 18:59:43</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:27:19</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
         <value>{{7ad866db-6b2c-4f47-8416-2499153bb9d0.Records}}</value>
-        <variable display_value="">19df9109c32632002841b63b12d3aed6</variable>
-    </sys_variable_value>
+    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="Look Up Records">ca07ee090b30030085c083eb37673afc</action_type>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
-        <comment>Look up Stockrooms that support the Requested for Location</comment>
-        <compiled_snapshot>ca07ee090b30030085c083eb37673afc</compiled_snapshot>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
-        <flow display_value="">70cd0fb2db9a230057b878b5ae961917</flow>
-        <order>1</order>
-        <parent_ui_id/>
+        <flow display_value="Find Local Stock">d40d30a0db6510109a41ccd81396197d</flow>
+        <order>3</order>
+        <parent_ui_id>6d5fd802-7cc0-4a9c-85a4-493a1269afed</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:43</sys_created_on>
-        <sys_id>81cd0fb2db9a230057b878b5ae9619e0</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_created_on>2020-06-18 14:27:20</sys_created_on>
+        <sys_id>fc0d70a0db6510109a41ccd813961973</sys_id>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:02:33</sys_updated_on>
-        <ui_id>7ad866db-6b2c-4f47-8416-2499153bb9d0</ui_id>
+        <sys_updated_on>2020-06-18 14:58:54</sys_updated_on>
+        <ui_id>2612d708-1896-4d98-a122-2f58e44540fa</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=81cd0fb2db9a230057b878b5ae9619e0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fc0d70a0db6510109a41ccd813961973"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>81cd0fb2db9a230057b878b5ae9619e0</document_key>
+        <document_key>fc0d70a0db6510109a41ccd813961973</document_key>
         <order>0</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:44</sys_created_on>
-        <sys_id>41cd0fb2db9a230057b878b5ae9619e5</sys_id>
+        <sys_created_on>2020-06-18 14:27:20</sys_created_on>
+        <sys_id>780d70a0db6510109a41ccd813961975</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 18:59:44</sys_updated_on>
-        <value>alm_stockroom</value>
-        <variable display_value="">8a07ee090b30030085c083eb37673aff</variable>
+        <sys_updated_on>2020-06-18 14:27:20</sys_updated_on>
+        <value>alm_hardware</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
     </sys_variable_value>
-    <sys_flow_cat_variable_model action="delete_multiple" query="id=70cd0fb2db9a230057b878b5ae961917^sys_idNOT IN7ccd0fb2db9a230057b878b5ae961917"/>
+    <sys_element_mapping action="delete_multiple" query="id=fc0d70a0db6510109a41ccd813961973"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>fc0d70a0db6510109a41ccd813961973</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:27:20</sys_created_on>
+        <sys_id>340d70a0db6510109a41ccd813961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:27:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>stockroom={{6d5fd802-7cc0-4a9c-85a4-493a1269afed.item}}^install_status=6^substatus=available</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>fc0d70a0db6510109a41ccd813961973</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:27:20</sys_created_on>
+        <sys_id>f40d70a0db6510109a41ccd813961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:27:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d40d30a0db6510109a41ccd81396197d^sys_idNOT IN900d30a0db6510109a41ccd81396197e"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
-        <id>70cd0fb2db9a230057b878b5ae961917</id>
+        <id>d40d30a0db6510109a41ccd81396197d</id>
         <name>Find Local Stock</name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:42</sys_created_on>
-        <sys_id>7ccd0fb2db9a230057b878b5ae961917</sys_id>
+        <sys_created_on>2020-06-18 14:27:18</sys_created_on>
+        <sys_id>900d30a0db6510109a41ccd81396197e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 18:59:42</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:27:18</sys_updated_on>
     </sys_flow_cat_variable_model>
-    <sys_hub_action_instance action="delete_multiple" query="flow=70cd0fb2db9a230057b878b5ae961917^sys_idNOT IN41cd0fb2db9a230057b878b5ae9619e8,81cd0fb2db9a230057b878b5ae9619e0"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Look Up Records">ca07ee090b30030085c083eb37673afc</action_type>
-        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
-        <comment/>
-        <compiled_snapshot>ca07ee090b30030085c083eb37673afc</compiled_snapshot>
-        <display_text/>
-        <flow display_value="">70cd0fb2db9a230057b878b5ae961917</flow>
-        <order>2.1</order>
-        <parent_ui_id>6d5fd802-7cc0-4a9c-85a4-493a1269afed</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
+    <sys_hub_flow_input action="delete_multiple" query="model=d40d30a0db6510109a41ccd81396197d^sys_idNOT IN640d30a0db6510109a41ccd81396197f,b40d70a0db6510109a41ccd81396194f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=a6a61b87-7179-424a-a316-13217940952a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>cmdb_hardware_product_model</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>requested_item_model</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Requested item model</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Find Local Stock">d40d30a0db6510109a41ccd81396197d</model>
+        <model_id>d40d30a0db6510109a41ccd81396197d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d40d30a0db6510109a41ccd81396197d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="cmdb_hardware_product_model">cmdb_hardware_product_model</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:44</sys_created_on>
-        <sys_id>41cd0fb2db9a230057b878b5ae9619e8</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_created_on>2020-06-18 14:27:18</sys_created_on>
+        <sys_id>640d30a0db6510109a41ccd81396197f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:02:33</sys_updated_on>
-        <ui_id>2612d708-1896-4d98-a122-2f58e44540fa</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=41cd0fb2db9a230057b878b5ae9619e8"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>41cd0fb2db9a230057b878b5ae9619e8</document_key>
-        <order>0</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_updated_on>2020-06-18 14:27:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=4ba9e221-549d-46a6-9080-2791c8e9ec17</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>cmn_location</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>requested_for_location</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Requested for location</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Find Local Stock">d40d30a0db6510109a41ccd81396197d</model>
+        <model_id>d40d30a0db6510109a41ccd81396197d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d40d30a0db6510109a41ccd81396197d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="cmn_location">cmn_location</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:44</sys_created_on>
-        <sys_id>51cd0fb2db9a230057b878b5ae9619ed</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2020-06-18 14:27:19</sys_created_on>
+        <sys_id>b40d70a0db6510109a41ccd81396194f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 18:59:44</sys_updated_on>
-        <value>alm_hardware</value>
-        <variable display_value="">8a07ee090b30030085c083eb37673aff</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=41cd0fb2db9a230057b878b5ae9619e8"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conditions</field>
-        <id>41cd0fb2db9a230057b878b5ae9619e8</id>
+        <sys_updated_on>2020-06-18 14:27:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=d40d30a0db6510109a41ccd81396197d^sys_idNOT IN0cdf3024db6510109a41ccd8139619e6,3fcf3024db6510109a41ccd8139619b0,7fcf3024db6510109a41ccd8139619be,ffcf3024db6510109a41ccd8139619d8"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=fd73dfa1-9fc0-406f-ac84-9bfe4edc2435</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table>cmdb_hardware_product_model</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>substituted_model</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Substituted model</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Find Local Stock">d40d30a0db6510109a41ccd81396197d</model>
+        <model_id>d40d30a0db6510109a41ccd81396197d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_d40d30a0db6510109a41ccd81396197d</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="cmdb_hardware_product_model">cmdb_hardware_product_model</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:44</sys_created_on>
-        <sys_id>1dcd0fb2db9a230057b878b5ae9619ec</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2020-06-18 14:39:33</sys_created_on>
+        <sys_id>0cdf3024db6510109a41ccd8139619e6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 18:59:44</sys_updated_on>
-        <table>var__m_sys_hub_action_input_ca07ee090b30030085c083eb37673afc</table>
-        <value>stockroom={{6d5fd802-7cc0-4a9c-85a4-493a1269afed.item}}^install_status=6^substatus=available</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table</field>
-        <id>41cd0fb2db9a230057b878b5ae9619e8</id>
+        <sys_updated_on>2020-06-18 14:39:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=9f431d7f-f4cf-4805-9c6b-529b228f3758</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table>alm_stockroom</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>stockroom</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Stockroom</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Find Local Stock">d40d30a0db6510109a41ccd81396197d</model>
+        <model_id>d40d30a0db6510109a41ccd81396197d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_d40d30a0db6510109a41ccd81396197d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="alm_stockroom">alm_stockroom</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:44</sys_created_on>
-        <sys_id>ddcd0fb2db9a230057b878b5ae9619ec</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2020-06-18 14:39:33</sys_created_on>
+        <sys_id>3fcf3024db6510109a41ccd8139619b0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 18:59:44</sys_updated_on>
-        <table>var__m_sys_hub_action_input_ca07ee090b30030085c083eb37673afc</table>
-        <value/>
-    </sys_element_mapping>
+        <sys_updated_on>2020-06-18 14:39:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=739bead1-de03-46db-be7a-2b94e0797fcd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>quantity_in_stock</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Quantity in stock</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Find Local Stock">d40d30a0db6510109a41ccd81396197d</model>
+        <model_id>d40d30a0db6510109a41ccd81396197d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_d40d30a0db6510109a41ccd81396197d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:39:33</sys_created_on>
+        <sys_id>7fcf3024db6510109a41ccd8139619be</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:39:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=04962af8-ae68-4603-a3a7-e35d2526d0bd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>substitute</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Substitute</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Find Local Stock">d40d30a0db6510109a41ccd81396197d</model>
+        <model_id>d40d30a0db6510109a41ccd81396197d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_d40d30a0db6510109a41ccd81396197d</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:39:33</sys_created_on>
+        <sys_id>ffcf3024db6510109a41ccd8139619d8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:39:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d40d30a0db6510109a41ccd81396197d^sys_idNOT INf00d70a0db6510109a41ccd81396196d,fc0d70a0db6510109a41ccd813961973"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="Look Up Records">ca07ee090b30030085c083eb37673afc</action_type>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment>Look up Stockrooms that support the Requested for Location</comment>
-        <compiled_snapshot>ca07ee090b30030085c083eb37673afc</compiled_snapshot>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
-        <flow display_value="">70cd0fb2db9a230057b878b5ae961917</flow>
+        <flow display_value="Find Local Stock">d40d30a0db6510109a41ccd81396197d</flow>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:43</sys_created_on>
-        <sys_id>81cd0fb2db9a230057b878b5ae9619e0</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_created_on>2020-06-18 14:27:20</sys_created_on>
+        <sys_id>f00d70a0db6510109a41ccd81396196d</sys_id>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:02:33</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:58:54</sys_updated_on>
         <ui_id>7ad866db-6b2c-4f47-8416-2499153bb9d0</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=81cd0fb2db9a230057b878b5ae9619e0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f00d70a0db6510109a41ccd81396196d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>81cd0fb2db9a230057b878b5ae9619e0</document_key>
+        <document_key>f00d70a0db6510109a41ccd81396196d</document_key>
         <order>0</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:44</sys_created_on>
-        <sys_id>41cd0fb2db9a230057b878b5ae9619e5</sys_id>
+        <sys_created_on>2020-06-18 14:27:20</sys_created_on>
+        <sys_id>bc0d70a0db6510109a41ccd81396196e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 18:59:44</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:27:20</sys_updated_on>
         <value>alm_stockroom</value>
-        <variable display_value="">8a07ee090b30030085c083eb37673aff</variable>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
     </sys_variable_value>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=70cd0fb2db9a230057b878b5ae961917^sys_idNOT IN09cd0fb2db9a230057b878b5ae9619d1,4dcd0fb2db9a230057b878b5ae9619d8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Find Local Stock">d40d30a0db6510109a41ccd81396197d</flow>
+        <order>3</order>
+        <parent_ui_id>6d5fd802-7cc0-4a9c-85a4-493a1269afed</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:27:20</sys_created_on>
+        <sys_id>fc0d70a0db6510109a41ccd813961973</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:58:54</sys_updated_on>
+        <ui_id>2612d708-1896-4d98-a122-2f58e44540fa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fc0d70a0db6510109a41ccd813961973"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fc0d70a0db6510109a41ccd813961973</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:27:20</sys_created_on>
+        <sys_id>780d70a0db6510109a41ccd813961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:27:20</sys_updated_on>
+        <value>alm_hardware</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fc0d70a0db6510109a41ccd813961973"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>fc0d70a0db6510109a41ccd813961973</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:27:20</sys_created_on>
+        <sys_id>340d70a0db6510109a41ccd813961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:27:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>stockroom={{6d5fd802-7cc0-4a9c-85a4-493a1269afed.item}}^install_status=6^substatus=available</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>fc0d70a0db6510109a41ccd813961973</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:27:20</sys_created_on>
+        <sys_id>f40d70a0db6510109a41ccd813961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:27:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d40d30a0db6510109a41ccd81396197d^sys_idNOT IN340d70a0db6510109a41ccd813961963,48df7024db6510109a41ccd813961906,f80d70a0db6510109a41ccd81396195f"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">93c787fedb5a230057b878b5ae9619ab</block>
         <comment/>
@@ -949,53 +2366,121 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="">70cd0fb2db9a230057b878b5ae961917</flow>
+        <flow display_value="Find Local Stock">d40d30a0db6510109a41ccd81396197d</flow>
+        <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>2.2</order>
+        <order>4</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>6d5fd802-7cc0-4a9c-85a4-493a1269afed</parent_ui_id>
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:43</sys_created_on>
-        <sys_id>09cd0fb2db9a230057b878b5ae9619d1</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_created_on>2020-06-18 14:27:19</sys_created_on>
+        <sys_id>340d70a0db6510109a41ccd813961963</sys_id>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:02:33</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:58:54</sys_updated_on>
         <ui_id>e263b5bf-d539-4aaa-9c76-785175df771d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=09cd0fb2db9a230057b878b5ae9619d1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=340d70a0db6510109a41ccd813961963"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
-        <document_key>09cd0fb2db9a230057b878b5ae9619d1</document_key>
+        <document_key>340d70a0db6510109a41ccd813961963</document_key>
         <order>10</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:43</sys_created_on>
-        <sys_id>89cd0fb2db9a230057b878b5ae9619d5</sys_id>
+        <sys_created_on>2020-06-18 14:27:19</sys_created_on>
+        <sys_id>f00d70a0db6510109a41ccd813961966</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 18:59:43</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:27:19</sys_updated_on>
         <value>Stock exists</value>
         <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>09cd0fb2db9a230057b878b5ae9619d1</document_key>
-        <order>20</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
+    <sys_element_mapping action="delete_multiple" query="id=340d70a0db6510109a41ccd813961963"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>340d70a0db6510109a41ccd813961963</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:43</sys_created_on>
-        <sys_id>c5cd0fb2db9a230057b878b5ae9619d5</sys_id>
+        <sys_created_on>2020-06-18 14:27:19</sys_created_on>
+        <sys_id>700d70a0db6510109a41ccd813961966</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 18:59:43</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:27:19</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value>{{7ad866db-6b2c-4f47-8416-2499153bb9d0.Count}}&gt;=1</value>
-        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>340d70a0db6510109a41ccd813961963</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:27:19</sys_created_on>
+        <sys_id>bc0d70a0db6510109a41ccd813961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:27:19</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">baaeb0e0db6510109a41ccd813961907</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Find Local Stock">d40d30a0db6510109a41ccd81396197d</flow>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned>stockroom,quantity_in_stock,substitute</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:39:34</sys_created_on>
+        <sys_id>48df7024db6510109a41ccd813961906</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:58:54</sys_updated_on>
+        <ui_id>9d18ea3d-22d4-458b-9a9f-ef3c3098f97b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=48df7024db6510109a41ccd813961906"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>48df7024db6510109a41ccd813961906</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:58:53</sys_created_on>
+        <sys_id>1b3489e4db6510109a41ccd813961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:58:53</sys_updated_on>
+        <value/>
+        <variable display_value="">7fcf3024db6510109a41ccd8139619be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>48df7024db6510109a41ccd813961906</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:58:53</sys_created_on>
+        <sys_id>573489e4db6510109a41ccd813961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:58:53</sys_updated_on>
+        <value>eaaa2b3f3763100044e0bfc8bcbe5de3</value>
+        <variable display_value="">3fcf3024db6510109a41ccd8139619b0</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">1bc787fedb5a230057b878b5ae9619b2</block>
@@ -1005,7 +2490,8 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="">70cd0fb2db9a230057b878b5ae961917</flow>
+        <flow display_value="Find Local Stock">d40d30a0db6510109a41ccd81396197d</flow>
+        <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
         <order>2</order>
@@ -1014,98 +2500,167 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:43</sys_created_on>
-        <sys_id>4dcd0fb2db9a230057b878b5ae9619d8</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_created_on>2020-06-18 14:27:19</sys_created_on>
+        <sys_id>f80d70a0db6510109a41ccd81396195f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 22:02:33</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:58:54</sys_updated_on>
         <ui_id>6d5fd802-7cc0-4a9c-85a4-493a1269afed</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=4dcd0fb2db9a230057b878b5ae9619d8"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>4dcd0fb2db9a230057b878b5ae9619d8</document_key>
-        <order>20</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
+    <sys_variable_value action="delete_multiple" query="document_key=f80d70a0db6510109a41ccd81396195f"/>
+    <sys_element_mapping action="delete_multiple" query="id=f80d70a0db6510109a41ccd81396195f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>f80d70a0db6510109a41ccd81396195f</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:43</sys_created_on>
-        <sys_id>c5cd0fb2db9a230057b878b5ae9619dc</sys_id>
+        <sys_created_on>2020-06-18 14:27:19</sys_created_on>
+        <sys_id>f80d70a0db6510109a41ccd813961962</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 18:59:43</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:27:19</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
         <value>{{7ad866db-6b2c-4f47-8416-2499153bb9d0.Records}}</value>
-        <variable display_value="">19df9109c32632002841b63b12d3aed6</variable>
-    </sys_variable_value>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_70cd0fb2db9a230057b878b5ae961917^sys_idNOT IN34cd0fb2db9a230057b878b5ae961925,75a6f3f6dbda230057b878b5ae9619f9,85cd0fb2db9a230057b878b5ae9619cb"/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d40d30a0db6510109a41ccd81396197d^sys_idNOT IN340d70a0db6510109a41ccd813961959,780d70a0db6510109a41ccd81396194b"/>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>hardware</element>
+        <element>requested_for_location</element>
+        <help/>
+        <hint/>
+        <label>Requested for location</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d40d30a0db6510109a41ccd81396197d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:27:19</sys_created_on>
+        <sys_id>340d70a0db6510109a41ccd813961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:27:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>requested_item_model</element>
         <help/>
         <hint/>
         <label>Requested item model</label>
         <language>en</language>
-        <name>var__m_sys_hub_flow_input_70cd0fb2db9a230057b878b5ae961917</name>
+        <name>var__m_sys_hub_flow_input_d40d30a0db6510109a41ccd81396197d</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:42</sys_created_on>
-        <sys_id>34cd0fb2db9a230057b878b5ae961925</sys_id>
+        <sys_created_on>2020-06-18 14:27:19</sys_created_on>
+        <sys_id>780d70a0db6510109a41ccd81396194b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Requested item model</sys_name>
+        <sys_name/>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_70cd0fb2db9a230057b878b5ae961917_hardware_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 18:59:42</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:27:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_d40d30a0db6510109a41ccd81396197d^sys_idNOT IN33cf3024db6510109a41ccd8139619bb,8cdf3024db6510109a41ccd8139619f0,b3cf3024db6510109a41ccd8139619d5,ccdf3024db6510109a41ccd8139619e2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>stockroom</element>
+        <help/>
+        <hint/>
+        <label>Stockroom</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_d40d30a0db6510109a41ccd81396197d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:39:33</sys_created_on>
+        <sys_id>33cf3024db6510109a41ccd8139619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:39:33</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>additional_comments</element>
+        <element>substituted_model</element>
         <help/>
-        <hint>Additional comments about the location</hint>
-        <label>Additional comments</label>
+        <hint/>
+        <label>Substituted model</label>
         <language>en</language>
-        <name>var__m_sys_hub_flow_input_70cd0fb2db9a230057b878b5ae961917</name>
+        <name>var__m_sys_hub_flow_output_d40d30a0db6510109a41ccd81396197d</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 21:58:22</sys_created_on>
-        <sys_id>75a6f3f6dbda230057b878b5ae9619f9</sys_id>
+        <sys_created_on>2020-06-18 14:39:33</sys_created_on>
+        <sys_id>8cdf3024db6510109a41ccd8139619f0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Additional comments</sys_name>
+        <sys_name/>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_70cd0fb2db9a230057b878b5ae961917_additional_comments_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 21:58:22</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:39:33</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>requested_for_location</element>
+        <element>quantity_in_stock</element>
         <help/>
-        <hint>Location of the person for whom the request was made</hint>
-        <label>Requested for location</label>
+        <hint/>
+        <label>Quantity in stock</label>
         <language>en</language>
-        <name>var__m_sys_hub_flow_input_70cd0fb2db9a230057b878b5ae961917</name>
+        <name>var__m_sys_hub_flow_output_d40d30a0db6510109a41ccd81396197d</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 18:59:43</sys_created_on>
-        <sys_id>85cd0fb2db9a230057b878b5ae9619cb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Requested for location</sys_name>
+        <sys_created_on>2020-06-18 14:39:33</sys_created_on>
+        <sys_id>b3cf3024db6510109a41ccd8139619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_70cd0fb2db9a230057b878b5ae961917_requested_for_location_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-14 21:58:22</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:39:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>substitute</element>
+        <help/>
+        <hint/>
+        <label>Substitute</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_d40d30a0db6510109a41ccd81396197d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:39:33</sys_created_on>
+        <sys_id>ccdf3024db6510109a41ccd8139619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:39:33</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>

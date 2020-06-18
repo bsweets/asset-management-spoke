@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>software_deployment</internal_name>
-        <label_cache>[{"name":"f4dd05d4-3e55-4405-99f8-94f9af67774c.number_of_rights","label":"4➛Number of rights","reference_display":"Number of rights","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4dd05d4-3e55-4405-99f8-94f9af67774c.rights_available_","label":"4➛Rights available?","reference_display":"Rights available?","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"345a42d0-4cda-41bd-8583-e547a09e5958.table_name","label":"2.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"345a42d0-4cda-41bd-8583-e547a09e5958.record","label":"2.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"5c097f96-d949-48f9-b921-22aa3b6e4988.item","label":"1➛Computer Record","reference":"cmdb_ci_computer","reference_display":"Computer Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"f1ecc0b2-55c2-4d40-9755-74475464d579.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f1ecc0b2-55c2-4d40-9755-74475464d579.Table","label":"1➛Computer Table","reference":"cmdb_ci_computer","reference_display":"Computer Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f1ecc0b2-55c2-4d40-9755-74475464d579.Records","label":"1➛Computer Records","reference":"cmdb_ci_computer","reference_display":"Computer Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"79d79758-1d7b-49ed-b9c6-a34f898a961b.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"79d79758-1d7b-49ed-b9c6-a34f898a961b.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Updated_1.current","label":"Trigger➛Hardware Record","reference":"alm_hardware","reference_display":"Hardware","type":"reference","base_type":"reference"},{"name":"6e063e3b-08df-4204-8930-ae8effdab46c.rights_available_","label":"3➛Rights available?","reference_display":"Rights available?","type":"boolean","base_type":"boolean"},{"name":"6e063e3b-08df-4204-8930-ae8effdab46c.number_of_rights","label":"3➛Number of rights","reference_display":"Number of rights","type":"integer","base_type":"integer"},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"285c9fc5-1151-48fb-a15a-fcf00cfdbe9d.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.requested_for.manager","label":"Trigger➛Requested Item Record➛Requested For➛Manager","reference":"sys_user","reference_display":"Manager","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"5c4b4c2a-4972-4464-9ebe-00e7c8ab3c82.Record","label":"6➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c4b4c2a-4972-4464-9ebe-00e7c8ab3c82.Table","label":"6➛Catalog Task Table","reference":"sc_task","reference_display":"Catalog Task Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8572b870-da8d-4766-bf88-7852c6c253a7.Record","label":"7➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8572b870-da8d-4766-bf88-7852c6c253a7.Table","label":"7➛Catalog Task Table","reference":"sc_task","reference_display":"Catalog Task Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4d03862-8a42-4495-a8eb-88f6152c3eeb.email","label":"9➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.requested_for","label":"Trigger➛Requested Item Record➛Requested For","reference":"sys_user","reference_display":"Requested For","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"requested_for"}]</label_cache>
+        <label_cache>[{"name":"Service Catalog_1.request_item.requested_for","label":"Trigger➛Requested Item Record➛Requested For","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"requested_for"},{"name":"f4d03862-8a42-4495-a8eb-88f6152c3eeb.email","label":"8➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8572b870-da8d-4766-bf88-7852c6c253a7.Table","label":"6➛Catalog Task Table","reference":"sc_task","reference_display":"Catalog Task Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8572b870-da8d-4766-bf88-7852c6c253a7.Record","label":"6➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c4b4c2a-4972-4464-9ebe-00e7c8ab3c82.Table","label":"5➛Catalog Task Table","reference":"sc_task","reference_display":"Catalog Task Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c4b4c2a-4972-4464-9ebe-00e7c8ab3c82.Record","label":"5➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.requested_for.manager","label":"Trigger➛Requested Item Record➛Requested For➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"285c9fc5-1151-48fb-a15a-fcf00cfdbe9d.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"6e063e3b-08df-4204-8930-ae8effdab46c.number_of_rights","label":"3➛Number of rights","reference_display":"Number of rights","type":"integer","base_type":"integer"},{"name":"6e063e3b-08df-4204-8930-ae8effdab46c.rights_available_","label":"3➛Rights available?","reference_display":"Rights available?","type":"boolean","base_type":"boolean"},{"name":"Updated_1.current","label":"Trigger➛Hardware Record","reference":"alm_hardware","reference_display":"Hardware","type":"reference","base_type":"reference"},{"name":"79d79758-1d7b-49ed-b9c6-a34f898a961b.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"79d79758-1d7b-49ed-b9c6-a34f898a961b.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"f1ecc0b2-55c2-4d40-9755-74475464d579.Records","label":"1➛Computer Records","reference":"cmdb_ci_computer","reference_display":"Computer","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f1ecc0b2-55c2-4d40-9755-74475464d579.Table","label":"1➛Computer Table","reference":"cmdb_ci_computer","reference_display":"Computer","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f1ecc0b2-55c2-4d40-9755-74475464d579.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c097f96-d949-48f9-b921-22aa3b6e4988.item","label":"1➛Computer Record","reference":"cmdb_ci_computer","reference_display":"Computer","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"345a42d0-4cda-41bd-8583-e547a09e5958.record","label":"2.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"345a42d0-4cda-41bd-8583-e547a09e5958.table_name","label":"2.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"f4dd05d4-3e55-4405-99f8-94f9af67774c.rights_available_","label":"4➛Rights available?","reference_display":"Rights available?","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ade7e1f4-e318-4586-a924-82c78d10b5bd"}},{"name":"f4dd05d4-3e55-4405-99f8-94f9af67774c.number_of_rights","label":"4➛Number of rights","reference_display":"Number of rights","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"cd480ae2-d3f3-4551-96cd-af9fca391bb3"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Software Deployment</name>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>eb653124db3da300a40afd131d96190d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Software Deployment</sys_name>
         <sys_overrides/>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
@@ -38,12 +38,12 @@
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_update_name>sys_hub_flow_eb653124db3da300a40afd131d96190d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:25</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:20:02</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=eb653124db3da300a40afd131d96190d"/>
     <sys_variable_value action="delete_multiple" query="document_key=eb653124db3da300a40afd131d96190d"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=eb653124db3da300a40afd131d96190d^sys_idNOT IN250b39e6dbd110106405fae4e29619df,590b39e6dbd110106405fae4e29619d5,610b39e6dbd110106405fae4e29619eb,62eb6672db5a230057b878b5ae961980,a10b39e6dbd110106405fae4e29619da,a90b39e6dbd110106405fae4e29619e5,a90b39e6dbd110106405fae4e29619f3,d90b39e6dbd110106405fae4e29619ce,e90b39e6dbd110106405fae4e29619ec"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=eb653124db3da300a40afd131d96190d^sys_idNOT IN250b39e6dbd110106405fae4e29619df,590b39e6dbd110106405fae4e29619d5,610b39e6dbd110106405fae4e29619eb,a10b39e6dbd110106405fae4e29619da,a90b39e6dbd110106405fae4e29619e5,a90b39e6dbd110106405fae4e29619f3,d90b39e6dbd110106405fae4e29619ce,e90b39e6dbd110106405fae4e29619ec"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">610b39e6dbd110106405fae4e29619df</block>
         <comment/>
@@ -54,9 +54,8 @@
         <extended_inputs/>
         <flow display_value="Software Deployment">eb653124db3da300a40afd131d96190d</flow>
         <inputs/>
-        <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>5</order>
+        <order>4</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>7bf9c29b-17bd-433b-8a33-28ce8da6d1c9</parent_ui_id>
@@ -64,10 +63,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:50:24</sys_created_on>
         <sys_id>250b39e6dbd110106405fae4e29619df</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:24</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:20:02</sys_updated_on>
         <ui_id>76683ecb-3167-47af-b903-e5d6e7dc5b8e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -87,31 +86,6 @@
         <value>Rights are not available</value>
         <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=250b39e6dbd110106405fae4e29619df"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition</field>
-        <id>250b39e6dbd110106405fae4e29619df</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-12 13:50:24</sys_created_on>
-        <sys_id>6d0b39e6dbd110106405fae4e29619e1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:24</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{f4dd05d4-3e55-4405-99f8-94f9af67774c.rights_available_}}=false</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition_name</field>
-        <id>250b39e6dbd110106405fae4e29619df</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-12 13:50:24</sys_created_on>
-        <sys_id>a90b39e6dbd110106405fae4e29619e1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:24</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -127,10 +101,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:50:24</sys_created_on>
         <sys_id>590b39e6dbd110106405fae4e29619d5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:24</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:20:01</sys_updated_on>
         <ui_id>285c9fc5-1151-48fb-a15a-fcf00cfdbe9d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=590b39e6dbd110106405fae4e29619d5"/>
@@ -271,16 +245,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Software Deployment">eb653124db3da300a40afd131d96190d</flow>
-        <order>7</order>
+        <order>6</order>
         <parent_ui_id>7bf9c29b-17bd-433b-8a33-28ce8da6d1c9</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:50:24</sys_created_on>
         <sys_id>610b39e6dbd110106405fae4e29619eb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:24</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:20:02</sys_updated_on>
         <ui_id>8572b870-da8d-4766-bf88-7852c6c253a7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=610b39e6dbd110106405fae4e29619eb"/>
@@ -298,27 +272,6 @@
         <value>sc_task</value>
         <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_type display_value="Check for Available Rights">6be4a269db71a30057b878b5ae961981</action_type>
-        <action_type_parent/>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Software Deployment">eb653124db3da300a40afd131d96190d</flow>
-        <order>4</order>
-        <parent_ui_id>7bf9c29b-17bd-433b-8a33-28ce8da6d1c9</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 16:31:49</sys_created_on>
-        <sys_id>62eb6672db5a230057b878b5ae961980</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:24</sys_updated_on>
-        <ui_id>f4dd05d4-3e55-4405-99f8-94f9af67774c</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=62eb6672db5a230057b878b5ae961980"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">e50b39e6dbd110106405fae4e29619d9</block>
         <comment/>
@@ -339,10 +292,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:50:24</sys_created_on>
         <sys_id>a10b39e6dbd110106405fae4e29619da</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:24</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:20:02</sys_updated_on>
         <ui_id>7bf9c29b-17bd-433b-8a33-28ce8da6d1c9</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -395,16 +348,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Software Deployment">eb653124db3da300a40afd131d96190d</flow>
-        <order>6</order>
+        <order>5</order>
         <parent_ui_id>76683ecb-3167-47af-b903-e5d6e7dc5b8e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:50:24</sys_created_on>
         <sys_id>a90b39e6dbd110106405fae4e29619e5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:24</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:20:02</sys_updated_on>
         <ui_id>5c4b4c2a-4972-4464-9ebe-00e7c8ab3c82</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a90b39e6dbd110106405fae4e29619e5"/>
@@ -431,16 +384,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Software Deployment">eb653124db3da300a40afd131d96190d</flow>
-        <order>9</order>
+        <order>8</order>
         <parent_ui_id>cd89c597-7a26-4d40-9ec2-129e80dba180</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:50:24</sys_created_on>
         <sys_id>a90b39e6dbd110106405fae4e29619f3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:24</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:20:02</sys_updated_on>
         <ui_id>f4d03862-8a42-4495-a8eb-88f6152c3eeb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a90b39e6dbd110106405fae4e29619f3"/>
@@ -498,10 +451,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:50:23</sys_created_on>
         <sys_id>d90b39e6dbd110106405fae4e29619ce</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:23</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:20:01</sys_updated_on>
         <ui_id>626fa37b-7e61-4cda-af1e-8c883ff03113</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d90b39e6dbd110106405fae4e29619ce"/>
@@ -555,7 +508,7 @@
         <flow display_value="Software Deployment">eb653124db3da300a40afd131d96190d</flow>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>8</order>
+        <order>7</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -563,10 +516,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:50:24</sys_created_on>
         <sys_id>e90b39e6dbd110106405fae4e29619ec</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:24</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:20:02</sys_updated_on>
         <ui_id>cd89c597-7a26-4d40-9ec2-129e80dba180</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -582,10 +535,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:50:23</sys_created_on>
         <sys_id>1d0b39e6dbd110106405fae4e29619c9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:23</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:20:01</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -767,7 +720,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=eb653124db3da300a40afd131d96190d^sys_idNOT IN590b39e6dbd110106405fae4e29619d5,610b39e6dbd110106405fae4e29619eb,62eb6672db5a230057b878b5ae961980,a90b39e6dbd110106405fae4e29619e5,a90b39e6dbd110106405fae4e29619f3,d90b39e6dbd110106405fae4e29619ce"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=eb653124db3da300a40afd131d96190d^sys_idNOT IN590b39e6dbd110106405fae4e29619d5,610b39e6dbd110106405fae4e29619eb,a90b39e6dbd110106405fae4e29619e5,a90b39e6dbd110106405fae4e29619f3,d90b39e6dbd110106405fae4e29619ce"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -783,10 +736,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:50:24</sys_created_on>
         <sys_id>590b39e6dbd110106405fae4e29619d5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:24</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:20:01</sys_updated_on>
         <ui_id>285c9fc5-1151-48fb-a15a-fcf00cfdbe9d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=590b39e6dbd110106405fae4e29619d5"/>
@@ -927,16 +880,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Software Deployment">eb653124db3da300a40afd131d96190d</flow>
-        <order>7</order>
+        <order>6</order>
         <parent_ui_id>7bf9c29b-17bd-433b-8a33-28ce8da6d1c9</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:50:24</sys_created_on>
         <sys_id>610b39e6dbd110106405fae4e29619eb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:24</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:20:02</sys_updated_on>
         <ui_id>8572b870-da8d-4766-bf88-7852c6c253a7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=610b39e6dbd110106405fae4e29619eb"/>
@@ -956,43 +909,22 @@
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="Check for Available Rights">6be4a269db71a30057b878b5ae961981</action_type>
-        <action_type_parent/>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Software Deployment">eb653124db3da300a40afd131d96190d</flow>
-        <order>4</order>
-        <parent_ui_id>7bf9c29b-17bd-433b-8a33-28ce8da6d1c9</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-14 16:31:49</sys_created_on>
-        <sys_id>62eb6672db5a230057b878b5ae961980</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:24</sys_updated_on>
-        <ui_id>f4dd05d4-3e55-4405-99f8-94f9af67774c</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=62eb6672db5a230057b878b5ae961980"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
         <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
         <action_type_parent/>
         <comment>Purchase software rights</comment>
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Software Deployment">eb653124db3da300a40afd131d96190d</flow>
-        <order>6</order>
+        <order>5</order>
         <parent_ui_id>76683ecb-3167-47af-b903-e5d6e7dc5b8e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:50:24</sys_created_on>
         <sys_id>a90b39e6dbd110106405fae4e29619e5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:24</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:20:02</sys_updated_on>
         <ui_id>5c4b4c2a-4972-4464-9ebe-00e7c8ab3c82</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a90b39e6dbd110106405fae4e29619e5"/>
@@ -1019,16 +951,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Software Deployment">eb653124db3da300a40afd131d96190d</flow>
-        <order>9</order>
+        <order>8</order>
         <parent_ui_id>cd89c597-7a26-4d40-9ec2-129e80dba180</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:50:24</sys_created_on>
         <sys_id>a90b39e6dbd110106405fae4e29619f3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:24</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:20:02</sys_updated_on>
         <ui_id>f4d03862-8a42-4495-a8eb-88f6152c3eeb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a90b39e6dbd110106405fae4e29619f3"/>
@@ -1086,10 +1018,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:50:23</sys_created_on>
         <sys_id>d90b39e6dbd110106405fae4e29619ce</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:23</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:20:01</sys_updated_on>
         <ui_id>626fa37b-7e61-4cda-af1e-8c883ff03113</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d90b39e6dbd110106405fae4e29619ce"/>
@@ -1143,9 +1075,8 @@
         <extended_inputs/>
         <flow display_value="Software Deployment">eb653124db3da300a40afd131d96190d</flow>
         <inputs/>
-        <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>5</order>
+        <order>4</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>7bf9c29b-17bd-433b-8a33-28ce8da6d1c9</parent_ui_id>
@@ -1153,10 +1084,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:50:24</sys_created_on>
         <sys_id>250b39e6dbd110106405fae4e29619df</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:24</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:20:02</sys_updated_on>
         <ui_id>76683ecb-3167-47af-b903-e5d6e7dc5b8e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1176,31 +1107,6 @@
         <value>Rights are not available</value>
         <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=250b39e6dbd110106405fae4e29619df"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition</field>
-        <id>250b39e6dbd110106405fae4e29619df</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-12 13:50:24</sys_created_on>
-        <sys_id>6d0b39e6dbd110106405fae4e29619e1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:24</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{f4dd05d4-3e55-4405-99f8-94f9af67774c.rights_available_}}=false</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition_name</field>
-        <id>250b39e6dbd110106405fae4e29619df</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-12 13:50:24</sys_created_on>
-        <sys_id>a90b39e6dbd110106405fae4e29619e1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:24</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">e50b39e6dbd110106405fae4e29619d9</block>
         <comment/>
@@ -1221,10 +1127,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:50:24</sys_created_on>
         <sys_id>a10b39e6dbd110106405fae4e29619da</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:24</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:20:02</sys_updated_on>
         <ui_id>7bf9c29b-17bd-433b-8a33-28ce8da6d1c9</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1280,7 +1186,7 @@
         <flow display_value="Software Deployment">eb653124db3da300a40afd131d96190d</flow>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>8</order>
+        <order>7</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1288,10 +1194,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:50:24</sys_created_on>
         <sys_id>e90b39e6dbd110106405fae4e29619ec</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-12 13:50:24</sys_updated_on>
+        <sys_updated_on>2020-06-18 14:20:02</sys_updated_on>
         <ui_id>cd89c597-7a26-4d40-9ec2-129e80dba180</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
