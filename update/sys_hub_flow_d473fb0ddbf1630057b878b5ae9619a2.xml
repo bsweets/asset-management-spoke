@@ -11,10 +11,10 @@
         <copied_from_name/>
         <description/>
         <internal_name>test_approval</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"},{"name":"725b51b3-f2df-4934-92f0-b8b8397bc963.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"{{static.5137153cc611227c000bbd1bd8cd2005}}","label":"Fred Luddy","reference":"sys_user","type":"reference","base_type":"reference"},{"name":"{{static.46d44a23a9fe19810012d100cca80666}}","label":"Beth Anglin","reference":"sys_user","type":"reference","base_type":"reference"}]</label_cache>
+        <label_cache>[{"name":"{{static.46d44a23a9fe19810012d100cca80666}}","label":"Beth Anglin","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.5137153cc611227c000bbd1bd8cd2005}}","label":"Fred Luddy","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"725b51b3-f2df-4934-92f0-b8b8397bc963.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
-        <name>Test approval</name>
+        <name>Test approval Sample</name>
         <natlang/>
         <outputs/>
         <remote_trigger_id/>
@@ -30,15 +30,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d473fb0ddbf1630057b878b5ae9619a2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Test approval</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Test approval Sample</sys_name>
         <sys_overrides/>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_update_name>sys_hub_flow_d473fb0ddbf1630057b878b5ae9619a2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-14 14:48:45</sys_updated_on>
+        <sys_updated_on>2020-11-13 22:02:43</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=d473fb0ddbf1630057b878b5ae9619a2"/>
@@ -52,7 +52,7 @@
         <comment/>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Test approval">d473fb0ddbf1630057b878b5ae9619a2</flow>
+        <flow display_value="Test approval Sample">d473fb0ddbf1630057b878b5ae9619a2</flow>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -78,7 +78,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 14:46:29</sys_updated_on>
         <value>approval_history</value>
-        <variable display_value="">22d2a9920b10030085c083eb37673ac3</variable>
+        <variable display_value="Journal Field">22d2a9920b10030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -92,7 +92,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 14:46:29</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">d2d2a9920b10030085c083eb37673aa0</variable>
+        <variable display_value="Table">d2d2a9920b10030085c083eb37673aa0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -106,7 +106,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 14:46:29</sys_updated_on>
         <value>approval</value>
-        <variable display_value="">1ed2a9920b10030085c083eb37673ab7</variable>
+        <variable display_value="Approval Field">1ed2a9920b10030085c083eb37673ab7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -120,7 +120,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 14:48:46</sys_updated_on>
         <value/>
-        <variable display_value="">a2d2a9920b10030085c083eb37673ace</variable>
+        <variable display_value="Approval Conditions">a2d2a9920b10030085c083eb37673ace</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -134,7 +134,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 14:46:29</sys_updated_on>
         <value/>
-        <variable display_value="">26d2a9920b10030085c083eb37673ad9</variable>
+        <variable display_value="Due Date">26d2a9920b10030085c083eb37673ad9</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=47147b8ddbf1630057b878b5ae9619e4"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -213,7 +213,7 @@
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Test approval">d473fb0ddbf1630057b878b5ae9619a2</flow>
+        <flow display_value="Test approval Sample">d473fb0ddbf1630057b878b5ae9619a2</flow>
         <name>Created</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
@@ -241,7 +241,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 14:46:29</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
@@ -255,7 +255,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 14:46:29</sys_updated_on>
         <value>^EQ</value>
-        <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
     </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=d473fb0ddbf1630057b878b5ae9619a2^sys_idNOT IN1073fb0ddbf1630057b878b5ae9619a3"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -309,7 +309,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Test approval">d473fb0ddbf1630057b878b5ae9619a2</model>
+        <model display_value="Test approval Sample">d473fb0ddbf1630057b878b5ae9619a2</model>
         <model_id>d473fb0ddbf1630057b878b5ae9619a2</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_d473fb0ddbf1630057b878b5ae9619a2</name>
@@ -390,7 +390,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Test approval">d473fb0ddbf1630057b878b5ae9619a2</model>
+        <model display_value="Test approval Sample">d473fb0ddbf1630057b878b5ae9619a2</model>
         <model_id>d473fb0ddbf1630057b878b5ae9619a2</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_d473fb0ddbf1630057b878b5ae9619a2</name>
@@ -441,7 +441,7 @@
         <comment/>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Test approval">d473fb0ddbf1630057b878b5ae9619a2</flow>
+        <flow display_value="Test approval Sample">d473fb0ddbf1630057b878b5ae9619a2</flow>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -467,7 +467,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 14:46:29</sys_updated_on>
         <value>approval_history</value>
-        <variable display_value="">22d2a9920b10030085c083eb37673ac3</variable>
+        <variable display_value="Journal Field">22d2a9920b10030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -481,7 +481,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 14:46:29</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">d2d2a9920b10030085c083eb37673aa0</variable>
+        <variable display_value="Table">d2d2a9920b10030085c083eb37673aa0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -495,7 +495,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 14:46:29</sys_updated_on>
         <value>approval</value>
-        <variable display_value="">1ed2a9920b10030085c083eb37673ab7</variable>
+        <variable display_value="Approval Field">1ed2a9920b10030085c083eb37673ab7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -509,7 +509,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 14:48:46</sys_updated_on>
         <value/>
-        <variable display_value="">a2d2a9920b10030085c083eb37673ace</variable>
+        <variable display_value="Approval Conditions">a2d2a9920b10030085c083eb37673ace</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -523,7 +523,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 14:46:29</sys_updated_on>
         <value/>
-        <variable display_value="">26d2a9920b10030085c083eb37673ad9</variable>
+        <variable display_value="Due Date">26d2a9920b10030085c083eb37673ad9</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=47147b8ddbf1630057b878b5ae9619e4"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">

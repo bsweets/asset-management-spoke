@@ -53,6 +53,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
         <order>1.1</order>
@@ -81,6 +83,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
         <order>1.3</order>
@@ -109,6 +113,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
         <order>1.4.1</order>
@@ -140,7 +146,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
         <value>1970-01-01 00:05:00</value>
-        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -154,7 +160,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
         <value/>
-        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">1db8ddeedbdaa30057b878b5ae9619dc</block>
@@ -165,6 +171,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
         <order>1.3.1</order>
@@ -196,7 +204,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
         <value>1970-01-01 00:02:00</value>
-        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -210,7 +218,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
         <value/>
-        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">11b8ddeedbdaa30057b878b5ae9619d7</block>
@@ -221,6 +229,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
         <order>1.2</order>
@@ -273,7 +283,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
         <value>Log for 1.4.2</value>
-        <variable display_value="">c34aa006531003003bf1d9109ec587c4</variable>
+        <variable display_value="Message">c34aa006531003003bf1d9109ec587c4</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -308,7 +318,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:48</sys_updated_on>
         <value>Log for 1.1.2</value>
-        <variable display_value="">c34aa006531003003bf1d9109ec587c4</variable>
+        <variable display_value="Message">c34aa006531003003bf1d9109ec587c4</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">59b8ddeedbdaa30057b878b5ae9619c8</block>
@@ -319,6 +329,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
         <order>1.2.1</order>
@@ -350,7 +362,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:48</sys_updated_on>
         <value>1970-01-01 00:01:00</value>
-        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -364,7 +376,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:48</sys_updated_on>
         <value/>
-        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -399,7 +411,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
         <value>Log for 1.3.2</value>
-        <variable display_value="">c34aa006531003003bf1d9109ec587c4</variable>
+        <variable display_value="Message">c34aa006531003003bf1d9109ec587c4</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">6e6152aedb5ea30057b878b5ae9619a6</block>
@@ -410,6 +422,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
         <order>2</order>
@@ -438,6 +452,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
         <order>1.1.1</order>
@@ -469,7 +485,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:48</sys_updated_on>
         <value>1970-01-01 00:00:15</value>
-        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -483,7 +499,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:48</sys_updated_on>
         <value/>
-        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -518,7 +534,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
         <value>Log for 1.2.2</value>
-        <variable display_value="">c34aa006531003003bf1d9109ec587c4</variable>
+        <variable display_value="Message">c34aa006531003003bf1d9109ec587c4</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">a1b81122db1ea30057b878b5ae961905</block>
@@ -529,6 +545,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Do the following in Parallel">5d31e5dedfe50300b61ecae83df26326</logic_definition>
         <order>1</order>
@@ -557,6 +575,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
         <order>1.4</order>
@@ -608,7 +628,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:50:07</sys_updated_on>
         <value>2018-12-20 01:00:00</value>
-        <variable display_value="">92afcd94c32222002841b63b12d3aee8</variable>
+        <variable display_value="Run in">92afcd94c32222002841b63b12d3aee8</variable>
     </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=5816995edbd2a30057b878b5ae96190a^sys_idNOT IN9016995edbd2a30057b878b5ae96190b"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -656,7 +676,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
         <value>Log for 1.4.2</value>
-        <variable display_value="">c34aa006531003003bf1d9109ec587c4</variable>
+        <variable display_value="Message">c34aa006531003003bf1d9109ec587c4</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -691,7 +711,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:48</sys_updated_on>
         <value>Log for 1.1.2</value>
-        <variable display_value="">c34aa006531003003bf1d9109ec587c4</variable>
+        <variable display_value="Message">c34aa006531003003bf1d9109ec587c4</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -726,7 +746,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
         <value>Log for 1.3.2</value>
-        <variable display_value="">c34aa006531003003bf1d9109ec587c4</variable>
+        <variable display_value="Message">c34aa006531003003bf1d9109ec587c4</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -761,7 +781,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
         <value>Log for 1.2.2</value>
-        <variable display_value="">c34aa006531003003bf1d9109ec587c4</variable>
+        <variable display_value="Message">c34aa006531003003bf1d9109ec587c4</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="delete_multiple" query="flow=5816995edbd2a30057b878b5ae96190a^sys_idNOT IN11b8ddeedbdaa30057b878b5ae9619c4,19b8ddeedbdaa30057b878b5ae9619ec,25b8ddeedbdaa30057b878b5ae9619f2,51b8ddeedbdaa30057b878b5ae9619de,55b8ddeedbdaa30057b878b5ae9619d8,9db8ddeedbdaa30057b878b5ae9619c9,a66152aedb5ea30057b878b5ae9619a8,cdb8ddeedbdaa30057b878b5ae961973,e5b81122db1ea30057b878b5ae961906,e9b81122db1ea30057b878b5ae961900"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
@@ -773,6 +793,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
         <order>1.1</order>
@@ -801,6 +823,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
         <order>1.3</order>
@@ -829,6 +853,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
         <order>1.4.1</order>
@@ -860,7 +886,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
         <value>1970-01-01 00:05:00</value>
-        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -874,7 +900,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
         <value/>
-        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">1db8ddeedbdaa30057b878b5ae9619dc</block>
@@ -885,6 +911,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
         <order>1.3.1</order>
@@ -916,7 +944,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
         <value>1970-01-01 00:02:00</value>
-        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -930,7 +958,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:49</sys_updated_on>
         <value/>
-        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">11b8ddeedbdaa30057b878b5ae9619d7</block>
@@ -941,6 +969,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
         <order>1.2</order>
@@ -969,6 +999,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
         <order>1.2.1</order>
@@ -1000,7 +1032,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:48</sys_updated_on>
         <value>1970-01-01 00:01:00</value>
-        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -1014,7 +1046,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:48</sys_updated_on>
         <value/>
-        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">6e6152aedb5ea30057b878b5ae9619a6</block>
@@ -1025,6 +1057,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
         <order>2</order>
@@ -1053,6 +1087,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
         <order>1.1.1</order>
@@ -1084,7 +1120,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:48</sys_updated_on>
         <value>1970-01-01 00:00:15</value>
-        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -1098,7 +1134,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 15:49:48</sys_updated_on>
         <value/>
-        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">a1b81122db1ea30057b878b5ae961905</block>
@@ -1109,6 +1145,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Do the following in Parallel">5d31e5dedfe50300b61ecae83df26326</logic_definition>
         <order>1</order>
@@ -1137,6 +1175,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Sample for Do Until">5816995edbd2a30057b878b5ae96190a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
         <order>1.4</order>

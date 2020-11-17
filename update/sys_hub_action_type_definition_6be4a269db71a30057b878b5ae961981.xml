@@ -52,7 +52,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-26 20:50:19</sys_updated_on>
         <value>0</value>
-        <variable display_value="">2d7af201db826b0057b878b5ae961924</variable>
+        <variable display_value="Rights available?">2d7af201db826b0057b878b5ae961924</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_definition</document>
@@ -66,7 +66,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-26 20:50:19</sys_updated_on>
         <value/>
-        <variable display_value="">e97af201db826b0057b878b5ae961937</variable>
+        <variable display_value="Number of rights">e97af201db826b0057b878b5ae961937</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=6be4a269db71a30057b878b5ae961981"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -106,7 +106,7 @@
         <order>2</order>
         <outputs/>
         <section/>
-        <step_type display_value="c47fd41bb72200101099e781de11a9a4.iix">106afb6647032200b4fad7527c9a71e7</step_type>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-26 20:50:18</sys_created_on>
         <sys_id>557ab201db826b0057b878b5ae9619f1</sys_id>
@@ -143,7 +143,7 @@
 
 
 </value>
-        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -157,7 +157,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-26 20:50:18</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=557ab201db826b0057b878b5ae9619f1"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -452,7 +452,7 @@
         <order>1</order>
         <outputs/>
         <section/>
-        <step_type display_value="fce29057b72200101099e781de11a9d4.iix">48526b2dc32a32002841b63b12d3ae72</step_type>
+        <step_type display_value="Look Up Records">48526b2dc32a32002841b63b12d3ae72</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-30 15:51:39</sys_created_on>
         <sys_id>a17c565adbcaeb00a40afd131d9619ac</sys_id>
@@ -474,7 +474,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-30 15:51:40</sys_updated_on>
         <value>cmdb_ci_spkg</value>
-        <variable display_value="">4d19bb21c36a32002841b63b12d3aeef</variable>
+        <variable display_value="Table">4d19bb21c36a32002841b63b12d3aeef</variable>
     </sys_variable_value>
     <sys_hub_action_input action="delete_multiple" query="model=6be4a269db71a30057b878b5ae961981^sys_idNOT IN23108918dbe510106405fae4e2961901"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -738,7 +738,7 @@
         <order>2</order>
         <outputs/>
         <section/>
-        <step_type display_value="c47fd41bb72200101099e781de11a9a4.iix">106afb6647032200b4fad7527c9a71e7</step_type>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-26 20:50:18</sys_created_on>
         <sys_id>557ab201db826b0057b878b5ae9619f1</sys_id>
@@ -775,7 +775,7 @@
 
 
 </value>
-        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -789,7 +789,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-26 20:50:18</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=557ab201db826b0057b878b5ae9619f1"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1084,7 +1084,7 @@
         <order>1</order>
         <outputs/>
         <section/>
-        <step_type display_value="fce29057b72200101099e781de11a9d4.iix">48526b2dc32a32002841b63b12d3ae72</step_type>
+        <step_type display_value="Look Up Records">48526b2dc32a32002841b63b12d3ae72</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-30 15:51:39</sys_created_on>
         <sys_id>a17c565adbcaeb00a40afd131d9619ac</sys_id>
@@ -1106,7 +1106,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-30 15:51:40</sys_updated_on>
         <value>cmdb_ci_spkg</value>
-        <variable display_value="">4d19bb21c36a32002841b63b12d3aeef</variable>
+        <variable display_value="Table">4d19bb21c36a32002841b63b12d3aeef</variable>
     </sys_variable_value>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_6be4a269db71a30057b878b5ae961981^sys_idNOT INc57ab201db826b0057b878b5ae9619cb,ea9cea72db5a230057b878b5ae961932"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -1122,11 +1122,11 @@
         <sys_created_on>2018-11-26 20:50:17</sys_created_on>
         <sys_id>c57ab201db826b0057b878b5ae9619cb</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
+        <sys_name>Software</sys_name>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6be4a269db71a30057b878b5ae961981_software_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-17 20:02:25</sys_updated_on>
         <url/>
@@ -1169,11 +1169,11 @@
         <sys_created_on>2018-11-26 20:50:19</sys_created_on>
         <sys_id>257af201db826b0057b878b5ae961936</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Rights available?</sys_name>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6be4a269db71a30057b878b5ae961981_rights_available__en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-26 20:50:19</sys_updated_on>
         <url/>
@@ -1192,11 +1192,11 @@
         <sys_created_on>2018-11-26 20:50:19</sys_created_on>
         <sys_id>617af201db826b0057b878b5ae96193c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Number of rights</sys_name>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6be4a269db71a30057b878b5ae961981_number_of_rights_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-26 20:50:19</sys_updated_on>
         <url/>
@@ -1268,7 +1268,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-12 13:47:07</sys_updated_on>
         <value>0</value>
-        <variable display_value="">994afda6dbd110106405fae4e296198f</variable>
+        <variable display_value="Rights available?">994afda6dbd110106405fae4e296198f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
@@ -1282,7 +1282,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-12 13:47:07</sys_updated_on>
         <value/>
-        <variable display_value="">954afda6dbd110106405fae4e2961995</variable>
+        <variable display_value="Number of rights">954afda6dbd110106405fae4e2961995</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=894afda6dbd110106405fae4e2961967"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1321,7 +1321,7 @@
         <order>1</order>
         <outputs/>
         <section/>
-        <step_type display_value="fce29057b72200101099e781de11a9d4.iix">48526b2dc32a32002841b63b12d3ae72</step_type>
+        <step_type display_value="Look Up Records">48526b2dc32a32002841b63b12d3ae72</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:47:06</sys_created_on>
         <sys_id>094afda6dbd110106405fae4e296196f</sys_id>
@@ -1343,7 +1343,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-12 13:47:06</sys_updated_on>
         <value>cmdb_ci_spkg</value>
-        <variable display_value="">4d19bb21c36a32002841b63b12d3aeef</variable>
+        <variable display_value="Table">4d19bb21c36a32002841b63b12d3aeef</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Check for Available Rights">894afda6dbd110106405fae4e2961967</action>
@@ -1357,7 +1357,7 @@
         <order>2</order>
         <outputs/>
         <section/>
-        <step_type display_value="c47fd41bb72200101099e781de11a9a4.iix">106afb6647032200b4fad7527c9a71e7</step_type>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:47:06</sys_created_on>
         <sys_id>494afda6dbd110106405fae4e2961975</sys_id>
@@ -1394,7 +1394,7 @@
 
 
 </value>
-        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1408,7 +1408,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-12 13:47:06</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=494afda6dbd110106405fae4e2961975"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1953,7 +1953,7 @@
         <order>1</order>
         <outputs/>
         <section/>
-        <step_type display_value="fce29057b72200101099e781de11a9d4.iix">48526b2dc32a32002841b63b12d3ae72</step_type>
+        <step_type display_value="Look Up Records">48526b2dc32a32002841b63b12d3ae72</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:47:06</sys_created_on>
         <sys_id>094afda6dbd110106405fae4e296196f</sys_id>
@@ -1975,7 +1975,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-12 13:47:06</sys_updated_on>
         <value>cmdb_ci_spkg</value>
-        <variable display_value="">4d19bb21c36a32002841b63b12d3aeef</variable>
+        <variable display_value="Table">4d19bb21c36a32002841b63b12d3aeef</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Check for Available Rights">894afda6dbd110106405fae4e2961967</action>
@@ -1989,7 +1989,7 @@
         <order>2</order>
         <outputs/>
         <section/>
-        <step_type display_value="c47fd41bb72200101099e781de11a9a4.iix">106afb6647032200b4fad7527c9a71e7</step_type>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-12 13:47:06</sys_created_on>
         <sys_id>494afda6dbd110106405fae4e2961975</sys_id>
@@ -2026,7 +2026,7 @@
 
 
 </value>
-        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2040,7 +2040,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-12 13:47:06</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=494afda6dbd110106405fae4e2961975"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2338,11 +2338,11 @@
         <sys_created_on>2020-06-17 20:02:34</sys_created_on>
         <sys_id>bd20c918dbe510106405fae4e29619b5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Software</sys_name>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_894afda6dbd110106405fae4e2961967_software_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-17 20:02:34</sys_updated_on>
         <url/>
@@ -2362,11 +2362,11 @@
         <sys_created_on>2020-06-12 13:47:07</sys_created_on>
         <sys_id>194afda6dbd110106405fae4e2961999</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Number of rights</sys_name>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_894afda6dbd110106405fae4e2961967_number_of_rights_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-12 13:47:07</sys_updated_on>
         <url/>
@@ -2385,11 +2385,11 @@
         <sys_created_on>2020-06-12 13:47:06</sys_created_on>
         <sys_id>d14afda6dbd110106405fae4e2961994</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Rights available?</sys_name>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_894afda6dbd110106405fae4e2961967_rights_available__en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-12 13:47:06</sys_updated_on>
         <url/>

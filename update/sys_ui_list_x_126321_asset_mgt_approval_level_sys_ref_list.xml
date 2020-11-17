@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_126321_asset_mgt_approval_level" element="NULL" name="x_126321_asset_mgt_approval_level" parent="NULL" relationship="NULL" sys_domain="global" view="91ad6153db2010106405fae4e2961900">c321f927db5510106405fae4e296195f</list_id>
+            <list_id display_value="x_126321_asset_mgt_approval_level" element="NULL" name="x_126321_asset_mgt_approval_level" parent="NULL" relationship="NULL" sys_domain="global" view="4fba41631b102010a047ca641a4bcbdd">c321f927db5510106405fae4e296195f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -40,7 +40,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-06-15 15:41:17</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">91ad6153db2010106405fae4e2961900</view>
+            <view display_value="Reference List" name="sys_ref_list">4fba41631b102010a047ca641a4bcbdd</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

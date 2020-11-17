@@ -94,7 +94,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 02:56:01</sys_updated_on>
         <value>cmdb_hardware_product_model</value>
-        <variable display_value="">79305e810b30030085c083eb37673a85</variable>
+        <variable display_value="Table">79305e810b30030085c083eb37673a85</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -108,7 +108,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 02:56:04</sys_updated_on>
         <value>cmdb_hardware_product_model</value>
-        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+        <variable display_value="Table">b70256c10b30030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -165,7 +165,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 21:04:14</sys_updated_on>
         <value>sc_req_item</value>
-        <variable display_value="">d2d2a9920b10030085c083eb37673aa0</variable>
+        <variable display_value="Table">d2d2a9920b10030085c083eb37673aa0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -179,7 +179,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 21:04:14</sys_updated_on>
         <value/>
-        <variable display_value="">26d2a9920b10030085c083eb37673ad9</variable>
+        <variable display_value="Due Date">26d2a9920b10030085c083eb37673ad9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -193,7 +193,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 21:04:14</sys_updated_on>
         <value>approval_history</value>
-        <variable display_value="">22d2a9920b10030085c083eb37673ac3</variable>
+        <variable display_value="Journal Field">22d2a9920b10030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -207,7 +207,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 21:04:14</sys_updated_on>
         <value>approval</value>
-        <variable display_value="">1ed2a9920b10030085c083eb37673ab7</variable>
+        <variable display_value="Approval Field">1ed2a9920b10030085c083eb37673ab7</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=32f00485db3d230057b878b5ae96194c"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -291,6 +291,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Hardware Fulfillment">a255f9e0db3da300a40afd131d9619e1</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>3</order>
@@ -322,7 +324,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-15 22:15:59</sys_updated_on>
         <value>Request is approved</value>
-        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=a255f9e0db3da300a40afd131d9619e1^sys_idNOT IN8594a269db71a30057b878b5ae961915"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
@@ -553,7 +555,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 02:56:01</sys_updated_on>
         <value>cmdb_hardware_product_model</value>
-        <variable display_value="">79305e810b30030085c083eb37673a85</variable>
+        <variable display_value="Table">79305e810b30030085c083eb37673a85</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -567,7 +569,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 02:56:04</sys_updated_on>
         <value>cmdb_hardware_product_model</value>
-        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+        <variable display_value="Table">b70256c10b30030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -624,7 +626,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 21:04:14</sys_updated_on>
         <value>sc_req_item</value>
-        <variable display_value="">d2d2a9920b10030085c083eb37673aa0</variable>
+        <variable display_value="Table">d2d2a9920b10030085c083eb37673aa0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -638,7 +640,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 21:04:14</sys_updated_on>
         <value/>
-        <variable display_value="">26d2a9920b10030085c083eb37673ad9</variable>
+        <variable display_value="Due Date">26d2a9920b10030085c083eb37673ad9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -652,7 +654,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 21:04:14</sys_updated_on>
         <value>approval_history</value>
-        <variable display_value="">22d2a9920b10030085c083eb37673ac3</variable>
+        <variable display_value="Journal Field">22d2a9920b10030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -666,7 +668,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 21:04:14</sys_updated_on>
         <value>approval</value>
-        <variable display_value="">1ed2a9920b10030085c083eb37673ab7</variable>
+        <variable display_value="Approval Field">1ed2a9920b10030085c083eb37673ab7</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=32f00485db3d230057b878b5ae96194c"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -751,6 +753,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Hardware Fulfillment">a255f9e0db3da300a40afd131d9619e1</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>3</order>
@@ -782,7 +786,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-15 22:15:59</sys_updated_on>
         <value>Request is approved</value>
-        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a255f9e0db3da300a40afd131d9619e1^sys_idNOT IN7ac74478db35230057b878b5ae961912,fec74478db35230057b878b5ae961928"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -798,11 +802,11 @@
         <sys_created_on>2018-11-13 02:55:31</sys_created_on>
         <sys_id>7ac74478db35230057b878b5ae961912</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Request Item</sys_name>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a255f9e0db3da300a40afd131d9619e1_request_item_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 02:55:31</sys_updated_on>
         <url/>
@@ -821,11 +825,11 @@
         <sys_created_on>2018-11-13 02:55:31</sys_created_on>
         <sys_id>fec74478db35230057b878b5ae961928</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a255f9e0db3da300a40afd131d9619e1_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 02:55:31</sys_updated_on>
         <url/>
@@ -883,7 +887,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 02:56:05</sys_updated_on>
         <value>cmdb_hardware_product_model</value>
-        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+        <variable display_value="Table">b70256c10b30030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=bee78478db35230057b878b5ae9619c7^sys_idNOT IN13e7c478db35230057b878b5ae961973"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
@@ -1033,7 +1037,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 02:56:05</sys_updated_on>
         <value>cmdb_hardware_product_model</value>
-        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+        <variable display_value="Table">b70256c10b30030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_bee78478db35230057b878b5ae9619c7^sys_idNOT IN47e78478db35230057b878b5ae9619d5,cfe7c478db35230057b878b5ae961965"/>
     <sys_documentation action="INSERT_OR_UPDATE">

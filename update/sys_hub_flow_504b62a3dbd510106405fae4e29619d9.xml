@@ -11,10 +11,10 @@
         <copied_from_name>Hardware Fulfillment Decision</copied_from_name>
         <description/>
         <internal_name>hardware_fulfillment_decision_no_branch</internal_name>
-        <label_cache>[{"name":"cf64cd72-1fed-4ef4-8d9e-1f190272f2f2.answer.group","label":"1➛Approval Level Record➛Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_126321_asset_mgt_approval_level","column_name":"group"},{"name":"825a53bf-0c33-443d-8f7e-3dee6576f553.table_name","label":"1➛Approval Level Table","reference":"x_126321_asset_mgt_approval_level","reference_display":"Approval Level","type":"table_name","base_type":"table_name","attributes":{}},{"name":"825a53bf-0c33-443d-8f7e-3dee6576f553.answer","label":"1➛Approval Level Record","reference":"x_126321_asset_mgt_approval_level","reference_display":"Approval Level","type":"reference","base_type":"reference","attributes":{}},{"name":"ff2f0b7b-6ead-4533-99a6-3e44b171ae43.approval_state","label":"12➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5826ec30-cc3f-474c-a162-194f7ed0461e.approval_state","label":"10➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4095b86b-0edc-40c6-8a82-6f1fc634b78f.approval_state","label":"8➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bddaeba7-5905-4936-9b21-823b85b2c9a6.table_name","label":"4➛Approval Level Table","reference":"x_126321_asset_mgt_approval_level","reference_display":"Approval Level Table","type":"table_name","base_type":"table_name","attributes":{}},{"name":"bddaeba7-5905-4936-9b21-823b85b2c9a6.answer","label":"4➛Approval Level Record","reference":"x_126321_asset_mgt_approval_level","reference_display":"Approval Level Record","type":"reference","base_type":"reference","attributes":{}},{"name":"bf5d7250-b974-4a5d-be81-4436284d2a40.table_name","label":"18➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bf5d7250-b974-4a5d-be81-4436284d2a40.record","label":"18➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"16677315-cf64-497a-b688-cf0ec12f1548.email","label":"17➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df5b8d7a-224d-4401-9709-0bd6cce62d0e.Table","label":"15➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df5b8d7a-224d-4401-9709-0bd6cce62d0e.Record","label":"15➛Record","reference":"task","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.opened_at","label":"Trigger➛Requested Item Record➛Opened","reference":"","reference_display":"Opened","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"opened_at"},{"name":"{{static.8a5055c9c61122780043563ef53438e3}}","label":"Hardware","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"c900ce0e-b52a-4845-9929-345dcd9b8666.Record","label":"13➛Hardware Model Record","reference":"cmdb_hardware_product_model","reference_display":"Hardware Model Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c900ce0e-b52a-4845-9929-345dcd9b8666.Table","label":"13➛Hardware Model Table","reference":"cmdb_hardware_product_model","reference_display":"Hardware Model Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9644ce89-e08b-48f8-abca-0b6377e7567b.approval_state","label":"6➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference"},{"name":"77a3dddd-a52f-4c42-80d4-95ad6aba1886.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"77a3dddd-a52f-4c42-80d4-95ad6aba1886.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Service Catalog_1.request_item.number","label":"Trigger➛Requested Item Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sc_req_item","column_name":"number"},{"name":"Service Catalog_1.request_item.price","label":"Trigger➛Requested Item Record➛Price","reference":"","reference_display":"Price","type":"currency","base_type":"currency","parent_table_name":"sc_req_item","column_name":"price"},{"name":"Service Catalog_1.request_item.cat_item.model.sys_class_name","label":"Trigger➛Requested Item Record➛Item➛Model➛Class","reference":"","reference_display":"Class","type":"choice","base_type":"choice","parent_table_name":"cmdb_model","column_name":"sys_class_name"},{"name":"Service Catalog_1.request_item.cat_item.availability","label":"Trigger➛Requested Item Record➛Item➛Availability","reference":"","reference_display":"Availability","type":"choice","base_type":"choice","parent_table_name":"sc_cat_item","column_name":"availability"},{"name":"75e655d9-cf0c-4a49-9acd-5d67d016a217.approval_state","label":"3➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cf64cd72-1fed-4ef4-8d9e-1f190272f2f2.answer","label":"1➛Approval Level Record","reference":"x_126321_asset_mgt_approval_level","reference_display":"Approval Level Record","type":"reference","base_type":"reference","attributes":{}},{"name":"cf64cd72-1fed-4ef4-8d9e-1f190272f2f2.table_name","label":"1➛Approval Level Table","reference":"x_126321_asset_mgt_approval_level","reference_display":"Approval Level Table","type":"table_name","base_type":"table_name","attributes":{}},{"name":"cf64cd72-1fed-4ef4-8d9e-1f190272f2f2.records","label":"1➛Approval Level Records","reference":"x_126321_asset_mgt_approval_level","reference_display":"Approval Level","type":"records","base_type":"records","attributes":{}},{"name":"cf64cd72-1fed-4ef4-8d9e-1f190272f2f2.count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{}},{"name":"2302773f-e5a6-48b8-8a2c-a847ba969fef.item","label":"2➛Items","reference_display":"Items","type":"document_id","base_type":"document_id","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <label_cache>[{"name":"2302773f-e5a6-48b8-8a2c-a847ba969fef.item","label":"2➛Approval Level Record","reference":"x_126321_asset_mgt_approval_level","reference_display":"Approval Level Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"cf64cd72-1fed-4ef4-8d9e-1f190272f2f2.count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{}},{"name":"cf64cd72-1fed-4ef4-8d9e-1f190272f2f2.records","label":"1➛Approval Level Records","reference":"x_126321_asset_mgt_approval_level","reference_display":"Approval Level Records","type":"records","base_type":"records","attributes":{}},{"name":"cf64cd72-1fed-4ef4-8d9e-1f190272f2f2.table_name","label":"1➛Approval Level Table","reference":"x_126321_asset_mgt_approval_level","reference_display":"Approval Level Table","type":"table_name","base_type":"table_name","attributes":{}},{"name":"cf64cd72-1fed-4ef4-8d9e-1f190272f2f2.answer","label":"1➛Approval Level Record","reference":"x_126321_asset_mgt_approval_level","reference_display":"Approval Level","type":"reference","base_type":"reference","attributes":{}},{"name":"75e655d9-cf0c-4a49-9acd-5d67d016a217.approval_state","label":"3➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.cat_item.availability","label":"Trigger➛Requested Item Record➛Item➛Availability","reference":"","reference_display":"Availability","type":"choice","base_type":"choice","parent_table_name":"sc_cat_item","column_name":"availability"},{"name":"Service Catalog_1.request_item.cat_item.model.sys_class_name","label":"Trigger➛Requested Item Record➛Item➛Model➛Class","reference":"","reference_display":"Class","type":"choice","base_type":"choice","parent_table_name":"cmdb_model","column_name":"sys_class_name"},{"name":"Service Catalog_1.request_item.price","label":"Trigger➛Requested Item Record➛Price","reference":"","reference_display":"Price","type":"currency","base_type":"currency","parent_table_name":"sc_req_item","column_name":"price"},{"name":"Service Catalog_1.request_item.number","label":"Trigger➛Requested Item Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sc_req_item","column_name":"number"},{"name":"77a3dddd-a52f-4c42-80d4-95ad6aba1886.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"77a3dddd-a52f-4c42-80d4-95ad6aba1886.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference"},{"name":"9644ce89-e08b-48f8-abca-0b6377e7567b.approval_state","label":"6➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c900ce0e-b52a-4845-9929-345dcd9b8666.Table","label":"13➛Hardware Model Table","reference":"cmdb_hardware_product_model","reference_display":"Hardware Model Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c900ce0e-b52a-4845-9929-345dcd9b8666.Record","label":"13➛Hardware Model Record","reference":"cmdb_hardware_product_model","reference_display":"Hardware Model Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.8a5055c9c61122780043563ef53438e3}}","label":"Hardware","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Service Catalog_1.request_item.opened_at","label":"Trigger➛Requested Item Record➛Opened","reference":"","reference_display":"Opened","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"opened_at"},{"name":"df5b8d7a-224d-4401-9709-0bd6cce62d0e.Record","label":"15➛Record","reference":"task","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df5b8d7a-224d-4401-9709-0bd6cce62d0e.Table","label":"15➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"16677315-cf64-497a-b688-cf0ec12f1548.email","label":"17➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bf5d7250-b974-4a5d-be81-4436284d2a40.record","label":"18➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bf5d7250-b974-4a5d-be81-4436284d2a40.table_name","label":"18➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bddaeba7-5905-4936-9b21-823b85b2c9a6.answer","label":"4➛Approval Level Record","reference":"x_126321_asset_mgt_approval_level","reference_display":"Approval Level Record","type":"reference","base_type":"reference","attributes":{}},{"name":"bddaeba7-5905-4936-9b21-823b85b2c9a6.table_name","label":"4➛Approval Level Table","reference":"x_126321_asset_mgt_approval_level","reference_display":"Approval Level Table","type":"table_name","base_type":"table_name","attributes":{}},{"name":"4095b86b-0edc-40c6-8a82-6f1fc634b78f.approval_state","label":"8➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5826ec30-cc3f-474c-a162-194f7ed0461e.approval_state","label":"10➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ff2f0b7b-6ead-4533-99a6-3e44b171ae43.approval_state","label":"12➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"825a53bf-0c33-443d-8f7e-3dee6576f553.answer","label":"1➛Approval Level Record","reference":"x_126321_asset_mgt_approval_level","reference_display":"Approval Level","type":"reference","base_type":"reference","attributes":{}},{"name":"825a53bf-0c33-443d-8f7e-3dee6576f553.table_name","label":"1➛Approval Level Table","reference":"x_126321_asset_mgt_approval_level","reference_display":"Approval Level","type":"table_name","base_type":"table_name","attributes":{}},{"name":"cf64cd72-1fed-4ef4-8d9e-1f190272f2f2.answer.group","label":"1➛Approval Level Record➛Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_126321_asset_mgt_approval_level","column_name":"group"}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
-        <name>Hardware Fulfillment Decision No Branch</name>
+        <name>Hardware Fulfillment Decision No Branch Sample</name>
         <natlang/>
         <outputs/>
         <remote_trigger_id/>
@@ -30,15 +30,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>504b62a3dbd510106405fae4e29619d9</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Hardware Fulfillment Decision No Branch</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Hardware Fulfillment Decision No Branch Sample</sys_name>
         <sys_overrides/>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_update_name>sys_hub_flow_504b62a3dbd510106405fae4e29619d9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-16 15:52:07</sys_updated_on>
+        <sys_updated_on>2020-11-13 22:04:13</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=504b62a3dbd510106405fae4e29619d9"/>
@@ -53,7 +53,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
         <order>4</order>
@@ -85,7 +87,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:03</sys_updated_on>
         <value>cedf6de3db5510106405fae4e29619a9</value>
-        <variable display_value="">a9a0bc2b0b2313009002cab937673ac6</variable>
+        <variable display_value="Decision Table">a9a0bc2b0b2313009002cab937673ac6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -99,7 +101,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:03</sys_updated_on>
         <value>x_126321_asset_mgt_approval_level</value>
-        <variable display_value="">4cbdbf94c35823002841b63b12d3aeb6</variable>
+        <variable display_value="Answer Table">4cbdbf94c35823002841b63b12d3aeb6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -113,7 +115,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:03</sys_updated_on>
         <value>Configure approvals based on policy</value>
-        <variable display_value="">2d6a2ca70b2313009002cab937673aff</variable>
+        <variable display_value="Decision Label">2d6a2ca70b2313009002cab937673aff</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=184b62a3dbd510106405fae4e29619ed"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -184,7 +186,7 @@
         <comment/>
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
         <order>10</order>
         <parent_ui_id>1c9cf108-9d79-4f3d-acea-c68318263f51</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -210,7 +212,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>approval</value>
-        <variable display_value="">1ed2a9920b10030085c083eb37673ab7</variable>
+        <variable display_value="Approval Field">1ed2a9920b10030085c083eb37673ab7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -224,7 +226,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>sc_req_item</value>
-        <variable display_value="">d2d2a9920b10030085c083eb37673aa0</variable>
+        <variable display_value="Table">d2d2a9920b10030085c083eb37673aa0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -238,7 +240,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value/>
-        <variable display_value="">26d2a9920b10030085c083eb37673ad9</variable>
+        <variable display_value="Due Date">26d2a9920b10030085c083eb37673ad9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -252,7 +254,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>approval_history</value>
-        <variable display_value="">22d2a9920b10030085c083eb37673ac3</variable>
+        <variable display_value="Journal Field">22d2a9920b10030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=244ba2a3dbd510106405fae4e2961925"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -335,7 +337,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>16</order>
@@ -363,7 +367,7 @@
         <comment/>
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
         <order>12</order>
         <parent_ui_id>a515e862-0679-47a8-a7bf-867aabdd9833</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -389,7 +393,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>approval</value>
-        <variable display_value="">1ed2a9920b10030085c083eb37673ab7</variable>
+        <variable display_value="Approval Field">1ed2a9920b10030085c083eb37673ab7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -403,7 +407,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>sc_req_item</value>
-        <variable display_value="">d2d2a9920b10030085c083eb37673aa0</variable>
+        <variable display_value="Table">d2d2a9920b10030085c083eb37673aa0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -417,7 +421,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value/>
-        <variable display_value="">26d2a9920b10030085c083eb37673ad9</variable>
+        <variable display_value="Due Date">26d2a9920b10030085c083eb37673ad9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -431,7 +435,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>approval_history</value>
-        <variable display_value="">22d2a9920b10030085c083eb37673ac3</variable>
+        <variable display_value="Journal Field">22d2a9920b10030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=284ba2a3dbd510106405fae4e296192c"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -513,7 +517,7 @@
         <comment>Procure item</comment>
         <compiled_snapshot>3f9b1ff1531003003bf1d9109ec58775</compiled_snapshot>
         <display_text/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
         <order>15</order>
         <parent_ui_id>063cf4da-cb3e-4704-a1ad-4e8129e8f228</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -534,7 +538,7 @@
         <comment>Send email to requester</comment>
         <compiled_snapshot>98c181d20b100300d97d8bf637673ab5</compiled_snapshot>
         <display_text/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
         <order>17</order>
         <parent_ui_id>dc065550-0555-4480-a102-1471a720fd93</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -556,7 +560,7 @@
         <comment/>
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
         <order>3</order>
         <parent_ui_id>2302773f-e5a6-48b8-8a2c-a847ba969fef</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -582,7 +586,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 20:44:20</sys_updated_on>
         <value>approval_history</value>
-        <variable display_value="">22d2a9920b10030085c083eb37673ac3</variable>
+        <variable display_value="Journal Field">22d2a9920b10030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -596,7 +600,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 20:44:20</sys_updated_on>
         <value>approval</value>
-        <variable display_value="">1ed2a9920b10030085c083eb37673ab7</variable>
+        <variable display_value="Approval Field">1ed2a9920b10030085c083eb37673ab7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -610,7 +614,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 20:44:20</sys_updated_on>
         <value>sc_req_item</value>
-        <variable display_value="">d2d2a9920b10030085c083eb37673aa0</variable>
+        <variable display_value="Table">d2d2a9920b10030085c083eb37673aa0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -624,7 +628,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-16 15:52:06</sys_updated_on>
         <value>ApprovesRejectsAnyG[]</value>
-        <variable display_value="">a2d2a9920b10030085c083eb37673ace</variable>
+        <variable display_value="Approval Conditions">a2d2a9920b10030085c083eb37673ace</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -638,7 +642,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 20:44:20</sys_updated_on>
         <value/>
-        <variable display_value="">26d2a9920b10030085c083eb37673ad9</variable>
+        <variable display_value="Due Date">26d2a9920b10030085c083eb37673ad9</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5a86b22bdbd510106405fae4e29619fb"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -721,7 +725,7 @@
         <comment/>
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
         <order>6</order>
         <parent_ui_id>46b512ae-8531-4f80-96c5-e1362357d52e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -747,7 +751,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>approval_history</value>
-        <variable display_value="">22d2a9920b10030085c083eb37673ac3</variable>
+        <variable display_value="Journal Field">22d2a9920b10030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -761,7 +765,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>approval</value>
-        <variable display_value="">1ed2a9920b10030085c083eb37673ab7</variable>
+        <variable display_value="Approval Field">1ed2a9920b10030085c083eb37673ab7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -775,7 +779,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>sc_req_item</value>
-        <variable display_value="">d2d2a9920b10030085c083eb37673aa0</variable>
+        <variable display_value="Table">d2d2a9920b10030085c083eb37673aa0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -789,7 +793,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value/>
-        <variable display_value="">26d2a9920b10030085c083eb37673ad9</variable>
+        <variable display_value="Due Date">26d2a9920b10030085c083eb37673ad9</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=644ba2a3dbd510106405fae4e296190a"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -872,7 +876,7 @@
         <comment/>
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
         <order>8</order>
         <parent_ui_id>07ea5444-402c-4972-b53f-51f78566cbe8</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -898,7 +902,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>approval</value>
-        <variable display_value="">1ed2a9920b10030085c083eb37673ab7</variable>
+        <variable display_value="Approval Field">1ed2a9920b10030085c083eb37673ab7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -912,7 +916,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>sc_req_item</value>
-        <variable display_value="">d2d2a9920b10030085c083eb37673aa0</variable>
+        <variable display_value="Table">d2d2a9920b10030085c083eb37673aa0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -926,7 +930,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value/>
-        <variable display_value="">26d2a9920b10030085c083eb37673ad9</variable>
+        <variable display_value="Due Date">26d2a9920b10030085c083eb37673ad9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -940,7 +944,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>approval_history</value>
-        <variable display_value="">22d2a9920b10030085c083eb37673ac3</variable>
+        <variable display_value="Journal Field">22d2a9920b10030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=684ba2a3dbd510106405fae4e2961911"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1022,7 +1026,7 @@
         <comment>Close request</comment>
         <compiled_snapshot>baf174c8c3c232002841b63b12d3aee4</compiled_snapshot>
         <display_text/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
         <order>18</order>
         <parent_ui_id>dc065550-0555-4480-a102-1471a720fd93</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1044,7 +1048,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
         <order>5</order>
@@ -1076,7 +1082,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:03</sys_updated_on>
         <value>febfe9e3db5510106405fae4e2961918</value>
-        <variable display_value="">70ef385873002300612c273ffff6a764</variable>
+        <variable display_value="answer">70ef385873002300612c273ffff6a764</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">d4073a2bdbd510106405fae4e296196d</block>
@@ -1086,7 +1092,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
         <order>1</order>
@@ -1118,7 +1126,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 20:46:23</sys_updated_on>
         <value>0</value>
-        <variable display_value="">7f2f5f9173020010cbfec9d234f6a79b</variable>
+        <variable display_value="Use Branches">7f2f5f9173020010cbfec9d234f6a79b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -1132,7 +1140,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 20:46:23</sys_updated_on>
         <value>x_126321_asset_mgt_approval_level</value>
-        <variable display_value="">4cbdbf94c35823002841b63b12d3aeb6</variable>
+        <variable display_value="Answer Table">4cbdbf94c35823002841b63b12d3aeb6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -1146,7 +1154,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 20:46:23</sys_updated_on>
         <value>Configure approvals based on policy</value>
-        <variable display_value="">2d6a2ca70b2313009002cab937673aff</variable>
+        <variable display_value="Decision Label">2d6a2ca70b2313009002cab937673aff</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -1160,7 +1168,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-16 15:52:06</sys_updated_on>
         <value>run_all</value>
-        <variable display_value="">8c6638af0b2313009002cab937673a3f</variable>
+        <variable display_value="Execution Approach">8c6638af0b2313009002cab937673a3f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -1174,7 +1182,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 20:46:23</sys_updated_on>
         <value>cedf6de3db5510106405fae4e29619a9</value>
-        <variable display_value="">a9a0bc2b0b2313009002cab937673ac6</variable>
+        <variable display_value="Decision Table">a9a0bc2b0b2313009002cab937673ac6</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">a4faae63dbd510106405fae4e296193f</block>
@@ -1184,7 +1192,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
         <order>7</order>
@@ -1216,7 +1226,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:03</sys_updated_on>
         <value>8dbfa9e3db5510106405fae4e296193d</value>
-        <variable display_value="">70ef385873002300612c273ffff6a764</variable>
+        <variable display_value="answer">70ef385873002300612c273ffff6a764</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">68faae63dbd510106405fae4e2961949</block>
@@ -1226,7 +1236,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
         <order>9</order>
@@ -1258,7 +1270,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:03</sys_updated_on>
         <value>c4cfe9e3db5510106405fae4e29619e9</value>
-        <variable display_value="">70ef385873002300612c273ffff6a764</variable>
+        <variable display_value="answer">70ef385873002300612c273ffff6a764</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">f8faae63dbd510106405fae4e2961953</block>
@@ -1268,7 +1280,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
         <order>11</order>
@@ -1300,7 +1314,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>cfafe9e3db5510106405fae4e2961999</value>
-        <variable display_value="">70ef385873002300612c273ffff6a764</variable>
+        <variable display_value="answer">70ef385873002300612c273ffff6a764</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">5d94a269db71a30057b878b5ae961943</block>
@@ -1310,7 +1324,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>14</order>
@@ -1342,7 +1358,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>Request is approved</value>
-        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">0b3d3e7bdb1510109a41ccd8139619ac</block>
@@ -1352,7 +1368,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -1393,7 +1411,7 @@
         <comment/>
         <compiled_snapshot>bf0256c10b30030085c083eb37673ac0</compiled_snapshot>
         <display_text/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
         <order>13</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1419,13 +1437,13 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>cmdb_hardware_product_model</value>
-        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+        <variable display_value="Table">b70256c10b30030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=504b62a3dbd510106405fae4e29619d9^sys_idNOT INb04ba2a3dbd510106405fae4e2961949"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
         <name>Service Catalog</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
@@ -1493,7 +1511,7 @@
         <label>Request Item</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</model>
+        <model display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</model>
         <model_id>504b62a3dbd510106405fae4e29619d9</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_504b62a3dbd510106405fae4e29619d9</name>
@@ -1574,7 +1592,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</model>
+        <model display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</model>
         <model_id>504b62a3dbd510106405fae4e29619d9</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_504b62a3dbd510106405fae4e29619d9</name>
@@ -1625,7 +1643,7 @@
         <comment/>
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
         <order>10</order>
         <parent_ui_id>1c9cf108-9d79-4f3d-acea-c68318263f51</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1651,7 +1669,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>approval</value>
-        <variable display_value="">1ed2a9920b10030085c083eb37673ab7</variable>
+        <variable display_value="Approval Field">1ed2a9920b10030085c083eb37673ab7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1665,7 +1683,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>sc_req_item</value>
-        <variable display_value="">d2d2a9920b10030085c083eb37673aa0</variable>
+        <variable display_value="Table">d2d2a9920b10030085c083eb37673aa0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1679,7 +1697,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value/>
-        <variable display_value="">26d2a9920b10030085c083eb37673ad9</variable>
+        <variable display_value="Due Date">26d2a9920b10030085c083eb37673ad9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1693,7 +1711,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>approval_history</value>
-        <variable display_value="">22d2a9920b10030085c083eb37673ac3</variable>
+        <variable display_value="Journal Field">22d2a9920b10030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=244ba2a3dbd510106405fae4e2961925"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1776,7 +1794,7 @@
         <comment/>
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
         <order>12</order>
         <parent_ui_id>a515e862-0679-47a8-a7bf-867aabdd9833</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1802,7 +1820,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>approval</value>
-        <variable display_value="">1ed2a9920b10030085c083eb37673ab7</variable>
+        <variable display_value="Approval Field">1ed2a9920b10030085c083eb37673ab7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1816,7 +1834,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>sc_req_item</value>
-        <variable display_value="">d2d2a9920b10030085c083eb37673aa0</variable>
+        <variable display_value="Table">d2d2a9920b10030085c083eb37673aa0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1830,7 +1848,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value/>
-        <variable display_value="">26d2a9920b10030085c083eb37673ad9</variable>
+        <variable display_value="Due Date">26d2a9920b10030085c083eb37673ad9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1844,7 +1862,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>approval_history</value>
-        <variable display_value="">22d2a9920b10030085c083eb37673ac3</variable>
+        <variable display_value="Journal Field">22d2a9920b10030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=284ba2a3dbd510106405fae4e296192c"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1926,7 +1944,7 @@
         <comment>Procure item</comment>
         <compiled_snapshot>3f9b1ff1531003003bf1d9109ec58775</compiled_snapshot>
         <display_text/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
         <order>15</order>
         <parent_ui_id>063cf4da-cb3e-4704-a1ad-4e8129e8f228</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1947,7 +1965,7 @@
         <comment>Send email to requester</comment>
         <compiled_snapshot>98c181d20b100300d97d8bf637673ab5</compiled_snapshot>
         <display_text/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
         <order>17</order>
         <parent_ui_id>dc065550-0555-4480-a102-1471a720fd93</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1969,7 +1987,7 @@
         <comment/>
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
         <order>3</order>
         <parent_ui_id>2302773f-e5a6-48b8-8a2c-a847ba969fef</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1995,7 +2013,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 20:44:20</sys_updated_on>
         <value>approval_history</value>
-        <variable display_value="">22d2a9920b10030085c083eb37673ac3</variable>
+        <variable display_value="Journal Field">22d2a9920b10030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -2009,7 +2027,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 20:44:20</sys_updated_on>
         <value>approval</value>
-        <variable display_value="">1ed2a9920b10030085c083eb37673ab7</variable>
+        <variable display_value="Approval Field">1ed2a9920b10030085c083eb37673ab7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -2023,7 +2041,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 20:44:20</sys_updated_on>
         <value>sc_req_item</value>
-        <variable display_value="">d2d2a9920b10030085c083eb37673aa0</variable>
+        <variable display_value="Table">d2d2a9920b10030085c083eb37673aa0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -2037,7 +2055,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-16 15:52:06</sys_updated_on>
         <value>ApprovesRejectsAnyG[]</value>
-        <variable display_value="">a2d2a9920b10030085c083eb37673ace</variable>
+        <variable display_value="Approval Conditions">a2d2a9920b10030085c083eb37673ace</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -2051,7 +2069,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 20:44:20</sys_updated_on>
         <value/>
-        <variable display_value="">26d2a9920b10030085c083eb37673ad9</variable>
+        <variable display_value="Due Date">26d2a9920b10030085c083eb37673ad9</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5a86b22bdbd510106405fae4e29619fb"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2134,7 +2152,7 @@
         <comment/>
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
         <order>6</order>
         <parent_ui_id>46b512ae-8531-4f80-96c5-e1362357d52e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2160,7 +2178,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>approval_history</value>
-        <variable display_value="">22d2a9920b10030085c083eb37673ac3</variable>
+        <variable display_value="Journal Field">22d2a9920b10030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -2174,7 +2192,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>approval</value>
-        <variable display_value="">1ed2a9920b10030085c083eb37673ab7</variable>
+        <variable display_value="Approval Field">1ed2a9920b10030085c083eb37673ab7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -2188,7 +2206,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>sc_req_item</value>
-        <variable display_value="">d2d2a9920b10030085c083eb37673aa0</variable>
+        <variable display_value="Table">d2d2a9920b10030085c083eb37673aa0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -2202,7 +2220,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value/>
-        <variable display_value="">26d2a9920b10030085c083eb37673ad9</variable>
+        <variable display_value="Due Date">26d2a9920b10030085c083eb37673ad9</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=644ba2a3dbd510106405fae4e296190a"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2285,7 +2303,7 @@
         <comment/>
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
         <order>8</order>
         <parent_ui_id>07ea5444-402c-4972-b53f-51f78566cbe8</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2311,7 +2329,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>approval</value>
-        <variable display_value="">1ed2a9920b10030085c083eb37673ab7</variable>
+        <variable display_value="Approval Field">1ed2a9920b10030085c083eb37673ab7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -2325,7 +2343,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>sc_req_item</value>
-        <variable display_value="">d2d2a9920b10030085c083eb37673aa0</variable>
+        <variable display_value="Table">d2d2a9920b10030085c083eb37673aa0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -2339,7 +2357,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value/>
-        <variable display_value="">26d2a9920b10030085c083eb37673ad9</variable>
+        <variable display_value="Due Date">26d2a9920b10030085c083eb37673ad9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -2353,7 +2371,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>approval_history</value>
-        <variable display_value="">22d2a9920b10030085c083eb37673ac3</variable>
+        <variable display_value="Journal Field">22d2a9920b10030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=684ba2a3dbd510106405fae4e2961911"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2435,7 +2453,7 @@
         <comment>Close request</comment>
         <compiled_snapshot>baf174c8c3c232002841b63b12d3aee4</compiled_snapshot>
         <display_text/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
         <order>18</order>
         <parent_ui_id>dc065550-0555-4480-a102-1471a720fd93</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2456,7 +2474,7 @@
         <comment/>
         <compiled_snapshot>bf0256c10b30030085c083eb37673ac0</compiled_snapshot>
         <display_text/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
         <order>13</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2482,7 +2500,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>cmdb_hardware_product_model</value>
-        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+        <variable display_value="Table">b70256c10b30030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="delete_multiple" query="flow=504b62a3dbd510106405fae4e29619d9^sys_idNOT IN184b62a3dbd510106405fae4e29619ed,284ba2a3dbd510106405fae4e2961903,904b62a3dbd510106405fae4e29619f4,98073a2bdbd510106405fae4e296196d,a04b62a3dbd510106405fae4e29619f7,a04b62a3dbd510106405fae4e29619fa,a04b62a3dbd510106405fae4e29619fd,a04ba2a3dbd510106405fae4e2961900,c33d3e7bdb1510109a41ccd8139619ad"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
@@ -2494,7 +2512,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
         <order>4</order>
@@ -2526,7 +2546,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:03</sys_updated_on>
         <value>cedf6de3db5510106405fae4e29619a9</value>
-        <variable display_value="">a9a0bc2b0b2313009002cab937673ac6</variable>
+        <variable display_value="Decision Table">a9a0bc2b0b2313009002cab937673ac6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -2540,7 +2560,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:03</sys_updated_on>
         <value>x_126321_asset_mgt_approval_level</value>
-        <variable display_value="">4cbdbf94c35823002841b63b12d3aeb6</variable>
+        <variable display_value="Answer Table">4cbdbf94c35823002841b63b12d3aeb6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -2554,7 +2574,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:03</sys_updated_on>
         <value>Configure approvals based on policy</value>
-        <variable display_value="">2d6a2ca70b2313009002cab937673aff</variable>
+        <variable display_value="Decision Label">2d6a2ca70b2313009002cab937673aff</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=184b62a3dbd510106405fae4e29619ed"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2639,7 +2659,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>16</order>
@@ -2667,7 +2689,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
         <order>5</order>
@@ -2699,7 +2723,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:03</sys_updated_on>
         <value>febfe9e3db5510106405fae4e2961918</value>
-        <variable display_value="">70ef385873002300612c273ffff6a764</variable>
+        <variable display_value="answer">70ef385873002300612c273ffff6a764</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">d4073a2bdbd510106405fae4e296196d</block>
@@ -2709,7 +2733,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
         <order>1</order>
@@ -2741,7 +2767,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 20:46:23</sys_updated_on>
         <value>0</value>
-        <variable display_value="">7f2f5f9173020010cbfec9d234f6a79b</variable>
+        <variable display_value="Use Branches">7f2f5f9173020010cbfec9d234f6a79b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -2755,7 +2781,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 20:46:23</sys_updated_on>
         <value>x_126321_asset_mgt_approval_level</value>
-        <variable display_value="">4cbdbf94c35823002841b63b12d3aeb6</variable>
+        <variable display_value="Answer Table">4cbdbf94c35823002841b63b12d3aeb6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -2769,7 +2795,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 20:46:23</sys_updated_on>
         <value>Configure approvals based on policy</value>
-        <variable display_value="">2d6a2ca70b2313009002cab937673aff</variable>
+        <variable display_value="Decision Label">2d6a2ca70b2313009002cab937673aff</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -2783,7 +2809,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-16 15:52:06</sys_updated_on>
         <value>run_all</value>
-        <variable display_value="">8c6638af0b2313009002cab937673a3f</variable>
+        <variable display_value="Execution Approach">8c6638af0b2313009002cab937673a3f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -2797,7 +2823,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 20:46:23</sys_updated_on>
         <value>cedf6de3db5510106405fae4e29619a9</value>
-        <variable display_value="">a9a0bc2b0b2313009002cab937673ac6</variable>
+        <variable display_value="Decision Table">a9a0bc2b0b2313009002cab937673ac6</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">a4faae63dbd510106405fae4e296193f</block>
@@ -2807,7 +2833,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
         <order>7</order>
@@ -2839,7 +2867,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:03</sys_updated_on>
         <value>8dbfa9e3db5510106405fae4e296193d</value>
-        <variable display_value="">70ef385873002300612c273ffff6a764</variable>
+        <variable display_value="answer">70ef385873002300612c273ffff6a764</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">68faae63dbd510106405fae4e2961949</block>
@@ -2849,7 +2877,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
         <order>9</order>
@@ -2881,7 +2911,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:03</sys_updated_on>
         <value>c4cfe9e3db5510106405fae4e29619e9</value>
-        <variable display_value="">70ef385873002300612c273ffff6a764</variable>
+        <variable display_value="answer">70ef385873002300612c273ffff6a764</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">f8faae63dbd510106405fae4e2961953</block>
@@ -2891,7 +2921,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
         <order>11</order>
@@ -2923,7 +2955,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>cfafe9e3db5510106405fae4e2961999</value>
-        <variable display_value="">70ef385873002300612c273ffff6a764</variable>
+        <variable display_value="answer">70ef385873002300612c273ffff6a764</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">5d94a269db71a30057b878b5ae961943</block>
@@ -2933,7 +2965,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>14</order>
@@ -2965,7 +2999,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:04</sys_updated_on>
         <value>Request is approved</value>
-        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">0b3d3e7bdb1510109a41ccd8139619ac</block>
@@ -2975,7 +3009,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Hardware Fulfillment Decision No Branch">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow display_value="Hardware Fulfillment Decision No Branch Sample">504b62a3dbd510106405fae4e29619d9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -3023,11 +3059,11 @@
         <sys_created_on>2020-06-15 19:55:03</sys_created_on>
         <sys_id>584b62a3dbd510106405fae4e29619ea</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_504b62a3dbd510106405fae4e29619d9_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:03</sys_updated_on>
         <url/>
@@ -3046,11 +3082,11 @@
         <sys_created_on>2020-06-15 19:55:03</sys_created_on>
         <sys_id>904b62a3dbd510106405fae4e29619e3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Request Item</sys_name>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_504b62a3dbd510106405fae4e29619d9_request_item_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:55:03</sys_updated_on>
         <url/>

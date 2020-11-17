@@ -11,10 +11,10 @@
         <copied_from_name/>
         <description/>
         <internal_name>do_the_following_in_parallel</internal_name>
-        <label_cache>[{"name":"bb0eb9aa-ba64-4921-b39c-e8c6345e1348.Table","label":"9➛10➛10➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bb0eb9aa-ba64-4921-b39c-e8c6345e1348.Record","label":"9➛10➛10➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f7d80dff-4005-49d3-9f03-d6071c4e0261.Table","label":"6➛7➛7➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f7d80dff-4005-49d3-9f03-d6071c4e0261.Record","label":"6➛7➛7➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"70143416-628f-48f1-bf8d-621c928f3d47.Table","label":"4➛5➛5➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"70143416-628f-48f1-bf8d-621c928f3d47.Record","label":"4➛5➛5➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"462f1fc1-96bb-468e-af78-bc61e971528e.Table","label":"2➛3➛3➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"462f1fc1-96bb-468e-af78-bc61e971528e.Record","label":"2➛3➛3➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"462f1fc1-96bb-468e-af78-bc61e971528e.Record","label":"2➛3➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"462f1fc1-96bb-468e-af78-bc61e971528e.Table","label":"2➛3➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"70143416-628f-48f1-bf8d-621c928f3d47.Record","label":"4➛5➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"70143416-628f-48f1-bf8d-621c928f3d47.Table","label":"4➛5➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f7d80dff-4005-49d3-9f03-d6071c4e0261.Record","label":"6➛7➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f7d80dff-4005-49d3-9f03-d6071c4e0261.Table","label":"6➛7➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bb0eb9aa-ba64-4921-b39c-e8c6345e1348.Record","label":"9➛10➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bb0eb9aa-ba64-4921-b39c-e8c6345e1348.Table","label":"9➛10➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
-        <name>Do the following in Parallel</name>
+        <name>Do the following in Parallel Sample</name>
         <natlang/>
         <outputs/>
         <remote_trigger_id/>
@@ -30,15 +30,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>81784616db9510106405fae4e29619b8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Do the following in Parallel</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Do the following in Parallel Sample</sys_name>
         <sys_overrides/>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_update_name>sys_hub_flow_81784616db9510106405fae4e29619b8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-11 20:22:42</sys_updated_on>
+        <sys_updated_on>2020-11-13 22:00:17</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=81784616db9510106405fae4e29619b8"/>
@@ -51,7 +51,7 @@
         <comment/>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
         <order>8</order>
         <parent_ui_id>a2960381-de74-4850-a957-f376773a7ea2</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -72,7 +72,7 @@
         <comment>Create task for Legal team</comment>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
         <order>9➛10</order>
         <parent_ui_id>e20007af-109b-4c2a-8d7f-cab10a25942d</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -98,7 +98,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-11 20:20:23</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">dcba4a56db9510106405fae4e29619e1</block>
@@ -108,7 +108,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Do the following in Parallel">5d31e5dedfe50300b61ecae83df26326</logic_definition>
         <order>1</order>
@@ -135,7 +137,7 @@
         <comment>Create task for Security team</comment>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
         <order>2➛3</order>
         <parent_ui_id>45f89f49-b753-4870-9429-6672ce7856a7</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -161,7 +163,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-11 20:20:23</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">10ba4a56db9510106405fae4e29619e5</block>
@@ -171,7 +173,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
         <order>2</order>
@@ -198,7 +202,7 @@
         <comment>Create task for Hardware team</comment>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
         <order>4➛5</order>
         <parent_ui_id>198fb722-3e28-41e3-8d96-76de6bf49edf</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -224,7 +228,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-11 20:20:23</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">14ba8a56db9510106405fae4e2961926</block>
@@ -234,7 +238,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
         <order>9</order>
@@ -262,7 +268,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
         <order>6</order>
@@ -290,7 +298,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
         <order>4</order>
@@ -317,7 +327,7 @@
         <comment>Create task for Software team</comment>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
         <order>6➛7</order>
         <parent_ui_id>a2960381-de74-4850-a957-f376773a7ea2</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -343,13 +353,13 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-11 20:20:23</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=81784616db9510106405fae4e29619b8^sys_idNOT IN50ba4a56db9510106405fae4e29619e0"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
         <name>Run Once</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
@@ -377,7 +387,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-11 20:20:22</sys_updated_on>
         <value>2020-06-03 02:10:00</value>
-        <variable display_value="">92afcd94c32222002841b63b12d3aee8</variable>
+        <variable display_value="Run in">92afcd94c32222002841b63b12d3aee8</variable>
     </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=81784616db9510106405fae4e29619b8^sys_idNOT IN4d784616db9510106405fae4e29619b8"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -399,7 +409,7 @@
         <comment/>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
         <order>8</order>
         <parent_ui_id>a2960381-de74-4850-a957-f376773a7ea2</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -420,7 +430,7 @@
         <comment>Create task for Legal team</comment>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
         <order>9➛10</order>
         <parent_ui_id>e20007af-109b-4c2a-8d7f-cab10a25942d</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -446,7 +456,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-11 20:20:23</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -455,7 +465,7 @@
         <comment>Create task for Security team</comment>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
         <order>2➛3</order>
         <parent_ui_id>45f89f49-b753-4870-9429-6672ce7856a7</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -481,7 +491,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-11 20:20:23</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -490,7 +500,7 @@
         <comment>Create task for Hardware team</comment>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
         <order>4➛5</order>
         <parent_ui_id>198fb722-3e28-41e3-8d96-76de6bf49edf</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -516,7 +526,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-11 20:20:23</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -525,7 +535,7 @@
         <comment>Create task for Software team</comment>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
         <order>6➛7</order>
         <parent_ui_id>a2960381-de74-4850-a957-f376773a7ea2</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -551,7 +561,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-11 20:20:23</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="delete_multiple" query="flow=81784616db9510106405fae4e29619b8^sys_idNOT IN58ba4a56db9510106405fae4e29619e2,94ba4a56db9510106405fae4e29619e5,98ba8a56db9510106405fae4e2961926,d0ba4a56db9510106405fae4e29619f5,dcba4a56db9510106405fae4e29619ed"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
@@ -562,7 +572,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Do the following in Parallel">5d31e5dedfe50300b61ecae83df26326</logic_definition>
         <order>1</order>
@@ -590,7 +602,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
         <order>2</order>
@@ -618,7 +632,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
         <order>9</order>
@@ -646,7 +662,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
         <order>6</order>
@@ -674,7 +692,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Do the following in Parallel">81784616db9510106405fae4e29619b8</flow>
+        <flow display_value="Do the following in Parallel Sample">81784616db9510106405fae4e29619b8</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
         <order>4</order>

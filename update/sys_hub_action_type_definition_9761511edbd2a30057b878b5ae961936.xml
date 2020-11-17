@@ -65,7 +65,7 @@
         <order>2</order>
         <outputs/>
         <section/>
-        <step_type display_value="c47fd41bb72200101099e781de11a9a4.iix">106afb6647032200b4fad7527c9a71e7</step_type>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-12 20:41:34</sys_created_on>
         <sys_id>51e19d1edbd2a30057b878b5ae961920</sys_id>
@@ -87,7 +87,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:41:35</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -104,7 +104,7 @@
 // ... code ...&#13;
 })(inputs, outputs);&#13;
 </value>
-        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_hub_step_ext_output action="delete_multiple" query="model=51e19d1edbd2a30057b878b5ae961920^sys_idNOT IN21e19d1edbd2a30057b878b5ae961938"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -199,7 +199,7 @@
         <order>1</order>
         <outputs/>
         <section/>
-        <step_type display_value="27c0e05bb72200101099e781de11a911.iix">a03fea9bc712220061f553c6f09763b1</step_type>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-12 20:40:59</sys_created_on>
         <sys_id>f8c15d1edbd2a30057b878b5ae96192e</sys_id>
@@ -221,7 +221,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:41:00</sys_updated_on>
         <value>return success or failure on remote wipe</value>
-        <variable display_value="">4fc2fadbc712220061f553c6f0976388</variable>
+        <variable display_value="Log Message">4fc2fadbc712220061f553c6f0976388</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="delete_multiple" query="action=9761511edbd2a30057b878b5ae961936^sys_idNOT IN51e19d1edbd2a30057b878b5ae961920,f8c15d1edbd2a30057b878b5ae96192e"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
@@ -235,7 +235,7 @@
         <order>2</order>
         <outputs/>
         <section/>
-        <step_type display_value="c47fd41bb72200101099e781de11a9a4.iix">106afb6647032200b4fad7527c9a71e7</step_type>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-12 20:41:34</sys_created_on>
         <sys_id>51e19d1edbd2a30057b878b5ae961920</sys_id>
@@ -257,7 +257,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:41:35</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -274,7 +274,7 @@
 // ... code ...&#13;
 })(inputs, outputs);&#13;
 </value>
-        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_hub_step_ext_output action="delete_multiple" query="model=51e19d1edbd2a30057b878b5ae961920^sys_idNOT IN21e19d1edbd2a30057b878b5ae961938"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -369,7 +369,7 @@
         <order>1</order>
         <outputs/>
         <section/>
-        <step_type display_value="27c0e05bb72200101099e781de11a911.iix">a03fea9bc712220061f553c6f09763b1</step_type>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-12 20:40:59</sys_created_on>
         <sys_id>f8c15d1edbd2a30057b878b5ae96192e</sys_id>
@@ -391,7 +391,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:41:00</sys_updated_on>
         <value>return success or failure on remote wipe</value>
-        <variable display_value="">4fc2fadbc712220061f553c6f0976388</variable>
+        <variable display_value="Log Message">4fc2fadbc712220061f553c6f0976388</variable>
     </sys_variable_value>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_9761511edbd2a30057b878b5ae961936^sys_idNOT IN08f19d1edbd2a30057b878b5ae9619cf"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -445,7 +445,7 @@
         <order>2</order>
         <outputs/>
         <section/>
-        <step_type display_value="c47fd41bb72200101099e781de11a9a4.iix">106afb6647032200b4fad7527c9a71e7</step_type>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-12 20:41:46</sys_created_on>
         <sys_id>1cf19d1edbd2a30057b878b5ae9619fa</sys_id>
@@ -467,7 +467,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:41:46</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -484,7 +484,7 @@
 // ... code ...&#13;
 })(inputs, outputs);&#13;
 </value>
-        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_hub_step_ext_output action="delete_multiple" query="model=1cf19d1edbd2a30057b878b5ae9619fa^sys_idNOT IN50f19d1edbd2a30057b878b5ae9619ff"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -579,7 +579,7 @@
         <order>1</order>
         <outputs/>
         <section/>
-        <step_type display_value="27c0e05bb72200101099e781de11a911.iix">a03fea9bc712220061f553c6f09763b1</step_type>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-12 20:41:46</sys_created_on>
         <sys_id>4cf19d1edbd2a30057b878b5ae9619f1</sys_id>
@@ -601,7 +601,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:41:46</sys_updated_on>
         <value>return success or failure on remote wipe</value>
-        <variable display_value="">4fc2fadbc712220061f553c6f0976388</variable>
+        <variable display_value="Log Message">4fc2fadbc712220061f553c6f0976388</variable>
     </sys_variable_value>
     <sys_hub_action_output action="delete_multiple" query="model=48f19d1edbd2a30057b878b5ae9619ee^sys_idNOT IN98f1dd1edbd2a30057b878b5ae96190a"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -699,7 +699,7 @@
         <order>2</order>
         <outputs/>
         <section/>
-        <step_type display_value="c47fd41bb72200101099e781de11a9a4.iix">106afb6647032200b4fad7527c9a71e7</step_type>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-12 20:41:46</sys_created_on>
         <sys_id>1cf19d1edbd2a30057b878b5ae9619fa</sys_id>
@@ -721,7 +721,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:41:46</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -738,7 +738,7 @@
 // ... code ...&#13;
 })(inputs, outputs);&#13;
 </value>
-        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_hub_step_ext_output action="delete_multiple" query="model=1cf19d1edbd2a30057b878b5ae9619fa^sys_idNOT IN50f19d1edbd2a30057b878b5ae9619ff"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -833,7 +833,7 @@
         <order>1</order>
         <outputs/>
         <section/>
-        <step_type display_value="27c0e05bb72200101099e781de11a911.iix">a03fea9bc712220061f553c6f09763b1</step_type>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-12 20:41:46</sys_created_on>
         <sys_id>4cf19d1edbd2a30057b878b5ae9619f1</sys_id>
@@ -855,7 +855,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:41:46</sys_updated_on>
         <value>return success or failure on remote wipe</value>
-        <variable display_value="">4fc2fadbc712220061f553c6f0976388</variable>
+        <variable display_value="Log Message">4fc2fadbc712220061f553c6f0976388</variable>
     </sys_variable_value>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_48f19d1edbd2a30057b878b5ae9619ee^sys_idNOT IN54f1dd1edbd2a30057b878b5ae96190f"/>
     <sys_documentation action="INSERT_OR_UPDATE">

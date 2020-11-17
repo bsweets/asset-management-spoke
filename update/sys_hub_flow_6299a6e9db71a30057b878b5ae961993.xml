@@ -11,10 +11,10 @@
         <copied_from_name/>
         <description/>
         <internal_name>test_flow</internal_name>
-        <label_cache>[{"name":"bf5f0902-7082-4bff-8046-1a7d560b91a9.table_name","label":"4➛5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bf5f0902-7082-4bff-8046-1a7d560b91a9.record","label":"4➛5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"da785f0a-b04c-4b9a-947c-1db447a1e219.answer","label":"6➛Answer","reference_display":"Answer","type":"document_id","base_type":"document_id","attributes":{}},{"name":"da785f0a-b04c-4b9a-947c-1db447a1e219.table_name","label":"6➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{}}]</label_cache>
+        <label_cache>[{"name":"da785f0a-b04c-4b9a-947c-1db447a1e219.table_name","label":"6➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{}},{"name":"da785f0a-b04c-4b9a-947c-1db447a1e219.answer","label":"6➛Answer","reference_display":"Answer","type":"document_id","base_type":"document_id","attributes":{}},{"name":"bf5f0902-7082-4bff-8046-1a7d560b91a9.record","label":"4➛5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bf5f0902-7082-4bff-8046-1a7d560b91a9.table_name","label":"4➛5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
-        <name>Test flow</name>
+        <name>Test flow Sample</name>
         <natlang/>
         <outputs/>
         <remote_trigger_id/>
@@ -30,15 +30,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6299a6e9db71a30057b878b5ae961993</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Test flow</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Test flow Sample</sys_name>
         <sys_overrides/>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_update_name>sys_hub_flow_6299a6e9db71a30057b878b5ae961993</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-11 20:23:59</sys_updated_on>
+        <sys_updated_on>2020-11-13 22:00:48</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=6299a6e9db71a30057b878b5ae961993"/>
@@ -52,7 +52,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Test flow">6299a6e9db71a30057b878b5ae961993</flow>
+        <flow display_value="Test flow Sample">6299a6e9db71a30057b878b5ae961993</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
         <order>1</order>
@@ -80,7 +82,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Test flow">6299a6e9db71a30057b878b5ae961993</flow>
+        <flow display_value="Test flow Sample">6299a6e9db71a30057b878b5ae961993</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Do the following in Parallel">5d31e5dedfe50300b61ecae83df26326</logic_definition>
         <order>3</order>
@@ -108,7 +112,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Test flow">6299a6e9db71a30057b878b5ae961993</flow>
+        <flow display_value="Test flow Sample">6299a6e9db71a30057b878b5ae961993</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
         <order>4</order>
@@ -136,7 +142,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Test flow">6299a6e9db71a30057b878b5ae961993</flow>
+        <flow display_value="Test flow Sample">6299a6e9db71a30057b878b5ae961993</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
         <order>6</order>
@@ -168,7 +176,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-17 03:18:42</sys_updated_on>
         <value>c35f8efddb39a30057b878b5ae9619a9</value>
-        <variable display_value="">a9a0bc2b0b2313009002cab937673ac6</variable>
+        <variable display_value="Decision Table">a9a0bc2b0b2313009002cab937673ac6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -182,7 +190,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-17 03:18:42</sys_updated_on>
         <value>Sample decision</value>
-        <variable display_value="">2d6a2ca70b2313009002cab937673aff</variable>
+        <variable display_value="Decision Label">2d6a2ca70b2313009002cab937673aff</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -191,7 +199,7 @@
         <comment/>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Test flow">6299a6e9db71a30057b878b5ae961993</flow>
+        <flow display_value="Test flow Sample">6299a6e9db71a30057b878b5ae961993</flow>
         <order>4➛5</order>
         <parent_ui_id>3021e983-ba3e-412a-a4fe-60fc59082422</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -209,7 +217,7 @@
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Test flow">6299a6e9db71a30057b878b5ae961993</flow>
+        <flow display_value="Test flow Sample">6299a6e9db71a30057b878b5ae961993</flow>
         <name>Inbound Email</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
@@ -237,7 +245,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-11 20:23:59</sys_updated_on>
         <value>^EQ</value>
-        <variable display_value="">18010347c7312300f4eba1425a9763f7</variable>
+        <variable display_value="Email Conditions">18010347c7312300f4eba1425a9763f7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
@@ -251,7 +259,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-11 20:23:59</sys_updated_on>
         <value/>
-        <variable display_value="">60b307c7c7312300f4eba1425a97637e</variable>
+        <variable display_value="Order">60b307c7c7312300f4eba1425a97637e</variable>
     </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=6299a6e9db71a30057b878b5ae961993^sys_idNOT INaa99a6e9db71a30057b878b5ae961993"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -305,7 +313,7 @@
         <label>Target Record</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="Test flow">6299a6e9db71a30057b878b5ae961993</model>
+        <model display_value="Test flow Sample">6299a6e9db71a30057b878b5ae961993</model>
         <model_id>6299a6e9db71a30057b878b5ae961993</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_6299a6e9db71a30057b878b5ae961993</name>
@@ -386,7 +394,7 @@
         <label>Target Table</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="Test flow">6299a6e9db71a30057b878b5ae961993</model>
+        <model display_value="Test flow Sample">6299a6e9db71a30057b878b5ae961993</model>
         <model_id>6299a6e9db71a30057b878b5ae961993</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_6299a6e9db71a30057b878b5ae961993</name>
@@ -467,7 +475,7 @@
         <label>User</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Test flow">6299a6e9db71a30057b878b5ae961993</model>
+        <model display_value="Test flow Sample">6299a6e9db71a30057b878b5ae961993</model>
         <model_id>6299a6e9db71a30057b878b5ae961993</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_6299a6e9db71a30057b878b5ae961993</name>
@@ -548,7 +556,7 @@
         <label>Subject</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="Test flow">6299a6e9db71a30057b878b5ae961993</model>
+        <model display_value="Test flow Sample">6299a6e9db71a30057b878b5ae961993</model>
         <model_id>6299a6e9db71a30057b878b5ae961993</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_6299a6e9db71a30057b878b5ae961993</name>
@@ -629,7 +637,7 @@
         <label>From address</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="Test flow">6299a6e9db71a30057b878b5ae961993</model>
+        <model display_value="Test flow Sample">6299a6e9db71a30057b878b5ae961993</model>
         <model_id>6299a6e9db71a30057b878b5ae961993</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_6299a6e9db71a30057b878b5ae961993</name>
@@ -710,7 +718,7 @@
         <label>Body Text</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="Test flow">6299a6e9db71a30057b878b5ae961993</model>
+        <model display_value="Test flow Sample">6299a6e9db71a30057b878b5ae961993</model>
         <model_id>6299a6e9db71a30057b878b5ae961993</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_6299a6e9db71a30057b878b5ae961993</name>
@@ -791,7 +799,7 @@
         <label>Inbound Email</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Test flow">6299a6e9db71a30057b878b5ae961993</model>
+        <model display_value="Test flow Sample">6299a6e9db71a30057b878b5ae961993</model>
         <model_id>6299a6e9db71a30057b878b5ae961993</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_6299a6e9db71a30057b878b5ae961993</name>
@@ -844,7 +852,7 @@
         <comment/>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Test flow">6299a6e9db71a30057b878b5ae961993</flow>
+        <flow display_value="Test flow Sample">6299a6e9db71a30057b878b5ae961993</flow>
         <order>4➛5</order>
         <parent_ui_id>3021e983-ba3e-412a-a4fe-60fc59082422</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -867,7 +875,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Test flow">6299a6e9db71a30057b878b5ae961993</flow>
+        <flow display_value="Test flow Sample">6299a6e9db71a30057b878b5ae961993</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
         <order>1</order>
@@ -895,7 +905,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Test flow">6299a6e9db71a30057b878b5ae961993</flow>
+        <flow display_value="Test flow Sample">6299a6e9db71a30057b878b5ae961993</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Do the following in Parallel">5d31e5dedfe50300b61ecae83df26326</logic_definition>
         <order>3</order>
@@ -923,7 +935,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Test flow">6299a6e9db71a30057b878b5ae961993</flow>
+        <flow display_value="Test flow Sample">6299a6e9db71a30057b878b5ae961993</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
         <order>4</order>
@@ -951,7 +965,9 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Test flow">6299a6e9db71a30057b878b5ae961993</flow>
+        <flow display_value="Test flow Sample">6299a6e9db71a30057b878b5ae961993</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
         <order>6</order>
@@ -983,7 +999,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-17 03:18:42</sys_updated_on>
         <value>c35f8efddb39a30057b878b5ae9619a9</value>
-        <variable display_value="">a9a0bc2b0b2313009002cab937673ac6</variable>
+        <variable display_value="Decision Table">a9a0bc2b0b2313009002cab937673ac6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -997,7 +1013,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-17 03:18:42</sys_updated_on>
         <value>Sample decision</value>
-        <variable display_value="">2d6a2ca70b2313009002cab937673aff</variable>
+        <variable display_value="Decision Label">2d6a2ca70b2313009002cab937673aff</variable>
     </sys_variable_value>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_6299a6e9db71a30057b878b5ae961993^sys_idNOT IN058b8296db9510106405fae4e2961994,098b8296db9510106405fae4e296197f,0d8b8296db9510106405fae4e2961974,418b8296db9510106405fae4e296198f,458b8296db9510106405fae4e296197a,8d8b8296db9510106405fae4e2961989,c98b8296db9510106405fae4e2961984"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -1013,11 +1029,11 @@
         <sys_created_on>2020-06-11 20:23:59</sys_created_on>
         <sys_id>058b8296db9510106405fae4e2961994</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>From address</sys_name>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6299a6e9db71a30057b878b5ae961993_from_address_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-11 20:23:59</sys_updated_on>
         <url/>
@@ -1036,11 +1052,11 @@
         <sys_created_on>2020-06-11 20:23:58</sys_created_on>
         <sys_id>098b8296db9510106405fae4e296197f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Body Text</sys_name>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6299a6e9db71a30057b878b5ae961993_body_text_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-11 20:23:58</sys_updated_on>
         <url/>
@@ -1059,11 +1075,11 @@
         <sys_created_on>2020-06-11 20:23:58</sys_created_on>
         <sys_id>0d8b8296db9510106405fae4e2961974</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Inbound Email</sys_name>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6299a6e9db71a30057b878b5ae961993_inbound_email_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-11 20:23:58</sys_updated_on>
         <url/>
@@ -1082,11 +1098,11 @@
         <sys_created_on>2020-06-11 20:23:59</sys_created_on>
         <sys_id>418b8296db9510106405fae4e296198f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Target Record</sys_name>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6299a6e9db71a30057b878b5ae961993_target_record_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-11 20:23:59</sys_updated_on>
         <url/>
@@ -1105,11 +1121,11 @@
         <sys_created_on>2020-06-11 20:23:58</sys_created_on>
         <sys_id>458b8296db9510106405fae4e296197a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Target Table</sys_name>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6299a6e9db71a30057b878b5ae961993_target_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-11 20:23:58</sys_updated_on>
         <url/>
@@ -1128,11 +1144,11 @@
         <sys_created_on>2020-06-11 20:23:59</sys_created_on>
         <sys_id>8d8b8296db9510106405fae4e2961989</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>User</sys_name>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6299a6e9db71a30057b878b5ae961993_user_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-11 20:23:59</sys_updated_on>
         <url/>
@@ -1151,11 +1167,11 @@
         <sys_created_on>2020-06-11 20:23:59</sys_created_on>
         <sys_id>c98b8296db9510106405fae4e2961984</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Subject</sys_name>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6299a6e9db71a30057b878b5ae961993_subject_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-11 20:23:59</sys_updated_on>
         <url/>

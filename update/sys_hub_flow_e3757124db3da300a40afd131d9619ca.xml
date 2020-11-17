@@ -84,6 +84,17 @@
         <trigger display_value="">27695941dbfd230057b878b5ae9619b5</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAKtWKirNi8/Pi0+tKEnNS0lNUbJSSkvMKU5V0gHLpOXkl8dn5gFFoQLlGal58aXFqUXxOZnFJUpW0bFI4sWpJSWZeelA1Un5JRkYOhDSiXmVSrUACdukBXwAAAA=</data>
+        <document_id>fbb3c1e4db6510109a41ccd813961999</document_id>
+        <field>trigger_runner</field>
+        <length>136</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-16 20:45:29</sys_created_on>
+        <sys_id>18abf7811b682010a047ca641a4bcb19</sys_id>
+    </sys_json_chunk>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAKtWKirNi8/Pi0+tKEnNS0lNUbJSUtIBC6bl5JfHZ+YhBMozUvPiS4tTi+JzMotLlKyiY5HEi1NLSjLz0oGqk/JLMjB0IKQT8yqVagELOvgZdwAAAA==</data>
         <document_id>fbb3c1e4db6510109a41ccd813961999</document_id>
         <field>trigger_runner</field>
@@ -94,6 +105,7 @@
         <sys_created_on>2020-06-18 14:56:44</sys_created_on>
         <sys_id>f3b3c1e4db6510109a41ccd81396199a</sys_id>
     </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=e3757124db3da300a40afd131d9619ca^sys_idNOT INfbb3c1e4db6510109a41ccd813961999"/>
     <sys_hub_flow_component action="delete_multiple" query="flow=e3757124db3da300a40afd131d9619ca^sys_idNOT IN0d834da4db6510109a41ccd8139619ee,13c70ed2db9510106405fae4e296195a,18731d5edbd2a30057b878b5ae96190a,1a05b630dbb9230057b878b5ae961907,23846269db71a30057b878b5ae961989,9c731d5edbd2a30057b878b5ae961911,9e02115edbd2a30057b878b5ae961912,d073d95edbd2a30057b878b5ae9619e6,d0bdc5c9dbbd230057b878b5ae961953,d873d95edbd2a30057b878b5ae9619f4"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -125,6 +137,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Stolen Hardware">e3757124db3da300a40afd131d9619ca</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
         <order>11</order>
@@ -153,6 +167,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Stolen Hardware">e3757124db3da300a40afd131d9619ca</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>5</order>
@@ -184,7 +200,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:48:20</sys_updated_on>
         <value>Drive wiped successfully</value>
-        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -198,7 +214,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:48:20</sys_updated_on>
         <value>{{e70697c4-004f-42ac-9300-6d00cbf69436.drive_wiped_}}=true</value>
-        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+        <variable display_value="Condition">9a5f5105c32632002841b63b12d3ae46</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -233,7 +249,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 03:30:39</sys_updated_on>
         <value>1</value>
-        <variable display_value="">ff3a6335531003003bf1d9109ec58777</variable>
+        <variable display_value="Wait">ff3a6335531003003bf1d9109ec58777</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -247,7 +263,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 15:32:26</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">957cdff1531003003bf1d9109ec58753</variable>
+        <variable display_value="Table">957cdff1531003003bf1d9109ec58753</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -261,7 +277,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 03:30:39</sys_updated_on>
         <value>short_description=Determine legal implications of stolen laptop</value>
-        <variable display_value="">273a6335531003003bf1d9109ec5876b</variable>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -275,7 +291,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 03:30:39</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -289,7 +305,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 02:39:24</sys_updated_on>
         <value>short_description=Determine legal implications of stolen laptop</value>
-        <variable display_value="">ed7cdff1531003003bf1d9109ec58762</variable>
+        <variable display_value="Field Values">ed7cdff1531003003bf1d9109ec58762</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -303,7 +319,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 02:51:09</sys_updated_on>
         <value>1</value>
-        <variable display_value="">e17cdff1531003003bf1d9109ec58770</variable>
+        <variable display_value="Wait">e17cdff1531003003bf1d9109ec58770</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">5f846269db71a30057b878b5ae96197a</block>
@@ -314,6 +330,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Stolen Hardware">e3757124db3da300a40afd131d9619ca</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>10</order>
@@ -345,7 +363,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-15 22:15:51</sys_updated_on>
         <value>Hardware was assigned to someone who manages sensitive data</value>
-        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -359,7 +377,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-15 22:15:51</sys_updated_on>
         <value>{{Updated_1.current.assigned_to.department.name}}=Finance^NQ{{Updated_1.current.assigned_to.department.name}}=HR</value>
-        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+        <variable display_value="Condition">9a5f5105c32632002841b63b12d3ae46</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -395,7 +413,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:48:20</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">79305e810b30030085c083eb37673a85</variable>
+        <variable display_value="Table">79305e810b30030085c083eb37673a85</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -409,21 +427,9 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-18 14:53:57</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=9c731d5edbd2a30057b878b5ae961911"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conditions</field>
-        <id>9c731d5edbd2a30057b878b5ae961911</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-12 20:48:20</sys_created_on>
-        <sys_id>28731d5edbd2a30057b878b5ae961923</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-12 20:48:20</sys_updated_on>
-        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
-        <value>sys_id={{f9f6f223-8e31-44ac-beee-a46bab1274dd.Record.sys_id}}</value>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>conditions</field>
         <id>9c731d5edbd2a30057b878b5ae961911</id>
@@ -437,16 +443,16 @@
         <value>sys_id={{f9f6f223-8e31-44ac-beee-a46bab1274dd.Record.sys_id}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table</field>
+        <field>conditions</field>
         <id>9c731d5edbd2a30057b878b5ae961911</id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-12 20:48:20</sys_created_on>
-        <sys_id>e8731d5edbd2a30057b878b5ae961923</sys_id>
+        <sys_id>28731d5edbd2a30057b878b5ae961923</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:48:20</sys_updated_on>
         <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
-        <value/>
+        <value>sys_id={{f9f6f223-8e31-44ac-beee-a46bab1274dd.Record.sys_id}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table</field>
@@ -460,6 +466,18 @@
         <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
         <value/>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>9c731d5edbd2a30057b878b5ae961911</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-12 20:48:20</sys_created_on>
+        <sys_id>e8731d5edbd2a30057b878b5ae961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-12 20:48:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">d202115edbd2a30057b878b5ae961911</block>
         <comment>Attempt to remotely wipe the hard drive of the stolen computer until successful</comment>
@@ -469,6 +487,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Stolen Hardware">e3757124db3da300a40afd131d9619ca</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
         <order>2</order>
@@ -500,7 +520,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 19:57:40</sys_updated_on>
         <value>{{c224ba86-1b33-4eb5-b0e2-f43faa7c824d.Record.state}}=7</value>
-        <variable display_value="">d7138f0473031300612c273ffff6a78c</variable>
+        <variable display_value="Condition">d7138f0473031300612c273ffff6a78c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -514,7 +534,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:42:11</sys_updated_on>
         <value>Remote wipe is successful</value>
-        <variable display_value="">bda2cb0473031300612c273ffff6a750</variable>
+        <variable display_value="Condition Label">bda2cb0473031300612c273ffff6a750</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">1073d95edbd2a30057b878b5ae9619cc</block>
@@ -525,6 +545,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Stolen Hardware">e3757124db3da300a40afd131d9619ca</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
         <order>3</order>
@@ -556,7 +578,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:48:19</sys_updated_on>
         <value/>
-        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -570,7 +592,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:48:19</sys_updated_on>
         <value>1970-01-01 01:00:00</value>
-        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -606,7 +628,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 03:30:39</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -620,7 +642,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 02:39:24</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">957cdff1531003003bf1d9109ec58753</variable>
+        <variable display_value="Table">957cdff1531003003bf1d9109ec58753</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d0bdc5c9dbbd230057b878b5ae961953"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -705,7 +727,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:48:19</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -719,7 +741,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:48:19</sys_updated_on>
         <value>state=7</value>
-        <variable display_value="">e7d270ccc3c632002841b63b12d3ae8b</variable>
+        <variable display_value="Fields">e7d270ccc3c632002841b63b12d3ae8b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -733,7 +755,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-18 14:53:57</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -747,7 +769,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-18 14:53:57</sys_updated_on>
         <value>state=7</value>
-        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d873d95edbd2a30057b878b5ae9619f4"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -802,24 +824,24 @@
         <field>values</field>
         <id>d873d95edbd2a30057b878b5ae9619f4</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-18 14:53:57</sys_created_on>
-        <sys_id>3a1385a4db6510109a41ccd813961971</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-18 14:53:57</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>d873d95edbd2a30057b878b5ae9619f4</id>
-        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-12 20:48:19</sys_created_on>
         <sys_id>d073d95edbd2a30057b878b5ae9619fa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:48:19</sys_updated_on>
         <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d873d95edbd2a30057b878b5ae9619f4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:53:57</sys_created_on>
+        <sys_id>3a1385a4db6510109a41ccd813961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:53:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=e3757124db3da300a40afd131d9619ca^sys_idNOT INd2057630dbb9230057b878b5ae9619ff"/>
@@ -854,7 +876,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 15:32:25</sys_updated_on>
         <value>alm_hardware</value>
-        <variable display_value="">1dda12e0c31322002841b63b12d3aea8</variable>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
@@ -868,7 +890,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 15:32:25</sys_updated_on>
         <value>install_status=8^substatus=stolen</value>
-        <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
     </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=e3757124db3da300a40afd131d9619ca^sys_idNOT IN6b757124db3da300a40afd131d9619ca"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -1181,7 +1203,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 03:30:39</sys_updated_on>
         <value>1</value>
-        <variable display_value="">ff3a6335531003003bf1d9109ec58777</variable>
+        <variable display_value="Wait">ff3a6335531003003bf1d9109ec58777</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1195,7 +1217,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 15:32:26</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">957cdff1531003003bf1d9109ec58753</variable>
+        <variable display_value="Table">957cdff1531003003bf1d9109ec58753</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1209,7 +1231,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 03:30:39</sys_updated_on>
         <value>short_description=Determine legal implications of stolen laptop</value>
-        <variable display_value="">273a6335531003003bf1d9109ec5876b</variable>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1223,7 +1245,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 03:30:39</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1237,7 +1259,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 02:39:24</sys_updated_on>
         <value>short_description=Determine legal implications of stolen laptop</value>
-        <variable display_value="">ed7cdff1531003003bf1d9109ec58762</variable>
+        <variable display_value="Field Values">ed7cdff1531003003bf1d9109ec58762</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1251,7 +1273,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 02:51:09</sys_updated_on>
         <value>1</value>
-        <variable display_value="">e17cdff1531003003bf1d9109ec58770</variable>
+        <variable display_value="Wait">e17cdff1531003003bf1d9109ec58770</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -1287,7 +1309,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:48:20</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">79305e810b30030085c083eb37673a85</variable>
+        <variable display_value="Table">79305e810b30030085c083eb37673a85</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1301,21 +1323,9 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-18 14:53:57</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=9c731d5edbd2a30057b878b5ae961911"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conditions</field>
-        <id>9c731d5edbd2a30057b878b5ae961911</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-12 20:48:20</sys_created_on>
-        <sys_id>28731d5edbd2a30057b878b5ae961923</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-12 20:48:20</sys_updated_on>
-        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
-        <value>sys_id={{f9f6f223-8e31-44ac-beee-a46bab1274dd.Record.sys_id}}</value>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>conditions</field>
         <id>9c731d5edbd2a30057b878b5ae961911</id>
@@ -1329,16 +1339,16 @@
         <value>sys_id={{f9f6f223-8e31-44ac-beee-a46bab1274dd.Record.sys_id}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table</field>
+        <field>conditions</field>
         <id>9c731d5edbd2a30057b878b5ae961911</id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-12 20:48:20</sys_created_on>
-        <sys_id>e8731d5edbd2a30057b878b5ae961923</sys_id>
+        <sys_id>28731d5edbd2a30057b878b5ae961923</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:48:20</sys_updated_on>
         <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
-        <value/>
+        <value>sys_id={{f9f6f223-8e31-44ac-beee-a46bab1274dd.Record.sys_id}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table</field>
@@ -1350,6 +1360,18 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-18 14:53:57</sys_updated_on>
         <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>9c731d5edbd2a30057b878b5ae961911</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-12 20:48:20</sys_created_on>
+        <sys_id>e8731d5edbd2a30057b878b5ae961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-12 20:48:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
         <value/>
     </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -1386,7 +1408,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 03:30:39</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1400,7 +1422,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 02:39:24</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">957cdff1531003003bf1d9109ec58753</variable>
+        <variable display_value="Table">957cdff1531003003bf1d9109ec58753</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d0bdc5c9dbbd230057b878b5ae961953"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1485,7 +1507,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:48:19</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1499,7 +1521,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:48:19</sys_updated_on>
         <value>state=7</value>
-        <variable display_value="">e7d270ccc3c632002841b63b12d3ae8b</variable>
+        <variable display_value="Fields">e7d270ccc3c632002841b63b12d3ae8b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1513,7 +1535,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-18 14:53:57</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1527,7 +1549,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-18 14:53:57</sys_updated_on>
         <value>state=7</value>
-        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d873d95edbd2a30057b878b5ae9619f4"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1582,24 +1604,24 @@
         <field>values</field>
         <id>d873d95edbd2a30057b878b5ae9619f4</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-18 14:53:57</sys_created_on>
-        <sys_id>3a1385a4db6510109a41ccd813961971</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-18 14:53:57</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>d873d95edbd2a30057b878b5ae9619f4</id>
-        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-12 20:48:19</sys_created_on>
         <sys_id>d073d95edbd2a30057b878b5ae9619fa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:48:19</sys_updated_on>
         <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d873d95edbd2a30057b878b5ae9619f4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 14:53:57</sys_created_on>
+        <sys_id>3a1385a4db6510109a41ccd813961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 14:53:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
     <sys_hub_flow_logic action="delete_multiple" query="flow=e3757124db3da300a40afd131d9619ca^sys_idNOT IN13c70ed2db9510106405fae4e296195a,18731d5edbd2a30057b878b5ae96190a,23846269db71a30057b878b5ae961989,9e02115edbd2a30057b878b5ae961912,d073d95edbd2a30057b878b5ae9619e6"/>
@@ -1612,6 +1634,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Stolen Hardware">e3757124db3da300a40afd131d9619ca</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
         <order>11</order>
@@ -1640,6 +1664,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Stolen Hardware">e3757124db3da300a40afd131d9619ca</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>5</order>
@@ -1671,7 +1697,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:48:20</sys_updated_on>
         <value>Drive wiped successfully</value>
-        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -1685,7 +1711,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:48:20</sys_updated_on>
         <value>{{e70697c4-004f-42ac-9300-6d00cbf69436.drive_wiped_}}=true</value>
-        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+        <variable display_value="Condition">9a5f5105c32632002841b63b12d3ae46</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">5f846269db71a30057b878b5ae96197a</block>
@@ -1696,6 +1722,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Stolen Hardware">e3757124db3da300a40afd131d9619ca</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>10</order>
@@ -1727,7 +1755,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-15 22:15:51</sys_updated_on>
         <value>Hardware was assigned to someone who manages sensitive data</value>
-        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -1741,7 +1769,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-15 22:15:51</sys_updated_on>
         <value>{{Updated_1.current.assigned_to.department.name}}=Finance^NQ{{Updated_1.current.assigned_to.department.name}}=HR</value>
-        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+        <variable display_value="Condition">9a5f5105c32632002841b63b12d3ae46</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">d202115edbd2a30057b878b5ae961911</block>
@@ -1752,6 +1780,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Stolen Hardware">e3757124db3da300a40afd131d9619ca</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
         <order>2</order>
@@ -1783,7 +1813,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-13 19:57:40</sys_updated_on>
         <value>{{c224ba86-1b33-4eb5-b0e2-f43faa7c824d.Record.state}}=7</value>
-        <variable display_value="">d7138f0473031300612c273ffff6a78c</variable>
+        <variable display_value="Condition">d7138f0473031300612c273ffff6a78c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -1797,7 +1827,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:42:11</sys_updated_on>
         <value>Remote wipe is successful</value>
-        <variable display_value="">bda2cb0473031300612c273ffff6a750</variable>
+        <variable display_value="Condition Label">bda2cb0473031300612c273ffff6a750</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">1073d95edbd2a30057b878b5ae9619cc</block>
@@ -1808,6 +1838,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Stolen Hardware">e3757124db3da300a40afd131d9619ca</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
         <order>3</order>
@@ -1839,7 +1871,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:48:19</sys_updated_on>
         <value/>
-        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
@@ -1853,7 +1885,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-12 20:48:19</sys_updated_on>
         <value>1970-01-01 01:00:00</value>
-        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
     </sys_variable_value>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e3757124db3da300a40afd131d9619ca^sys_idNOT IN27946192db5510106405fae4e2961925,5a057630dbb9230057b878b5ae9619fc,5e057630dbb9230057b878b5ae9619f6"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -1869,11 +1901,11 @@
         <sys_created_on>2020-06-11 17:34:02</sys_created_on>
         <sys_id>27946192db5510106405fae4e2961925</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e3757124db3da300a40afd131d9619ca_changed_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-11 17:34:02</sys_updated_on>
         <url/>
@@ -1892,11 +1924,11 @@
         <sys_created_on>2018-11-13 15:32:25</sys_created_on>
         <sys_id>5a057630dbb9230057b878b5ae9619fc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e3757124db3da300a40afd131d9619ca_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 15:32:25</sys_updated_on>
         <url/>
@@ -1915,11 +1947,11 @@
         <sys_created_on>2018-11-13 15:32:25</sys_created_on>
         <sys_id>5e057630dbb9230057b878b5ae9619f6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e3757124db3da300a40afd131d9619ca_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-13 15:32:25</sys_updated_on>
         <url/>
@@ -1977,7 +2009,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 03:30:40</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1991,7 +2023,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 03:30:40</sys_updated_on>
         <value>1</value>
-        <variable display_value="">ff3a6335531003003bf1d9109ec58777</variable>
+        <variable display_value="Wait">ff3a6335531003003bf1d9109ec58777</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -2005,7 +2037,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 03:30:40</sys_updated_on>
         <value>short_description=Determine legal implications of stolen laptop</value>
-        <variable display_value="">273a6335531003003bf1d9109ec5876b</variable>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -2062,7 +2094,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 03:30:40</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d7695941dbfd230057b878b5ae96198a"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2121,7 +2153,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 03:30:40</sys_updated_on>
         <value>install_status=8^substatus=stolen</value>
-        <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
@@ -2135,7 +2167,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 03:30:40</sys_updated_on>
         <value>alm_hardware</value>
-        <variable display_value="">1dda12e0c31322002841b63b12d3aea8</variable>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
     </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=1b695941dbfd230057b878b5ae96195f^sys_idNOT IN93695941dbfd230057b878b5ae961960"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -2346,7 +2378,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 03:30:40</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -2360,7 +2392,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 03:30:40</sys_updated_on>
         <value>1</value>
-        <variable display_value="">ff3a6335531003003bf1d9109ec58777</variable>
+        <variable display_value="Wait">ff3a6335531003003bf1d9109ec58777</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -2374,7 +2406,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 03:30:40</sys_updated_on>
         <value>short_description=Determine legal implications of stolen laptop</value>
-        <variable display_value="">273a6335531003003bf1d9109ec5876b</variable>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -2431,7 +2463,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 03:30:40</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d7695941dbfd230057b878b5ae96198a"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
