@@ -1,0 +1,1983 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow with nested If, Else If, and Else flow logic instead of Decision</description>
+        <internal_name>nested_if_else_if_else</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"41fe1618-7912-43c3-ae0b-ab5292b88feb.approval_state","label":"3➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5de4b26f-9d7e-4a8b-9aeb-d1ba1c5825b5.Records","label":"5➛Records","reference_display":"Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5de4b26f-9d7e-4a8b-9aeb-d1ba1c5825b5.Table","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5de4b26f-9d7e-4a8b-9aeb-d1ba1c5825b5.Count","label":"5➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f9cac6ec-80bf-4417-b773-af4f90ec78c3.approval_state","label":"8➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8bc10c0c-3ada-4813-b34f-65bd69975a44.approval_state","label":"10➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2c9158af-0082-4632-a568-0e3622271c90.Records","label":"16➛Records","reference_display":"Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2c9158af-0082-4632-a568-0e3622271c90.Table","label":"16➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2c9158af-0082-4632-a568-0e3622271c90.Count","label":"16➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"093d85df-94cd-4130-84da-a4ca11d1b7e8.approval_state","label":"12➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"66e94adf-ff00-4a9b-94e0-020e1459b419.approval_state","label":"14➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Nested If Else If Else</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:16:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1544c3251bf42010a047ca641a4bcbe7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Nested If Else If Else</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name>sys_hub_flow_1544c3251bf42010a047ca641a4bcbe7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=1544c3251bf42010a047ca641a4bcbe7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1544c3251bf42010a047ca641a4bcbe7"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=1544c3251bf42010a047ca641a4bcbe7^sys_idNOT IN01d6c7a51bf42010a047ca641a4bcb1e,01d6c7a51bf42010a047ca641a4bcb22,21d6c7a51bf42010a047ca641a4bcb38,21d6c7a51bf42010a047ca641a4bcb47,2dd6c7a51bf42010a047ca641a4bcb44,39d6c7a51bf42010a047ca641a4bcb70,3dd6c7a51bf42010a047ca641a4bcb72,6dd6c7a51bf42010a047ca641a4bcb39,75d6c7a51bf42010a047ca641a4bcb7a,79d6c7a51bf42010a047ca641a4bcb7c,7dd6c7a51bf42010a047ca641a4bcb4d,a1d6c7a51bf42010a047ca641a4bcb2f,a9d6c7a51bf42010a047ca641a4bcb2a,b9d6c7a51bf42010a047ca641a4bcb86,bdd6c7a51bf42010a047ca641a4bcb84,e1d6c7a51bf42010a047ca641a4bcb3d,fdd6c7a51bf42010a047ca641a4bcb68"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:26</sys_created_on>
+        <sys_id>01d6c7a51bf42010a047ca641a4bcb1e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:26</sys_updated_on>
+        <ui_id>3a585a49-60ce-4f62-a549-8b09451f984c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=01d6c7a51bf42010a047ca641a4bcb1e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>01d6c7a51bf42010a047ca641a4bcb1e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:26</sys_created_on>
+        <sys_id>c9d6c7a51bf42010a047ca641a4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:26</sys_updated_on>
+        <value>060f3afa3731300054b6a3549dbe5d3e</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=01d6c7a51bf42010a047ca641a4bcb1e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>01d6c7a51bf42010a047ca641a4bcb1e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:26</sys_created_on>
+        <sys_id>49d6c7a51bf42010a047ca641a4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>01d6c7a51bf42010a047ca641a4bcb1e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:26</sys_created_on>
+        <sys_id>81d6c7a51bf42010a047ca641a4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">45d6c7a51bf42010a047ca641a4bcb21</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:26</sys_created_on>
+        <sys_id>01d6c7a51bf42010a047ca641a4bcb22</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <ui_id>0de24932-dc03-4e17-94dd-6f184d99928f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=01d6c7a51bf42010a047ca641a4bcb22"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>01d6c7a51bf42010a047ca641a4bcb22</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>29d6c7a51bf42010a047ca641a4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <value>Cost is less than $1000</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment>Check for in stock hardware</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <order>5</order>
+        <parent_ui_id>4eff3ff2-c5f7-4ffd-a7ce-1004123dc244</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>21d6c7a51bf42010a047ca641a4bcb38</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <ui_id>5de4b26f-9d7e-4a8b-9aeb-d1ba1c5825b5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=21d6c7a51bf42010a047ca641a4bcb38"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">69d6c7a51bf42010a047ca641a4bcb46</block>
+        <comment/>
+        <connected_to>94dfe2f6-e42c-4b49-86e5-f423bb2d3461</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>c1af42e6-29f1-42db-9f05-b95288c7d676</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>21d6c7a51bf42010a047ca641a4bcb47</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <ui_id>5294f5db-e671-4aab-b9b2-d268d312dbb4</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=21d6c7a51bf42010a047ca641a4bcb47"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment>Manager approval</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <order>8</order>
+        <parent_ui_id>94dfe2f6-e42c-4b49-86e5-f423bb2d3461</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>2dd6c7a51bf42010a047ca641a4bcb44</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <ui_id>f9cac6ec-80bf-4417-b773-af4f90ec78c3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2dd6c7a51bf42010a047ca641a4bcb44"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2dd6c7a51bf42010a047ca641a4bcb44</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>65d6c7a51bf42010a047ca641a4bcb46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2dd6c7a51bf42010a047ca641a4bcb44"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>2dd6c7a51bf42010a047ca641a4bcb44</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>e1d6c7a51bf42010a047ca641a4bcb46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment>VP approval</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <order>12</order>
+        <parent_ui_id>e6409d45-9c0a-4d1e-8485-6ceb96453976</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>39d6c7a51bf42010a047ca641a4bcb70</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <ui_id>093d85df-94cd-4130-84da-a4ca11d1b7e8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=39d6c7a51bf42010a047ca641a4bcb70"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>39d6c7a51bf42010a047ca641a4bcb70</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>71d6c7a51bf42010a047ca641a4bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=39d6c7a51bf42010a047ca641a4bcb70"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>39d6c7a51bf42010a047ca641a4bcb70</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>fdd6c7a51bf42010a047ca641a4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">75d6c7a51bf42010a047ca641a4bcb72</block>
+        <comment/>
+        <connected_to>c1af42e6-29f1-42db-9f05-b95288c7d676</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>13</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>4eff3ff2-c5f7-4ffd-a7ce-1004123dc244</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>3dd6c7a51bf42010a047ca641a4bcb72</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <ui_id>68a2bdc9-a973-4e77-b8dd-ce7514b2a171</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3dd6c7a51bf42010a047ca641a4bcb72"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>3dd6c7a51bf42010a047ca641a4bcb72</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>f5d6c7a51bf42010a047ca641a4bcb75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <value>Cost is greater than $25K</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a5d6c7a51bf42010a047ca641a4bcb39</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>4eff3ff2-c5f7-4ffd-a7ce-1004123dc244</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>6dd6c7a51bf42010a047ca641a4bcb39</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <ui_id>c1af42e6-29f1-42db-9f05-b95288c7d676</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6dd6c7a51bf42010a047ca641a4bcb39"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6dd6c7a51bf42010a047ca641a4bcb39</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>29d6c7a51bf42010a047ca641a4bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <value>Cost is between $1K and $5K</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment>CxO approval</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <order>14</order>
+        <parent_ui_id>68a2bdc9-a973-4e77-b8dd-ce7514b2a171</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>75d6c7a51bf42010a047ca641a4bcb7a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <ui_id>66e94adf-ff00-4a9b-94e0-020e1459b419</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=75d6c7a51bf42010a047ca641a4bcb7a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>75d6c7a51bf42010a047ca641a4bcb7a</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>bdd6c7a51bf42010a047ca641a4bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=75d6c7a51bf42010a047ca641a4bcb7a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>75d6c7a51bf42010a047ca641a4bcb7a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>3dd6c7a51bf42010a047ca641a4bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b1d6c7a51bf42010a047ca641a4bcb7c</block>
+        <comment/>
+        <connected_to>0de24932-dc03-4e17-94dd-6f184d99928f</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>15</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>79d6c7a51bf42010a047ca641a4bcb7c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <ui_id>19f0fb53-4f5d-4e35-af9a-de9b7355e3a2</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=79d6c7a51bf42010a047ca641a4bcb7c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>79d6c7a51bf42010a047ca641a4bcb7c</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>35d6c7a51bf42010a047ca641a4bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <value>Request is for Software</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment>Director approval</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <order>10</order>
+        <parent_ui_id>5294f5db-e671-4aab-b9b2-d268d312dbb4</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>7dd6c7a51bf42010a047ca641a4bcb4d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <ui_id>8bc10c0c-3ada-4813-b34f-65bd69975a44</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7dd6c7a51bf42010a047ca641a4bcb4d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7dd6c7a51bf42010a047ca641a4bcb4d</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>35d6c7a51bf42010a047ca641a4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7dd6c7a51bf42010a047ca641a4bcb4d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>7dd6c7a51bf42010a047ca641a4bcb4d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>35d6c7a51bf42010a047ca641a4bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">e9d6c7a51bf42010a047ca641a4bcb2e</block>
+        <comment/>
+        <connected_to>0de24932-dc03-4e17-94dd-6f184d99928f</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>a1d6c7a51bf42010a047ca641a4bcb2f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <ui_id>4eff3ff2-c5f7-4ffd-a7ce-1004123dc244</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a1d6c7a51bf42010a047ca641a4bcb2f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a1d6c7a51bf42010a047ca641a4bcb2f</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>25d6c7a51bf42010a047ca641a4bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <value>Request is for Hardware</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment>Manager approval</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <order>3</order>
+        <parent_ui_id>0de24932-dc03-4e17-94dd-6f184d99928f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>a9d6c7a51bf42010a047ca641a4bcb2a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <ui_id>41fe1618-7912-43c3-ae0b-ab5292b88feb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a9d6c7a51bf42010a047ca641a4bcb2a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a9d6c7a51bf42010a047ca641a4bcb2a</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>2dd6c7a51bf42010a047ca641a4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a9d6c7a51bf42010a047ca641a4bcb2a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>65d6c7a51bf42010a047ca641a4bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a9d6c7a51bf42010a047ca641a4bcb2a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>69d6c7a51bf42010a047ca641a4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a9d6c7a51bf42010a047ca641a4bcb2a</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>a1d6c7a51bf42010a047ca641a4bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <value>ApprovesAny</value>
+        <variable display_value="Approval Conditions">45f2e9920b10030085c083eb37673aee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a9d6c7a51bf42010a047ca641a4bcb2a</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>edd6c7a51bf42010a047ca641a4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a9d6c7a51bf42010a047ca641a4bcb2a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>a9d6c7a51bf42010a047ca641a4bcb2a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>25d6c7a51bf42010a047ca641a4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>a9d6c7a51bf42010a047ca641a4bcb2a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>29d6c7a51bf42010a047ca641a4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>a9d6c7a51bf42010a047ca641a4bcb2a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>61d6c7a51bf42010a047ca641a4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>a9d6c7a51bf42010a047ca641a4bcb2a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>e9d6c7a51bf42010a047ca641a4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a9d6c7a51bf42010a047ca641a4bcb2a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>add6c7a51bf42010a047ca641a4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>a9d6c7a51bf42010a047ca641a4bcb2a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>e5d6c7a51bf42010a047ca641a4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f1d6c7a51bf42010a047ca641a4bcb86</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>17</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>19f0fb53-4f5d-4e35-af9a-de9b7355e3a2</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>b9d6c7a51bf42010a047ca641a4bcb86</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <ui_id>10d747d5-c638-4bb6-aa29-16d843e6c084</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b9d6c7a51bf42010a047ca641a4bcb86"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b9d6c7a51bf42010a047ca641a4bcb86</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>75d6c7a51bf42010a047ca641a4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <value>Cost is between $1K and $2.5K</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment>Check for available software rights</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <order>16</order>
+        <parent_ui_id>19f0fb53-4f5d-4e35-af9a-de9b7355e3a2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>bdd6c7a51bf42010a047ca641a4bcb84</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <ui_id>2c9158af-0082-4632-a568-0e3622271c90</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bdd6c7a51bf42010a047ca641a4bcb84"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2dd6c7a51bf42010a047ca641a4bcb3c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>c1af42e6-29f1-42db-9f05-b95288c7d676</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>e1d6c7a51bf42010a047ca641a4bcb3d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <ui_id>94dfe2f6-e42c-4b49-86e5-f423bb2d3461</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e1d6c7a51bf42010a047ca641a4bcb3d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e1d6c7a51bf42010a047ca641a4bcb3d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>add6c7a51bf42010a047ca641a4bcb3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <value>Hardware is in stock</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">39d6c7a51bf42010a047ca641a4bcb68</block>
+        <comment/>
+        <connected_to>c1af42e6-29f1-42db-9f05-b95288c7d676</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>4eff3ff2-c5f7-4ffd-a7ce-1004123dc244</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>fdd6c7a51bf42010a047ca641a4bcb68</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <ui_id>e6409d45-9c0a-4d1e-8485-6ceb96453976</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fdd6c7a51bf42010a047ca641a4bcb68"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>fdd6c7a51bf42010a047ca641a4bcb68</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>b9d6c7a51bf42010a047ca641a4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <value>Cost is between $5K and $25K</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=1544c3251bf42010a047ca641a4bcbe7^sys_idNOT IN09d6c7a51bf42010a047ca641a4bcb18"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:25</sys_created_on>
+        <sys_id>09d6c7a51bf42010a047ca641a4bcb18</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:26</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=09d6c7a51bf42010a047ca641a4bcb18"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=1544c3251bf42010a047ca641a4bcbe7^sys_idNOT INd544c3251bf42010a047ca641a4bcbea"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>1544c3251bf42010a047ca641a4bcbe7</id>
+        <name>Nested If Else If Else</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:16:15</sys_created_on>
+        <sys_id>d544c3251bf42010a047ca641a4bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:16:15</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=1544c3251bf42010a047ca641a4bcbe7^sys_idNOT IN4dd687a51bf42010a047ca641a4bcbe8,6cd687a51bf42010a047ca641a4bcbdf"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</model>
+        <model_id>1544c3251bf42010a047ca641a4bcbe7</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_1544c3251bf42010a047ca641a4bcbe7</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:25</sys_created_on>
+        <sys_id>4dd687a51bf42010a047ca641a4bcbe8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</model>
+        <model_id>1544c3251bf42010a047ca641a4bcbe7</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_1544c3251bf42010a047ca641a4bcbe7</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:24</sys_created_on>
+        <sys_id>6cd687a51bf42010a047ca641a4bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=1544c3251bf42010a047ca641a4bcbe7^sys_idNOT IN01d6c7a51bf42010a047ca641a4bcb1e,21d6c7a51bf42010a047ca641a4bcb38,2dd6c7a51bf42010a047ca641a4bcb44,39d6c7a51bf42010a047ca641a4bcb70,75d6c7a51bf42010a047ca641a4bcb7a,7dd6c7a51bf42010a047ca641a4bcb4d,a9d6c7a51bf42010a047ca641a4bcb2a,bdd6c7a51bf42010a047ca641a4bcb84"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:26</sys_created_on>
+        <sys_id>01d6c7a51bf42010a047ca641a4bcb1e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:26</sys_updated_on>
+        <ui_id>3a585a49-60ce-4f62-a549-8b09451f984c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=01d6c7a51bf42010a047ca641a4bcb1e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>01d6c7a51bf42010a047ca641a4bcb1e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:26</sys_created_on>
+        <sys_id>c9d6c7a51bf42010a047ca641a4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:26</sys_updated_on>
+        <value>060f3afa3731300054b6a3549dbe5d3e</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=01d6c7a51bf42010a047ca641a4bcb1e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>01d6c7a51bf42010a047ca641a4bcb1e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:26</sys_created_on>
+        <sys_id>49d6c7a51bf42010a047ca641a4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>01d6c7a51bf42010a047ca641a4bcb1e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:26</sys_created_on>
+        <sys_id>81d6c7a51bf42010a047ca641a4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment>Check for in stock hardware</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <order>5</order>
+        <parent_ui_id>4eff3ff2-c5f7-4ffd-a7ce-1004123dc244</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>21d6c7a51bf42010a047ca641a4bcb38</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <ui_id>5de4b26f-9d7e-4a8b-9aeb-d1ba1c5825b5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=21d6c7a51bf42010a047ca641a4bcb38"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment>Manager approval</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <order>8</order>
+        <parent_ui_id>94dfe2f6-e42c-4b49-86e5-f423bb2d3461</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>2dd6c7a51bf42010a047ca641a4bcb44</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <ui_id>f9cac6ec-80bf-4417-b773-af4f90ec78c3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2dd6c7a51bf42010a047ca641a4bcb44"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2dd6c7a51bf42010a047ca641a4bcb44</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>65d6c7a51bf42010a047ca641a4bcb46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2dd6c7a51bf42010a047ca641a4bcb44"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>2dd6c7a51bf42010a047ca641a4bcb44</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>e1d6c7a51bf42010a047ca641a4bcb46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment>VP approval</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <order>12</order>
+        <parent_ui_id>e6409d45-9c0a-4d1e-8485-6ceb96453976</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>39d6c7a51bf42010a047ca641a4bcb70</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <ui_id>093d85df-94cd-4130-84da-a4ca11d1b7e8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=39d6c7a51bf42010a047ca641a4bcb70"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>39d6c7a51bf42010a047ca641a4bcb70</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>71d6c7a51bf42010a047ca641a4bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=39d6c7a51bf42010a047ca641a4bcb70"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>39d6c7a51bf42010a047ca641a4bcb70</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>fdd6c7a51bf42010a047ca641a4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment>CxO approval</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <order>14</order>
+        <parent_ui_id>68a2bdc9-a973-4e77-b8dd-ce7514b2a171</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>75d6c7a51bf42010a047ca641a4bcb7a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <ui_id>66e94adf-ff00-4a9b-94e0-020e1459b419</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=75d6c7a51bf42010a047ca641a4bcb7a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>75d6c7a51bf42010a047ca641a4bcb7a</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>bdd6c7a51bf42010a047ca641a4bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=75d6c7a51bf42010a047ca641a4bcb7a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>75d6c7a51bf42010a047ca641a4bcb7a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>3dd6c7a51bf42010a047ca641a4bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment>Director approval</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <order>10</order>
+        <parent_ui_id>5294f5db-e671-4aab-b9b2-d268d312dbb4</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>7dd6c7a51bf42010a047ca641a4bcb4d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <ui_id>8bc10c0c-3ada-4813-b34f-65bd69975a44</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7dd6c7a51bf42010a047ca641a4bcb4d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7dd6c7a51bf42010a047ca641a4bcb4d</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>35d6c7a51bf42010a047ca641a4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7dd6c7a51bf42010a047ca641a4bcb4d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>7dd6c7a51bf42010a047ca641a4bcb4d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>35d6c7a51bf42010a047ca641a4bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment>Manager approval</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <order>3</order>
+        <parent_ui_id>0de24932-dc03-4e17-94dd-6f184d99928f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>a9d6c7a51bf42010a047ca641a4bcb2a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <ui_id>41fe1618-7912-43c3-ae0b-ab5292b88feb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a9d6c7a51bf42010a047ca641a4bcb2a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a9d6c7a51bf42010a047ca641a4bcb2a</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>2dd6c7a51bf42010a047ca641a4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a9d6c7a51bf42010a047ca641a4bcb2a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>65d6c7a51bf42010a047ca641a4bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a9d6c7a51bf42010a047ca641a4bcb2a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>69d6c7a51bf42010a047ca641a4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a9d6c7a51bf42010a047ca641a4bcb2a</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>a1d6c7a51bf42010a047ca641a4bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <value>ApprovesAny</value>
+        <variable display_value="Approval Conditions">45f2e9920b10030085c083eb37673aee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a9d6c7a51bf42010a047ca641a4bcb2a</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>edd6c7a51bf42010a047ca641a4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a9d6c7a51bf42010a047ca641a4bcb2a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>a9d6c7a51bf42010a047ca641a4bcb2a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>25d6c7a51bf42010a047ca641a4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>a9d6c7a51bf42010a047ca641a4bcb2a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>29d6c7a51bf42010a047ca641a4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>a9d6c7a51bf42010a047ca641a4bcb2a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>61d6c7a51bf42010a047ca641a4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>a9d6c7a51bf42010a047ca641a4bcb2a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>e9d6c7a51bf42010a047ca641a4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a9d6c7a51bf42010a047ca641a4bcb2a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>add6c7a51bf42010a047ca641a4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>a9d6c7a51bf42010a047ca641a4bcb2a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>e5d6c7a51bf42010a047ca641a4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment>Check for available software rights</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <order>16</order>
+        <parent_ui_id>19f0fb53-4f5d-4e35-af9a-de9b7355e3a2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>bdd6c7a51bf42010a047ca641a4bcb84</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <ui_id>2c9158af-0082-4632-a568-0e3622271c90</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bdd6c7a51bf42010a047ca641a4bcb84"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=1544c3251bf42010a047ca641a4bcbe7^sys_idNOT IN01d6c7a51bf42010a047ca641a4bcb22,21d6c7a51bf42010a047ca641a4bcb47,3dd6c7a51bf42010a047ca641a4bcb72,6dd6c7a51bf42010a047ca641a4bcb39,79d6c7a51bf42010a047ca641a4bcb7c,a1d6c7a51bf42010a047ca641a4bcb2f,b9d6c7a51bf42010a047ca641a4bcb86,e1d6c7a51bf42010a047ca641a4bcb3d,fdd6c7a51bf42010a047ca641a4bcb68"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">45d6c7a51bf42010a047ca641a4bcb21</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:26</sys_created_on>
+        <sys_id>01d6c7a51bf42010a047ca641a4bcb22</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <ui_id>0de24932-dc03-4e17-94dd-6f184d99928f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=01d6c7a51bf42010a047ca641a4bcb22"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>01d6c7a51bf42010a047ca641a4bcb22</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>29d6c7a51bf42010a047ca641a4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:27</sys_updated_on>
+        <value>Cost is less than $1000</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">69d6c7a51bf42010a047ca641a4bcb46</block>
+        <comment/>
+        <connected_to>94dfe2f6-e42c-4b49-86e5-f423bb2d3461</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>c1af42e6-29f1-42db-9f05-b95288c7d676</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>21d6c7a51bf42010a047ca641a4bcb47</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <ui_id>5294f5db-e671-4aab-b9b2-d268d312dbb4</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=21d6c7a51bf42010a047ca641a4bcb47"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">75d6c7a51bf42010a047ca641a4bcb72</block>
+        <comment/>
+        <connected_to>c1af42e6-29f1-42db-9f05-b95288c7d676</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>13</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>4eff3ff2-c5f7-4ffd-a7ce-1004123dc244</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>3dd6c7a51bf42010a047ca641a4bcb72</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <ui_id>68a2bdc9-a973-4e77-b8dd-ce7514b2a171</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3dd6c7a51bf42010a047ca641a4bcb72"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>3dd6c7a51bf42010a047ca641a4bcb72</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>f5d6c7a51bf42010a047ca641a4bcb75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <value>Cost is greater than $25K</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a5d6c7a51bf42010a047ca641a4bcb39</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>4eff3ff2-c5f7-4ffd-a7ce-1004123dc244</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>6dd6c7a51bf42010a047ca641a4bcb39</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <ui_id>c1af42e6-29f1-42db-9f05-b95288c7d676</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6dd6c7a51bf42010a047ca641a4bcb39"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6dd6c7a51bf42010a047ca641a4bcb39</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>29d6c7a51bf42010a047ca641a4bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <value>Cost is between $1K and $5K</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b1d6c7a51bf42010a047ca641a4bcb7c</block>
+        <comment/>
+        <connected_to>0de24932-dc03-4e17-94dd-6f184d99928f</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>15</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>79d6c7a51bf42010a047ca641a4bcb7c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <ui_id>19f0fb53-4f5d-4e35-af9a-de9b7355e3a2</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=79d6c7a51bf42010a047ca641a4bcb7c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>79d6c7a51bf42010a047ca641a4bcb7c</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>35d6c7a51bf42010a047ca641a4bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <value>Request is for Software</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">e9d6c7a51bf42010a047ca641a4bcb2e</block>
+        <comment/>
+        <connected_to>0de24932-dc03-4e17-94dd-6f184d99928f</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:27</sys_created_on>
+        <sys_id>a1d6c7a51bf42010a047ca641a4bcb2f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <ui_id>4eff3ff2-c5f7-4ffd-a7ce-1004123dc244</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a1d6c7a51bf42010a047ca641a4bcb2f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a1d6c7a51bf42010a047ca641a4bcb2f</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>25d6c7a51bf42010a047ca641a4bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <value>Request is for Hardware</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f1d6c7a51bf42010a047ca641a4bcb86</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>17</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>19f0fb53-4f5d-4e35-af9a-de9b7355e3a2</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>b9d6c7a51bf42010a047ca641a4bcb86</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <ui_id>10d747d5-c638-4bb6-aa29-16d843e6c084</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b9d6c7a51bf42010a047ca641a4bcb86"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b9d6c7a51bf42010a047ca641a4bcb86</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:29</sys_created_on>
+        <sys_id>75d6c7a51bf42010a047ca641a4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:29</sys_updated_on>
+        <value>Cost is between $1K and $2.5K</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2dd6c7a51bf42010a047ca641a4bcb3c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>c1af42e6-29f1-42db-9f05-b95288c7d676</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>e1d6c7a51bf42010a047ca641a4bcb3d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <ui_id>94dfe2f6-e42c-4b49-86e5-f423bb2d3461</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e1d6c7a51bf42010a047ca641a4bcb3d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e1d6c7a51bf42010a047ca641a4bcb3d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>add6c7a51bf42010a047ca641a4bcb3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <value>Hardware is in stock</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">39d6c7a51bf42010a047ca641a4bcb68</block>
+        <comment/>
+        <connected_to>c1af42e6-29f1-42db-9f05-b95288c7d676</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nested If Else If Else">1544c3251bf42010a047ca641a4bcbe7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>4eff3ff2-c5f7-4ffd-a7ce-1004123dc244</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>fdd6c7a51bf42010a047ca641a4bcb68</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <ui_id>e6409d45-9c0a-4d1e-8485-6ceb96453976</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fdd6c7a51bf42010a047ca641a4bcb68"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>fdd6c7a51bf42010a047ca641a4bcb68</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:28</sys_created_on>
+        <sys_id>b9d6c7a51bf42010a047ca641a4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:28</sys_updated_on>
+        <value>Cost is between $5K and $25K</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_1544c3251bf42010a047ca641a4bcbe7^sys_idNOT IN41d687a51bf42010a047ca641a4bcbe7,89d6c7a51bf42010a047ca641a4bcb15"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1544c3251bf42010a047ca641a4bcbe7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:25</sys_created_on>
+        <sys_id>41d687a51bf42010a047ca641a4bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1544c3251bf42010a047ca641a4bcbe7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:27:25</sys_created_on>
+        <sys_id>89d6c7a51bf42010a047ca641a4bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:27:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

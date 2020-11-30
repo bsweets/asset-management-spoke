@@ -11,7 +11,7 @@
         <copied_from_name>Hardware Fulfillment 2</copied_from_name>
         <description/>
         <internal_name>hardware_fulfillment_decision</internal_name>
-        <label_cache>[{"name":"810d9de4-1de4-4381-a5e9-875c0d7dd401.Table","label":"10➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"810d9de4-1de4-4381-a5e9-875c0d7dd401.Record","label":"10➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ff2f0b7b-6ead-4533-99a6-3e44b171ae43.approval_state","label":"11➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5826ec30-cc3f-474c-a162-194f7ed0461e.approval_state","label":"7➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4095b86b-0edc-40c6-8a82-6f1fc634b78f.approval_state","label":"5➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bddaeba7-5905-4936-9b21-823b85b2c9a6.table_name","label":"1➛Approval Level Table","reference":"x_126321_asset_mgt_approval_level","reference_display":"Approval Level Table","type":"table_name","base_type":"table_name","attributes":{}},{"name":"bddaeba7-5905-4936-9b21-823b85b2c9a6.answer","label":"1➛Approval Level Record","reference":"x_126321_asset_mgt_approval_level","reference_display":"Approval Level Record","type":"reference","base_type":"reference","attributes":{}},{"name":"bf5d7250-b974-4a5d-be81-4436284d2a40.table_name","label":"20➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bf5d7250-b974-4a5d-be81-4436284d2a40.record","label":"20➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"16677315-cf64-497a-b688-cf0ec12f1548.email","label":"19➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df5b8d7a-224d-4401-9709-0bd6cce62d0e.Table","label":"17➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df5b8d7a-224d-4401-9709-0bd6cce62d0e.Record","label":"17➛Record","reference":"task","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.opened_at","label":"Trigger➛Requested Item Record➛Opened","reference":"","reference_display":"Opened","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"opened_at"},{"name":"{{static.8a5055c9c61122780043563ef53438e3}}","label":"Hardware","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"c900ce0e-b52a-4845-9929-345dcd9b8666.Record","label":"15➛Hardware Model Record","reference":"cmdb_hardware_product_model","reference_display":"Hardware Model Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c900ce0e-b52a-4845-9929-345dcd9b8666.Table","label":"15➛Hardware Model Table","reference":"cmdb_hardware_product_model","reference_display":"Hardware Model Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9644ce89-e08b-48f8-abca-0b6377e7567b.approval_state","label":"3➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference"},{"name":"77a3dddd-a52f-4c42-80d4-95ad6aba1886.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"77a3dddd-a52f-4c42-80d4-95ad6aba1886.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Service Catalog_1.request_item.number","label":"Trigger➛Requested Item Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sc_req_item","column_name":"number"},{"name":"Service Catalog_1.request_item.price","label":"Trigger➛Requested Item Record➛Price","reference":"","reference_display":"Price","type":"currency","base_type":"currency","parent_table_name":"sc_req_item","column_name":"price"},{"name":"Service Catalog_1.request_item.cat_item.model.sys_class_name","label":"Trigger➛Requested Item Record➛Item➛Model➛Class","reference":"","reference_display":"Class","type":"choice","base_type":"choice","parent_table_name":"cmdb_model","column_name":"sys_class_name"},{"name":"Service Catalog_1.request_item.cat_item.availability","label":"Trigger➛Requested Item Record➛Item➛Availability","reference":"","reference_display":"Availability","type":"choice","base_type":"choice","parent_table_name":"sc_cat_item","column_name":"availability"},{"name":"6d9de0e1-37fc-4fb1-aa83-5c3fe36f346f.Record","label":"8➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6d9de0e1-37fc-4fb1-aa83-5c3fe36f346f.Table","label":"8➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b44da0a2-9468-4777-b6ab-185db6ce5abe.approval_state","label":"12➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"99f2ab8c-a4f7-4f87-8c59-9eaf760c3c31.Record","label":"13➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"99f2ab8c-a4f7-4f87-8c59-9eaf760c3c31.Table","label":"13➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"31ea3f84-8ab1-473a-bc14-0119e02fad97.Record","label":"14➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"31ea3f84-8ab1-473a-bc14-0119e02fad97.Table","label":"14➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"31ea3f84-8ab1-473a-bc14-0119e02fad97.Table","label":"15➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"31ea3f84-8ab1-473a-bc14-0119e02fad97.Record","label":"15➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"99f2ab8c-a4f7-4f87-8c59-9eaf760c3c31.Table","label":"14➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"99f2ab8c-a4f7-4f87-8c59-9eaf760c3c31.Record","label":"14➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b44da0a2-9468-4777-b6ab-185db6ce5abe.approval_state","label":"13➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6d9de0e1-37fc-4fb1-aa83-5c3fe36f346f.Table","label":"9➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6d9de0e1-37fc-4fb1-aa83-5c3fe36f346f.Record","label":"9➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.cat_item.availability","label":"Trigger➛Requested Item Record➛Item➛Availability","reference":"","reference_display":"Availability","type":"choice","base_type":"choice","parent_table_name":"sc_cat_item","column_name":"availability"},{"name":"Service Catalog_1.request_item.cat_item.model.sys_class_name","label":"Trigger➛Requested Item Record➛Item➛Model➛Class","reference":"","reference_display":"Class","type":"choice","base_type":"choice","parent_table_name":"cmdb_model","column_name":"sys_class_name"},{"name":"Service Catalog_1.request_item.price","label":"Trigger➛Requested Item Record➛Price","reference":"","reference_display":"Price","type":"currency","base_type":"currency","parent_table_name":"sc_req_item","column_name":"price"},{"name":"Service Catalog_1.request_item.number","label":"Trigger➛Requested Item Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sc_req_item","column_name":"number"},{"name":"77a3dddd-a52f-4c42-80d4-95ad6aba1886.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"77a3dddd-a52f-4c42-80d4-95ad6aba1886.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference"},{"name":"9644ce89-e08b-48f8-abca-0b6377e7567b.approval_state","label":"4➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c900ce0e-b52a-4845-9929-345dcd9b8666.Table","label":"16➛Hardware Model Table","reference":"cmdb_hardware_product_model","reference_display":"Hardware Model Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c900ce0e-b52a-4845-9929-345dcd9b8666.Record","label":"16➛Hardware Model Record","reference":"cmdb_hardware_product_model","reference_display":"Hardware Model Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.8a5055c9c61122780043563ef53438e3}}","label":"Hardware","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Service Catalog_1.request_item.opened_at","label":"Trigger➛Requested Item Record➛Opened","reference":"","reference_display":"Opened","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"opened_at"},{"name":"df5b8d7a-224d-4401-9709-0bd6cce62d0e.Record","label":"18➛Record","reference":"task","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df5b8d7a-224d-4401-9709-0bd6cce62d0e.Table","label":"18➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"16677315-cf64-497a-b688-cf0ec12f1548.email","label":"20➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bf5d7250-b974-4a5d-be81-4436284d2a40.record","label":"21➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bf5d7250-b974-4a5d-be81-4436284d2a40.table_name","label":"21➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bddaeba7-5905-4936-9b21-823b85b2c9a6.answer","label":"2➛Approval Level Record","reference":"x_126321_asset_mgt_approval_level","reference_display":"Approval Level Record","type":"reference","base_type":"reference","attributes":{}},{"name":"bddaeba7-5905-4936-9b21-823b85b2c9a6.table_name","label":"2➛Approval Level Table","reference":"x_126321_asset_mgt_approval_level","reference_display":"Approval Level Table","type":"table_name","base_type":"table_name","attributes":{}},{"name":"4095b86b-0edc-40c6-8a82-6f1fc634b78f.approval_state","label":"6➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5826ec30-cc3f-474c-a162-194f7ed0461e.approval_state","label":"8➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ff2f0b7b-6ead-4533-99a6-3e44b171ae43.approval_state","label":"12➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"810d9de4-1de4-4381-a5e9-875c0d7dd401.Record","label":"11➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"810d9de4-1de4-4381-a5e9-875c0d7dd401.Table","label":"11➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Hardware Fulfillment Decision Sample</name>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e423ae6fdb9510106405fae4e2961915</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Hardware Fulfillment Decision Sample</sys_name>
         <sys_overrides/>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
@@ -38,12 +38,12 @@
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_update_name>sys_hub_flow_e423ae6fdb9510106405fae4e2961915</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-13 22:04:45</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=e423ae6fdb9510106405fae4e2961915"/>
     <sys_variable_value action="delete_multiple" query="document_key=e423ae6fdb9510106405fae4e2961915"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=e423ae6fdb9510106405fae4e2961915^sys_idNOT IN24faae63dbd510106405fae4e2961946,2cfaae63dbd510106405fae4e2961949,3023ae6fdb9510106405fae4e2961930,32a07267dbd510106405fae4e2961966,38faae63dbd510106405fae4e296195a,3aa07267dbd510106405fae4e2961973,3ea07267dbd510106405fae4e296196c,68faae63dbd510106405fae4e296193f,7023ae6fdb9510106405fae4e296194c,7023ae6fdb9510106405fae4e2961953,a8faae63dbd510106405fae4e296193a,b4faae63dbd510106405fae4e2961950,b6a07267dbd510106405fae4e2961978,b823ae6fdb9510106405fae4e2961958,baa07267dbd510106405fae4e296195b,bc23ae6fdb9510106405fae4e2961934,bc23ae6fdb9510106405fae4e2961945,bcfaae63dbd510106405fae4e2961953,e0faae63dbd510106405fae4e2961931,f823ae6fdb9510106405fae4e296193b"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=e423ae6fdb9510106405fae4e2961915^sys_idNOT IN24faae63dbd510106405fae4e2961946,2cfaae63dbd510106405fae4e2961949,3023ae6fdb9510106405fae4e2961930,32a07267dbd510106405fae4e2961966,38faae63dbd510106405fae4e296195a,3aa07267dbd510106405fae4e2961973,3ea07267dbd510106405fae4e296196c,68faae63dbd510106405fae4e296193f,7023ae6fdb9510106405fae4e296194c,7023ae6fdb9510106405fae4e2961953,738783e51bf42010a047ca641a4bcb5b,a8faae63dbd510106405fae4e296193a,b4faae63dbd510106405fae4e2961950,b6a07267dbd510106405fae4e2961978,b823ae6fdb9510106405fae4e2961958,baa07267dbd510106405fae4e296195b,bc23ae6fdb9510106405fae4e2961934,bc23ae6fdb9510106405fae4e2961945,bcfaae63dbd510106405fae4e2961953,e0faae63dbd510106405fae4e2961931,f823ae6fdb9510106405fae4e296193b"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -53,16 +53,16 @@
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>5</order>
+        <order>6</order>
         <parent_ui_id>07ea5444-402c-4972-b53f-51f78566cbe8</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:53:42</sys_created_on>
         <sys_id>24faae63dbd510106405fae4e2961946</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:38</sys_updated_on>
         <ui_id>4095b86b-0edc-40c6-8a82-6f1fc634b78f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=24faae63dbd510106405fae4e2961946"/>
@@ -196,7 +196,7 @@
         <value/>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">68faae63dbd510106405fae4e2961949</block>
+        <block display_value="">889783e51bf42010a047ca641a4bcb79</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -208,7 +208,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
-        <order>6</order>
+        <order>7</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>bddaeba7-5905-4936-9b21-823b85b2c9a6</parent_ui_id>
@@ -216,10 +216,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:53:42</sys_created_on>
         <sys_id>2cfaae63dbd510106405fae4e2961949</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:38</sys_updated_on>
         <ui_id>1c9cf108-9d79-4f3d-acea-c68318263f51</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -240,7 +240,7 @@
         <variable display_value="answer">70ef385873002300612c273ffff6a764</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">5d94a269db71a30057b878b5ae961943</block>
+        <block display_value="">149783e51bf42010a047ca641a4bcb8f</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -252,7 +252,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>16</order>
+        <order>17</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -260,10 +260,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:19:35</sys_created_on>
         <sys_id>3023ae6fdb9510106405fae4e2961930</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>063cf4da-cb3e-4704-a1ad-4e8129e8f228</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -291,16 +291,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>10</order>
+        <order>11</order>
         <parent_ui_id>a515e862-0679-47a8-a7bf-867aabdd9833</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 20:18:42</sys_created_on>
         <sys_id>32a07267dbd510106405fae4e2961966</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>810d9de4-1de4-4381-a5e9-875c0d7dd401</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=32a07267dbd510106405fae4e2961966"/>
@@ -327,16 +327,16 @@
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>11</order>
+        <order>12</order>
         <parent_ui_id>a515e862-0679-47a8-a7bf-867aabdd9833</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:53:43</sys_created_on>
         <sys_id>38faae63dbd510106405fae4e296195a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>ff2f0b7b-6ead-4533-99a6-3e44b171ae43</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=38faae63dbd510106405fae4e296195a"/>
@@ -477,16 +477,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>13</order>
+        <order>14</order>
         <parent_ui_id>a515e862-0679-47a8-a7bf-867aabdd9833</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 20:18:42</sys_created_on>
         <sys_id>3aa07267dbd510106405fae4e2961973</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>99f2ab8c-a4f7-4f87-8c59-9eaf760c3c31</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3aa07267dbd510106405fae4e2961973"/>
@@ -513,16 +513,16 @@
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>12</order>
+        <order>13</order>
         <parent_ui_id>a515e862-0679-47a8-a7bf-867aabdd9833</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 20:18:42</sys_created_on>
         <sys_id>3ea07267dbd510106405fae4e296196c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>b44da0a2-9468-4777-b6ab-185db6ce5abe</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3ea07267dbd510106405fae4e296196c"/>
@@ -656,7 +656,7 @@
         <value/>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">a4faae63dbd510106405fae4e296193f</block>
+        <block display_value="">849783e51bf42010a047ca641a4bcb72</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -668,7 +668,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
-        <order>4</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>bddaeba7-5905-4936-9b21-823b85b2c9a6</parent_ui_id>
@@ -676,10 +676,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:53:42</sys_created_on>
         <sys_id>68faae63dbd510106405fae4e296193f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:41</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:38</sys_updated_on>
         <ui_id>07ea5444-402c-4972-b53f-51f78566cbe8</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -707,16 +707,16 @@
         <compiled_snapshot>3f9b1ff1531003003bf1d9109ec58775</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>17</order>
+        <order>18</order>
         <parent_ui_id>063cf4da-cb3e-4704-a1ad-4e8129e8f228</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:19:35</sys_created_on>
         <sys_id>7023ae6fdb9510106405fae4e296194c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>df5b8d7a-224d-4401-9709-0bd6cce62d0e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7023ae6fdb9510106405fae4e296194c"/>
@@ -728,21 +728,42 @@
         <compiled_snapshot>98c181d20b100300d97d8bf637673ab5</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>19</order>
+        <order>20</order>
         <parent_ui_id>dc065550-0555-4480-a102-1471a720fd93</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:19:35</sys_created_on>
         <sys_id>7023ae6fdb9510106405fae4e2961953</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:43</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>16677315-cf64-497a-b688-cf0ec12f1548</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7023ae6fdb9510106405fae4e2961953"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:30:38</sys_created_on>
+        <sys_id>738783e51bf42010a047ca641a4bcb5b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:30:38</sys_updated_on>
+        <ui_id>01de5c51-5314-48b6-a180-d072b772b2dd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=738783e51bf42010a047ca641a4bcb5b"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">e4faae63dbd510106405fae4e296193a</block>
+        <block display_value="">809783e51bf42010a047ca641a4bcb6b</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -754,7 +775,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
-        <order>2</order>
+        <order>3</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>bddaeba7-5905-4936-9b21-823b85b2c9a6</parent_ui_id>
@@ -762,10 +783,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:53:42</sys_created_on>
         <sys_id>a8faae63dbd510106405fae4e296193a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:41</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:38</sys_updated_on>
         <ui_id>46b512ae-8531-4f80-96c5-e1362357d52e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -794,16 +815,16 @@
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>7</order>
+        <order>8</order>
         <parent_ui_id>1c9cf108-9d79-4f3d-acea-c68318263f51</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:53:42</sys_created_on>
         <sys_id>b4faae63dbd510106405fae4e2961950</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:38</sys_updated_on>
         <ui_id>5826ec30-cc3f-474c-a162-194f7ed0461e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b4faae63dbd510106405fae4e2961950"/>
@@ -944,16 +965,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>14</order>
+        <order>15</order>
         <parent_ui_id>a515e862-0679-47a8-a7bf-867aabdd9833</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 20:18:42</sys_created_on>
         <sys_id>b6a07267dbd510106405fae4e2961978</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>31ea3f84-8ab1-473a-bc14-0119e02fad97</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b6a07267dbd510106405fae4e2961978"/>
@@ -979,16 +1000,16 @@
         <compiled_snapshot>baf174c8c3c232002841b63b12d3aee4</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>20</order>
+        <order>21</order>
         <parent_ui_id>dc065550-0555-4480-a102-1471a720fd93</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:19:35</sys_created_on>
         <sys_id>b823ae6fdb9510106405fae4e2961958</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:43</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>bf5d7250-b974-4a5d-be81-4436284d2a40</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b823ae6fdb9510106405fae4e2961958"/>
@@ -1000,16 +1021,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>8</order>
+        <order>9</order>
         <parent_ui_id>1c9cf108-9d79-4f3d-acea-c68318263f51</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 20:18:42</sys_created_on>
         <sys_id>baa07267dbd510106405fae4e296195b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:38</sys_updated_on>
         <ui_id>6d9de0e1-37fc-4fb1-aa83-5c3fe36f346f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=baa07267dbd510106405fae4e296195b"/>
@@ -1028,7 +1049,7 @@
         <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">d194a269db71a30057b878b5ae961959</block>
+        <block display_value="">9c9783e51bf42010a047ca641a4bcb94</block>
         <comment/>
         <connected_to>063cf4da-cb3e-4704-a1ad-4e8129e8f228</connected_to>
         <decision_table/>
@@ -1040,7 +1061,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>18</order>
+        <order>19</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1048,10 +1069,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:19:35</sys_created_on>
         <sys_id>bc23ae6fdb9510106405fae4e2961934</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>dc065550-0555-4480-a102-1471a720fd93</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1065,16 +1086,16 @@
         <compiled_snapshot>bf0256c10b30030085c083eb37673ac0</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>15</order>
+        <order>16</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:19:35</sys_created_on>
         <sys_id>bc23ae6fdb9510106405fae4e2961945</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>c900ce0e-b52a-4845-9929-345dcd9b8666</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bc23ae6fdb9510106405fae4e2961945"/>
@@ -1093,7 +1114,7 @@
         <variable display_value="Table">b70256c10b30030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">f8faae63dbd510106405fae4e2961953</block>
+        <block display_value="">cc9783e51bf42010a047ca641a4bcb81</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1105,7 +1126,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
-        <order>9</order>
+        <order>10</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>bddaeba7-5905-4936-9b21-823b85b2c9a6</parent_ui_id>
@@ -1113,10 +1134,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:53:43</sys_created_on>
         <sys_id>bcfaae63dbd510106405fae4e2961953</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>a515e862-0679-47a8-a7bf-867aabdd9833</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1137,7 +1158,7 @@
         <variable display_value="answer">70ef385873002300612c273ffff6a764</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">2cfaae63dbd510106405fae4e2961930</block>
+        <block display_value="">c09783e51bf42010a047ca641a4bcb64</block>
         <comment/>
         <connected_to/>
         <decision_table display_value="Approval Policy">cedf6de3db5510106405fae4e29619a9</decision_table>
@@ -1150,7 +1171,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
-        <order>1</order>
+        <order>2</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1158,10 +1179,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:53:42</sys_created_on>
         <sys_id>e0faae63dbd510106405fae4e2961931</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:41</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:38</sys_updated_on>
         <ui_id>bddaeba7-5905-4936-9b21-823b85b2c9a6</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1279,16 +1300,16 @@
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>3</order>
+        <order>4</order>
         <parent_ui_id>46b512ae-8531-4f80-96c5-e1362357d52e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:19:35</sys_created_on>
         <sys_id>f823ae6fdb9510106405fae4e296193b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:41</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:38</sys_updated_on>
         <ui_id>9644ce89-e08b-48f8-abca-0b6377e7567b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f823ae6fdb9510106405fae4e296193b"/>
@@ -1431,10 +1452,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:19:35</sys_created_on>
         <sys_id>f823ae6fdb9510106405fae4e2961959</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:41</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:37</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1616,7 +1637,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=e423ae6fdb9510106405fae4e2961915^sys_idNOT IN24faae63dbd510106405fae4e2961946,32a07267dbd510106405fae4e2961966,38faae63dbd510106405fae4e296195a,3aa07267dbd510106405fae4e2961973,3ea07267dbd510106405fae4e296196c,7023ae6fdb9510106405fae4e296194c,7023ae6fdb9510106405fae4e2961953,b4faae63dbd510106405fae4e2961950,b6a07267dbd510106405fae4e2961978,b823ae6fdb9510106405fae4e2961958,baa07267dbd510106405fae4e296195b,bc23ae6fdb9510106405fae4e2961945,f823ae6fdb9510106405fae4e296193b"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e423ae6fdb9510106405fae4e2961915^sys_idNOT IN24faae63dbd510106405fae4e2961946,32a07267dbd510106405fae4e2961966,38faae63dbd510106405fae4e296195a,3aa07267dbd510106405fae4e2961973,3ea07267dbd510106405fae4e296196c,7023ae6fdb9510106405fae4e296194c,7023ae6fdb9510106405fae4e2961953,738783e51bf42010a047ca641a4bcb5b,b4faae63dbd510106405fae4e2961950,b6a07267dbd510106405fae4e2961978,b823ae6fdb9510106405fae4e2961958,baa07267dbd510106405fae4e296195b,bc23ae6fdb9510106405fae4e2961945,f823ae6fdb9510106405fae4e296193b"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1626,16 +1647,16 @@
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>5</order>
+        <order>6</order>
         <parent_ui_id>07ea5444-402c-4972-b53f-51f78566cbe8</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:53:42</sys_created_on>
         <sys_id>24faae63dbd510106405fae4e2961946</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:38</sys_updated_on>
         <ui_id>4095b86b-0edc-40c6-8a82-6f1fc634b78f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=24faae63dbd510106405fae4e2961946"/>
@@ -1776,16 +1797,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>10</order>
+        <order>11</order>
         <parent_ui_id>a515e862-0679-47a8-a7bf-867aabdd9833</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 20:18:42</sys_created_on>
         <sys_id>32a07267dbd510106405fae4e2961966</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>810d9de4-1de4-4381-a5e9-875c0d7dd401</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=32a07267dbd510106405fae4e2961966"/>
@@ -1812,16 +1833,16 @@
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>11</order>
+        <order>12</order>
         <parent_ui_id>a515e862-0679-47a8-a7bf-867aabdd9833</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:53:43</sys_created_on>
         <sys_id>38faae63dbd510106405fae4e296195a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>ff2f0b7b-6ead-4533-99a6-3e44b171ae43</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=38faae63dbd510106405fae4e296195a"/>
@@ -1962,16 +1983,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>13</order>
+        <order>14</order>
         <parent_ui_id>a515e862-0679-47a8-a7bf-867aabdd9833</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 20:18:42</sys_created_on>
         <sys_id>3aa07267dbd510106405fae4e2961973</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>99f2ab8c-a4f7-4f87-8c59-9eaf760c3c31</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3aa07267dbd510106405fae4e2961973"/>
@@ -1998,16 +2019,16 @@
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>12</order>
+        <order>13</order>
         <parent_ui_id>a515e862-0679-47a8-a7bf-867aabdd9833</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 20:18:42</sys_created_on>
         <sys_id>3ea07267dbd510106405fae4e296196c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>b44da0a2-9468-4777-b6ab-185db6ce5abe</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3ea07267dbd510106405fae4e296196c"/>
@@ -2148,16 +2169,16 @@
         <compiled_snapshot>3f9b1ff1531003003bf1d9109ec58775</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>17</order>
+        <order>18</order>
         <parent_ui_id>063cf4da-cb3e-4704-a1ad-4e8129e8f228</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:19:35</sys_created_on>
         <sys_id>7023ae6fdb9510106405fae4e296194c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>df5b8d7a-224d-4401-9709-0bd6cce62d0e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7023ae6fdb9510106405fae4e296194c"/>
@@ -2169,19 +2190,40 @@
         <compiled_snapshot>98c181d20b100300d97d8bf637673ab5</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>19</order>
+        <order>20</order>
         <parent_ui_id>dc065550-0555-4480-a102-1471a720fd93</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:19:35</sys_created_on>
         <sys_id>7023ae6fdb9510106405fae4e2961953</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:43</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>16677315-cf64-497a-b688-cf0ec12f1548</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7023ae6fdb9510106405fae4e2961953"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 16:30:38</sys_created_on>
+        <sys_id>738783e51bf42010a047ca641a4bcb5b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 16:30:38</sys_updated_on>
+        <ui_id>01de5c51-5314-48b6-a180-d072b772b2dd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=738783e51bf42010a047ca641a4bcb5b"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -2191,16 +2233,16 @@
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>7</order>
+        <order>8</order>
         <parent_ui_id>1c9cf108-9d79-4f3d-acea-c68318263f51</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:53:42</sys_created_on>
         <sys_id>b4faae63dbd510106405fae4e2961950</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:38</sys_updated_on>
         <ui_id>5826ec30-cc3f-474c-a162-194f7ed0461e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b4faae63dbd510106405fae4e2961950"/>
@@ -2341,16 +2383,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>14</order>
+        <order>15</order>
         <parent_ui_id>a515e862-0679-47a8-a7bf-867aabdd9833</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 20:18:42</sys_created_on>
         <sys_id>b6a07267dbd510106405fae4e2961978</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>31ea3f84-8ab1-473a-bc14-0119e02fad97</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b6a07267dbd510106405fae4e2961978"/>
@@ -2376,16 +2418,16 @@
         <compiled_snapshot>baf174c8c3c232002841b63b12d3aee4</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>20</order>
+        <order>21</order>
         <parent_ui_id>dc065550-0555-4480-a102-1471a720fd93</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:19:35</sys_created_on>
         <sys_id>b823ae6fdb9510106405fae4e2961958</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:43</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>bf5d7250-b974-4a5d-be81-4436284d2a40</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b823ae6fdb9510106405fae4e2961958"/>
@@ -2397,16 +2439,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>8</order>
+        <order>9</order>
         <parent_ui_id>1c9cf108-9d79-4f3d-acea-c68318263f51</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 20:18:42</sys_created_on>
         <sys_id>baa07267dbd510106405fae4e296195b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:38</sys_updated_on>
         <ui_id>6d9de0e1-37fc-4fb1-aa83-5c3fe36f346f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=baa07267dbd510106405fae4e296195b"/>
@@ -2432,16 +2474,16 @@
         <compiled_snapshot>bf0256c10b30030085c083eb37673ac0</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>15</order>
+        <order>16</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:19:35</sys_created_on>
         <sys_id>bc23ae6fdb9510106405fae4e2961945</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>c900ce0e-b52a-4845-9929-345dcd9b8666</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bc23ae6fdb9510106405fae4e2961945"/>
@@ -2468,16 +2510,16 @@
         <compiled_snapshot>bae0a1120b10030085c083eb37673a92</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Fulfillment Decision Sample">e423ae6fdb9510106405fae4e2961915</flow>
-        <order>3</order>
+        <order>4</order>
         <parent_ui_id>46b512ae-8531-4f80-96c5-e1362357d52e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:19:35</sys_created_on>
         <sys_id>f823ae6fdb9510106405fae4e296193b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:41</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:38</sys_updated_on>
         <ui_id>9644ce89-e08b-48f8-abca-0b6377e7567b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f823ae6fdb9510106405fae4e296193b"/>
@@ -2612,7 +2654,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic action="delete_multiple" query="flow=e423ae6fdb9510106405fae4e2961915^sys_idNOT IN2cfaae63dbd510106405fae4e2961949,3023ae6fdb9510106405fae4e2961930,68faae63dbd510106405fae4e296193f,a8faae63dbd510106405fae4e296193a,bc23ae6fdb9510106405fae4e2961934,bcfaae63dbd510106405fae4e2961953,e0faae63dbd510106405fae4e2961931"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">68faae63dbd510106405fae4e2961949</block>
+        <block display_value="">889783e51bf42010a047ca641a4bcb79</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2624,7 +2666,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
-        <order>6</order>
+        <order>7</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>bddaeba7-5905-4936-9b21-823b85b2c9a6</parent_ui_id>
@@ -2632,10 +2674,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:53:42</sys_created_on>
         <sys_id>2cfaae63dbd510106405fae4e2961949</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:38</sys_updated_on>
         <ui_id>1c9cf108-9d79-4f3d-acea-c68318263f51</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2656,7 +2698,7 @@
         <variable display_value="answer">70ef385873002300612c273ffff6a764</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">5d94a269db71a30057b878b5ae961943</block>
+        <block display_value="">149783e51bf42010a047ca641a4bcb8f</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2668,7 +2710,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>16</order>
+        <order>17</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2676,10 +2718,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:19:35</sys_created_on>
         <sys_id>3023ae6fdb9510106405fae4e2961930</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>063cf4da-cb3e-4704-a1ad-4e8129e8f228</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2700,7 +2742,7 @@
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">a4faae63dbd510106405fae4e296193f</block>
+        <block display_value="">849783e51bf42010a047ca641a4bcb72</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2712,7 +2754,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
-        <order>4</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>bddaeba7-5905-4936-9b21-823b85b2c9a6</parent_ui_id>
@@ -2720,10 +2762,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:53:42</sys_created_on>
         <sys_id>68faae63dbd510106405fae4e296193f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:41</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:38</sys_updated_on>
         <ui_id>07ea5444-402c-4972-b53f-51f78566cbe8</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2744,7 +2786,7 @@
         <variable display_value="answer">70ef385873002300612c273ffff6a764</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">e4faae63dbd510106405fae4e296193a</block>
+        <block display_value="">809783e51bf42010a047ca641a4bcb6b</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2756,7 +2798,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
-        <order>2</order>
+        <order>3</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>bddaeba7-5905-4936-9b21-823b85b2c9a6</parent_ui_id>
@@ -2764,10 +2806,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:53:42</sys_created_on>
         <sys_id>a8faae63dbd510106405fae4e296193a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:41</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:38</sys_updated_on>
         <ui_id>46b512ae-8531-4f80-96c5-e1362357d52e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2788,7 +2830,7 @@
         <variable display_value="answer">70ef385873002300612c273ffff6a764</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">d194a269db71a30057b878b5ae961959</block>
+        <block display_value="">9c9783e51bf42010a047ca641a4bcb94</block>
         <comment/>
         <connected_to>063cf4da-cb3e-4704-a1ad-4e8129e8f228</connected_to>
         <decision_table/>
@@ -2800,7 +2842,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>18</order>
+        <order>19</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2808,17 +2850,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:19:35</sys_created_on>
         <sys_id>bc23ae6fdb9510106405fae4e2961934</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>dc065550-0555-4480-a102-1471a720fd93</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=bc23ae6fdb9510106405fae4e2961934"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">f8faae63dbd510106405fae4e2961953</block>
+        <block display_value="">cc9783e51bf42010a047ca641a4bcb81</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2830,7 +2872,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
-        <order>9</order>
+        <order>10</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>bddaeba7-5905-4936-9b21-823b85b2c9a6</parent_ui_id>
@@ -2838,10 +2880,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:53:43</sys_created_on>
         <sys_id>bcfaae63dbd510106405fae4e2961953</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:42</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:39</sys_updated_on>
         <ui_id>a515e862-0679-47a8-a7bf-867aabdd9833</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2862,7 +2904,7 @@
         <variable display_value="answer">70ef385873002300612c273ffff6a764</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">2cfaae63dbd510106405fae4e2961930</block>
+        <block display_value="">c09783e51bf42010a047ca641a4bcb64</block>
         <comment/>
         <connected_to/>
         <decision_table display_value="Approval Policy">cedf6de3db5510106405fae4e29619a9</decision_table>
@@ -2875,7 +2917,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
-        <order>1</order>
+        <order>2</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2883,10 +2925,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-15 19:53:42</sys_created_on>
         <sys_id>e0faae63dbd510106405fae4e2961931</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-15 20:18:41</sys_updated_on>
+        <sys_updated_on>2020-11-30 16:30:38</sys_updated_on>
         <ui_id>bddaeba7-5905-4936-9b21-823b85b2c9a6</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3023,11 +3065,11 @@
         <sys_created_on>2020-06-15 19:19:34</sys_created_on>
         <sys_id>2823ae6fdb9510106405fae4e2961924</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Request Item</sys_name>
+        <sys_name/>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e423ae6fdb9510106405fae4e2961915_request_item_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:19:34</sys_updated_on>
         <url/>
@@ -3046,11 +3088,11 @@
         <sys_created_on>2020-06-15 19:19:34</sys_created_on>
         <sys_id>f823ae6fdb9510106405fae4e296192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Table Name</sys_name>
+        <sys_name/>
         <sys_package display_value="Asset Management Spoke" source="x_126321_asset_mgt">9235ad6cdbf1a30020257de03c961903</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Management Spoke">9235ad6cdbf1a30020257de03c961903</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e423ae6fdb9510106405fae4e2961915_table_name_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-15 19:19:34</sys_updated_on>
         <url/>
